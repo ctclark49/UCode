@@ -1,0 +1,31 @@
+# Dockerfile for Agentic Orchestrator
+# Production-ready container for Claude 3.5 Sonnet streaming agent
+
+FROM node:20-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies
+COPY dockerfiles/package.orchestrator.json ./package.json
+RUN npm install --production
+
+# Copy orchestrator code
+COPY server/agentic-orchestrator-streaming.js ./server/
+
+# Create workspace directory
+RUN mkdir -p .workspace
+
+# Set environment variables
+ENV NODE_ENV=production
+ENV PORT=8082
+ENV REDIS_HOST=redis
+ENV REDIS_PORT=6379
+ENV WORKSPACE_ROOT=/app/.workspace
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+  CMD node -e "require('http').get('http://localhost:8082/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1); })"
+
+# Run orchestrator
+CMD ["node", "server/agentic-orchestrator-streaming.js"]
