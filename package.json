@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev:agentic": "node server/agentic-orchestrator-streaming.js",
-    "dev:full": "dev-with-agentic.bat",
+    "dev:full": "dev-with-agentic-fixed.bat",
     "dev:ws": "cross-env ENABLE_WEBSOCKET=true WS_PORT=3001 node server/websocket-server.js",
     "dev:ws:win": "set ENABLE_WEBSOCKET=true && set WS_PORT=3001 && node server/websocket-server.js",
     "dev:collab": "node server/collaboration-server-simple.js",
@@ -66,7 +66,7 @@
     "@langchain/openai": "^0.6.13",
     "@monaco-editor/react": "^4.7.0",
     "@mui/icons-material": "^5.15.0",
-    "@mui/material": "^7.3.1",
+    "@mui/material": "^5.16.0",
     "@next-auth/prisma-adapter": "^1.0.7",
     "@octokit/rest": "^22.0.0",
     "@opentelemetry/api": "^1.9.0",
@@ -172,18 +172,18 @@
     "y-protocols": "^1.0.6",
     "y-websocket": "^3.0.0",
     "yjs": "^13.6.27",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "typescript": "5.8.3",
+    "@tailwindcss/postcss": "4.1.12",
+    "autoprefixer": "10.4.21",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.1.12"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.12",
-    "autoprefixer": "^10.4.21",
     "cross-env": "^10.0.0",
     "css-loader": "^7.1.2",
     "ignore-loader": "^0.1.2",
     "js-yaml": "^4.1.0",
-    "postcss": "^8.5.6",
-    "style-loader": "^4.0.0",
-    "tailwindcss": "^4.1.12",
-    "typescript": "^5.8.3"
+    "style-loader": "^4.0.0"
   }
 }
