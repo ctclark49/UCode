@@ -26,6 +26,7 @@ import { useAgenticGeneration } from '../lib/hooks/useAgenticGeneration';
 import { usePreDisplayValidation } from '../lib/hooks/usePreDisplayValidation';
 import ChatTokenDepletionModal, { useChatTokenDepletion } from './ChatTokenDepletionModal';
 import DatabaseConnectionModal from './DatabaseConnectionModal';
+import ApiAccessChoiceModal, { StripeConnectSetupModal } from './ApiAccessChoiceModal';
 
 // REMOVED: formatProgressMessage function
 // Progress messages like "Analyzing request...", "Creating plan..." were being shown to users
@@ -163,6 +164,24 @@ const Icons = {
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
       <polyline points="3 6 5 6 21 6"/>
       <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+    </svg>
+  ),
+  Paperclip: () => (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <path d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48"/>
+    </svg>
+  ),
+  Image: () => (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <rect x="3" y="3" width="18" height="18" rx="2"/>
+      <circle cx="8.5" cy="8.5" r="1.5"/>
+      <path d="M21 15l-5-5L5 21"/>
+    </svg>
+  ),
+  Spreadsheet: () => (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <rect x="3" y="3" width="18" height="18" rx="2"/>
+      <path d="M3 9h18M3 15h18M9 3v18M15 3v18"/>
     </svg>
   )
 };
@@ -771,6 +790,10 @@ export default function ProductionAIChat({
   const [isValidating, setIsValidating] = useState(false);
   const [historyLoaded, setHistoryLoaded] = useState(false); // Track if chat history has been loaded
 
+  // Attachment state for multimodal support (images, spreadsheets)
+  const [attachments, setAttachments] = useState([]);
+  const fileInputRef = useRef(null);
+
   // AI Mode state - allows users to switch between Standard, Deep Think, and Max modes
   // Mode availability is tier-based:
   // - FREE: Standard only
@@ -779,8 +802,8 @@ export default function ProductionAIChat({
   // - ENTERPRISE: All modes
   const [aiMode, setAiMode] = useState('standard');
 
-  // Get user tier from session
-  const userTier = session?.user?.tier || session?.user?.plan || 'free';
+  // Get user tier from session (subscription_tier is set by NextAuth session callback)
+  const userTier = session?.user?.subscription_tier || 'free';
 
   // OPTIMISTIC UI: Queue for messages sent before projectId is ready
   // Pattern: Let users type immediately, queue messages, flush when ready
@@ -792,6 +815,18 @@ export default function ProductionAIChat({
   const [dbConnectionPaused, setDbConnectionPaused] = useState(false);
   const [dbConnectionPrompt, setDbConnectionPrompt] = useState(null);
   const dbResumeTokenRef = useRef(null); // Store resume token for continuing after connection
+
+  // API access pause/resume state
+  // When AI calls requestApiAccess tool, we pause and show choice modal
+  const [apiAccessPaused, setApiAccessPaused] = useState(false);
+  const [apiAccessRequest, setApiAccessRequest] = useState(null);
+  const apiResumeTokenRef = useRef(null);
+
+  // Stripe Connect setup pause/resume state
+  // When AI calls requestStripeConnect tool, we pause and show setup modal
+  const [stripeSetupPaused, setStripeSetupPaused] = useState(false);
+  const [stripeSetupRequest, setStripeSetupRequest] = useState(null);
+  const stripeResumeTokenRef = useRef(null);
 
   // Token depletion modal hook
   const {
@@ -868,6 +903,112 @@ export default function ProductionAIChat({
   // The AI's conversational text should stream naturally without being replaced
   // by "Planning your project..." or "Generating files..." messages.
   // Progress is now tracked silently in agenticProgress state without affecting visible content.
+
+  // ============== ATTACHMENT HANDLING ==============
+
+  // Convert file to base64 (without data: prefix for API)
+  const fileToBase64 = useCallback((file) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const result = reader.result;
+        // Remove data:mime;base64, prefix - API expects raw base64
+        const base64 = result.split(',')[1];
+        resolve(base64);
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }, []);
+
+  // Handle file selection for attachments
+  const handleFileSelect = useCallback(async (e) => {
+    const selectedFiles = Array.from(e.target.files || []);
+    if (selectedFiles.length === 0) return;
+
+    const maxSize = 10 * 1024 * 1024; // 10MB
+    const supportedImageTypes = ['image/png', 'image/jpeg', 'image/gif', 'image/webp'];
+    const supportedSpreadsheetTypes = [
+      'text/csv',
+      'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+      'application/vnd.ms-excel'
+    ];
+
+    for (const file of selectedFiles) {
+      // Validate size
+      if (file.size > maxSize) {
+        setError(`${file.name} exceeds 10MB limit`);
+        continue;
+      }
+
+      const isImage = supportedImageTypes.includes(file.type);
+      const isSpreadsheet = supportedSpreadsheetTypes.includes(file.type) ||
+                            file.name.endsWith('.csv') ||
+                            file.name.endsWith('.xlsx');
+
+      if (!isImage && !isSpreadsheet) {
+        setError(`${file.name}: Unsupported file type. Use images (PNG, JPG, GIF, WebP) or spreadsheets (CSV, XLSX).`);
+        continue;
+      }
+
+      try {
+        const base64 = await fileToBase64(file);
+        const attachmentId = `att_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+
+        if (isImage) {
+          setAttachments(prev => [...prev, {
+            id: attachmentId,
+            type: 'image',
+            name: file.name,
+            mimeType: file.type,
+            base64,
+            size: file.size,
+            preview: URL.createObjectURL(file)
+          }]);
+        } else {
+          // Spreadsheet - will be parsed on backend
+          const mimeType = file.type || (file.name.endsWith('.csv') ? 'text/csv' :
+            'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+          setAttachments(prev => [...prev, {
+            id: attachmentId,
+            type: 'spreadsheet',
+            name: file.name,
+            mimeType,
+            base64,
+            size: file.size
+          }]);
+        }
+      } catch (err) {
+        console.error('[ProductionAIChat] Failed to process file:', err);
+        setError(`Failed to process ${file.name}`);
+      }
+    }
+
+    // Reset file input
+    e.target.value = '';
+  }, [fileToBase64]);
+
+  // Remove an attachment
+  const removeAttachment = useCallback((id) => {
+    setAttachments(prev => {
+      const att = prev.find(a => a.id === id);
+      // Revoke object URL to prevent memory leak
+      if (att?.preview) {
+        URL.revokeObjectURL(att.preview);
+      }
+      return prev.filter(a => a.id !== id);
+    });
+  }, []);
+
+  // Clear all attachments (e.g., after sending)
+  const clearAttachments = useCallback(() => {
+    attachments.forEach(att => {
+      if (att.preview) {
+        URL.revokeObjectURL(att.preview);
+      }
+    });
+    setAttachments([]);
+  }, [attachments]);
 
   // Load chat history on mount
   // CRITICAL: Skip history loading when initialPrompt is present (new project flow from index page)
@@ -1211,13 +1352,26 @@ export default function ProductionAIChat({
                         }
                       }
 
-                      // Check for PAUSE_FOR_USER_INPUT action (database connection request)
+                      // Check for PAUSE_FOR_USER_INPUT action (database connection, API access, Stripe setup)
                       if (toolResult && typeof toolResult === 'object' && toolResult.action === 'PAUSE_FOR_USER_INPUT') {
                         console.log('[ProductionAIChat:Pending] AI paused for user input:', toolResult);
+
                         if (toolResult.inputType === 'database_connection') {
                           dbResumeTokenRef.current = toolResult.resumeToken;
                           setDbConnectionPrompt(toolResult.prompt);
                           setDbConnectionPaused(true);
+                          setIsLoading(false);
+                        } else if (toolResult.inputType === 'api_access') {
+                          // AI is requesting API access choice (proxy vs BYOK)
+                          apiResumeTokenRef.current = toolResult.resumeToken;
+                          setApiAccessRequest(toolResult.prompt);
+                          setApiAccessPaused(true);
+                          setIsLoading(false);
+                        } else if (toolResult.inputType === 'stripe_connect') {
+                          // AI is requesting Stripe Connect setup
+                          stripeResumeTokenRef.current = toolResult.resumeToken;
+                          setStripeSetupRequest(toolResult.prompt);
+                          setStripeSetupPaused(true);
                           setIsLoading(false);
                         }
                       }
@@ -1242,12 +1396,19 @@ export default function ProductionAIChat({
                     break;
 
                   case 'd': // finish
-                    // Check for token depletion
-                    if (data?.paused && data?.pauseReason === 'insufficient_tokens') {
+                    // Check for token depletion (handles all pause reasons)
+                    const tokenPauseReasons = ['insufficient_tokens', 'INSUFFICIENT_TOKENS', 'DAILY_LIMIT_REACHED', 'INSUFFICIENT_CREDITS', 'tokens_depleted'];
+                    if (data?.paused && tokenPauseReasons.includes(data?.pauseReason)) {
                       showDepletionModal?.({
                         pauseReason: data.pauseReason,
                         tokensUsed: data.tokensUsed || 0,
-                        message: data.message || "Ran out of tokens"
+                        tokensAvailable: data.tokensAvailable || 0,
+                        contextId: data.contextId,
+                        message: data.message || "Ran out of tokens",
+                        userTier: data.userTier || 'free',
+                        isFreeUser: data.isFreeUser ?? true,
+                        actions: data.actions || [],
+                        upgradeUrl: data.upgradeUrl || '/billing'
                       });
                     }
                     break;
@@ -1341,12 +1502,31 @@ export default function ProductionAIChat({
   }, [onInitialPromptProcessed]);
 
   // Store the initial prompt immediately when it arrives
+  // Also load any attachments from sessionStorage (from index page)
   useEffect(() => {
     if (initialPrompt && !initialPromptProcessedRef.current && !autoSubmitAttemptedRef.current) {
       pendingInitialPromptRef.current = initialPrompt;
       console.log('[ProductionAIChat] Initial prompt stored:', initialPrompt.substring(0, 50) + '...');
+
+      // Check for attachments from index page
+      if (projectId) {
+        try {
+          const storedAttachments = sessionStorage.getItem(`initialAttachments_${projectId}`);
+          if (storedAttachments) {
+            const parsedAttachments = JSON.parse(storedAttachments);
+            if (Array.isArray(parsedAttachments) && parsedAttachments.length > 0) {
+              setAttachments(parsedAttachments);
+              console.log('[ProductionAIChat] Loaded', parsedAttachments.length, 'attachments from sessionStorage');
+              // Clean up after loading
+              sessionStorage.removeItem(`initialAttachments_${projectId}`);
+            }
+          }
+        } catch (e) {
+          console.warn('[ProductionAIChat] Failed to load attachments from sessionStorage:', e);
+        }
+      }
     }
-  }, [initialPrompt]);
+  }, [initialPrompt, projectId]);
 
   // UNIFIED AUTO-SUBMIT EFFECT
   // This single effect handles all the logic for auto-submitting the initial prompt.
@@ -1487,6 +1667,16 @@ export default function ProductionAIChat({
         content_parts: msg.contentParts ? JSON.stringify(msg.contentParts) : null,
         tool_calls: msg.toolCalls ? JSON.stringify(msg.toolCalls) : null,
         tool_results: msg.toolResults ? JSON.stringify(msg.toolResults) : null,
+        // Store attachment metadata only (no base64 - too large for DB)
+        // This preserves display info without bloating storage
+        attachments: msg.attachments ? msg.attachments.map(att => ({
+          id: att.id,
+          type: att.type,
+          name: att.name,
+          mimeType: att.mimeType,
+          size: att.size
+          // base64 intentionally omitted - it was only needed for the API call
+        })) : undefined,
         timestamp: msg.timestamp || new Date().toISOString()
       }));
 
@@ -1531,14 +1721,30 @@ export default function ProductionAIChat({
       ? `msg_${crypto.randomUUID()}`
       : `msg_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 
+    // Include attachments with the message
+    const messageAttachments = attachments.map(att => ({
+      id: att.id,
+      type: att.type,
+      name: att.name,
+      mimeType: att.mimeType,
+      base64: att.base64,
+      size: att.size
+    }));
+
     const userMessage = {
       id: messageId,
       role: 'user',
       content: trimmedInput,
+      attachments: messageAttachments.length > 0 ? messageAttachments : undefined,
       timestamp: new Date().toISOString(),
       // OPTIMISTIC UI: Mark as pending if projectId not ready yet
       status: (!projectId || projectId === 'undefined' || projectId === 'null') ? 'pending' : 'sent'
     };
+
+    // Clear attachments after creating message
+    if (messageAttachments.length > 0) {
+      clearAttachments();
+    }
 
     // Use existing messages if provided (for auto-continue), otherwise use current state
     const baseMessages = existingMessages || messages;
@@ -1568,10 +1774,13 @@ export default function ProductionAIChat({
     e?.preventDefault();
 
     const trimmedInput = input.trim();
-    if (!trimmedInput || isLoading || agentic.isGenerating) return;
+    // Allow sending if there's text OR attachments
+    if ((!trimmedInput && attachments.length === 0) || isLoading || agentic.isGenerating) return;
 
     setInput('');
-    await handleSubmitInternal(trimmedInput);
+    // If only attachments and no text, use a default prompt
+    const messageToSend = trimmedInput || 'Please analyze the attached file(s) and help me build something based on them.';
+    await handleSubmitInternal(messageToSend);
   };
 
   // Execute the actual streaming request
@@ -1639,8 +1848,16 @@ export default function ProductionAIChat({
         content: m.content,
         // Include tool execution history for session continuity
         tool_calls: m.toolCalls || m.tool_calls || null,
-        tool_results: m.toolResults || m.tool_results || null
+        tool_results: m.toolResults || m.tool_results || null,
+        // Include attachments for multimodal support
+        attachments: m.attachments || null
       }));
+
+      // Extract attachments from the current user message for the API
+      const currentAttachments = userMessage.attachments || [];
+      if (currentAttachments.length > 0) {
+        console.log(`[ProductionAIChat] Sending ${currentAttachments.length} attachment(s) with message`);
+      }
 
       const response = await fetch(endpoint, {
         method: 'POST',
@@ -1652,7 +1869,9 @@ export default function ProductionAIChat({
           activeFile,
           // Multi-agent tier/mode configuration
           tier: userTier,
-          mode: aiMode
+          mode: aiMode,
+          // Multimodal attachments (images, spreadsheets)
+          attachments: currentAttachments
         }),
         signal: abortControllerRef.current.signal
       });
@@ -1672,6 +1891,21 @@ export default function ProductionAIChat({
           console.error('[ProductionAIChat] Failed to parse error response:', parseErr);
           errorData = { error: `Request failed: ${response.status}` };
         }
+
+        // Handle token depletion specifically - show modal instead of generic error
+        if (response.status === 402 && errorData?.code === 'INSUFFICIENT_TOKENS') {
+          console.log('[ProductionAIChat] Insufficient tokens - showing depletion modal');
+          showDepletionModal?.({
+            pauseReason: 'insufficient_tokens',
+            tokensUsed: 0,
+            message: errorData.error || 'Insufficient tokens to complete this request.',
+            available: errorData.available || 0
+          });
+          setIsLoading(false);
+          onGenerationEnd?.();
+          return; // Don't throw - modal handles it
+        }
+
         const errorMessage = errorData?.error || errorData?.message || `Request failed: ${response.status}`;
         throw new Error(typeof errorMessage === 'string' ? errorMessage : JSON.stringify(errorMessage));
       }
@@ -1904,15 +2138,27 @@ export default function ProductionAIChat({
                   }
                 }
 
-                // Check for PAUSE_FOR_USER_INPUT action (database connection request)
+                // Check for PAUSE_FOR_USER_INPUT action (database connection, API access, Stripe setup)
                 if (isValidResult && toolResult.action === 'PAUSE_FOR_USER_INPUT') {
                   console.log('[ProductionAIChat] AI paused for user input:', toolResult);
+
                   if (toolResult.inputType === 'database_connection') {
                     // Save resume token and show database connection modal
                     dbResumeTokenRef.current = toolResult.resumeToken;
                     setDbConnectionPrompt(toolResult.prompt);
                     setDbConnectionPaused(true);
-                    // Stop loading since we're waiting for user input
+                    setIsLoading(false);
+                  } else if (toolResult.inputType === 'api_access') {
+                    // AI is requesting API access choice (proxy vs BYOK)
+                    apiResumeTokenRef.current = toolResult.resumeToken;
+                    setApiAccessRequest(toolResult.prompt);
+                    setApiAccessPaused(true);
+                    setIsLoading(false);
+                  } else if (toolResult.inputType === 'stripe_connect') {
+                    // AI is requesting Stripe Connect setup
+                    stripeResumeTokenRef.current = toolResult.resumeToken;
+                    setStripeSetupRequest(toolResult.prompt);
+                    setStripeSetupPaused(true);
                     setIsLoading(false);
                   }
                 }
@@ -1925,14 +2171,20 @@ export default function ProductionAIChat({
                 if (data?.executorType) {
                   setExecutorType(data.executorType);
                 }
-                // Check for token depletion - show modal if paused
-                if (data?.paused && (data?.pauseReason === 'insufficient_tokens' || data?.pauseReason === 'tokens_depleted')) {
+                // Check for token depletion - show modal if paused (handles all pause reasons)
+                const tokenPauseReasons = ['insufficient_tokens', 'INSUFFICIENT_TOKENS', 'DAILY_LIMIT_REACHED', 'INSUFFICIENT_CREDITS', 'tokens_depleted'];
+                if (data?.paused && tokenPauseReasons.includes(data?.pauseReason)) {
                   console.log('[ProductionAIChat] Token depletion detected, showing modal', data);
                   showDepletionModal({
                     pauseReason: data.pauseReason,
                     tokensUsed: data.tokensUsed || 0,
+                    tokensAvailable: data.tokensAvailable || 0,
                     contextId: data.contextId,
-                    message: data.message || "I've run out of tokens and had to pause. Your work has been saved!"
+                    message: data.message || "I've run out of tokens and had to pause. Your work has been saved!",
+                    userTier: data.userTier || 'free',
+                    isFreeUser: data.isFreeUser ?? true,
+                    actions: data.actions || [],
+                    upgradeUrl: data.upgradeUrl || '/billing'
                   });
                 }
                 break;
@@ -1982,13 +2234,19 @@ export default function ProductionAIChat({
 
                 // Check for token depletion in files_updated event
                 // The backend sends pause info with the final file state
-                if (data.paused && (data.pauseReason === 'insufficient_tokens' || data.pauseReason === 'tokens_depleted')) {
+                const filesUpdatePauseReasons = ['insufficient_tokens', 'INSUFFICIENT_TOKENS', 'DAILY_LIMIT_REACHED', 'INSUFFICIENT_CREDITS', 'tokens_depleted'];
+                if (data.paused && filesUpdatePauseReasons.includes(data.pauseReason)) {
                   console.log('[ProductionAIChat] Token depletion detected in files_updated:', data);
                   showDepletionModal({
                     pauseReason: data.pauseReason,
                     tokensUsed: data.tokensUsed || 0,
+                    tokensAvailable: data.tokensAvailable || 0,
                     contextId: data.contextId,
-                    message: data.message || "I've run out of tokens and had to pause. Your work has been saved!"
+                    message: data.message || "I've run out of tokens and had to pause. Your work has been saved!",
+                    userTier: data.userTier || 'free',
+                    isFreeUser: data.isFreeUser ?? true,
+                    actions: data.actions || [],
+                    upgradeUrl: data.upgradeUrl || '/billing'
                   });
                 }
                 break;
@@ -2611,76 +2869,228 @@ export default function ProductionAIChat({
           data-testid="chat-form"
           onSubmit={handleSubmit}
           style={{
-            padding: '16px',
             borderTop: '1px solid #e2e8f0',
             background: 'linear-gradient(135deg, rgba(0, 217, 255, 0.03) 0%, rgba(0, 168, 204, 0.01) 100%)'
           }}
         >
-          <div style={{ position: 'relative' }}>
-            <textarea
-              ref={inputRef}
-              data-testid="chat-input"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={handleKeyDown}
-              placeholder="Describe what you want to build..."
-              disabled={isLoading || agentic.isGenerating}
-              rows={1}
-              style={{
-                width: '100%',
-                backgroundColor: '#ffffff',
-                border: '1px solid #e2e8f0',
-                borderRadius: '12px',
-                padding: '14px 54px 14px 16px',
-                color: '#1e293b',
-                fontSize: '14px',
-                resize: 'none',
-                fontFamily: 'inherit',
-                lineHeight: '1.5',
-                minHeight: '48px',
-                maxHeight: '150px',
-                boxShadow: '0 1px 3px rgba(0, 0, 0, 0.08)',
-                outline: 'none',
-                transition: 'border-color 0.2s ease, box-shadow 0.2s ease'
-              }}
-              onFocus={(e) => {
-                e.target.style.borderColor = '#00D9FF';
-                e.target.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 3px rgba(0, 217, 255, 0.15)';
-              }}
-              onBlur={(e) => {
-                e.target.style.borderColor = '#e2e8f0';
-                e.target.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.08)';
-              }}
-            />
-            <button
-              data-testid="chat-submit-button"
-              type={(isLoading || agentic.isGenerating) ? 'button' : 'submit'}
-              onClick={(isLoading || agentic.isGenerating) ? handleStop : undefined}
-              disabled={!input.trim() && !(isLoading || agentic.isGenerating)}
-              style={{
-                position: 'absolute',
-                right: '10px',
-                bottom: '10px',
-                background: (isLoading || agentic.isGenerating)
-                  ? 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)'
-                  : 'linear-gradient(135deg, #00D9FF 0%, #00A8CC 100%)',
-                border: 'none',
-                borderRadius: '8px',
-                padding: '10px',
-                color: '#fff',
-                cursor: (!input.trim() && !(isLoading || agentic.isGenerating)) ? 'not-allowed' : 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                boxShadow: (isLoading || agentic.isGenerating)
-                  ? '0 2px 12px rgba(239, 68, 68, 0.4)'
-                  : '0 2px 12px rgba(0, 217, 255, 0.4)',
-                transition: 'all 0.2s ease',
-                opacity: (!input.trim() && !(isLoading || agentic.isGenerating)) ? 0.5 : 1
-              }}
-            >
-              {(isLoading || agentic.isGenerating) ? <Icons.Stop /> : <Icons.Send />}
-            </button>
+          {/* Attachment Preview Area */}
+          {attachments.length > 0 && (
+            <div style={{
+              display: 'flex',
+              gap: '8px',
+              padding: '12px 16px',
+              borderBottom: '1px solid #e2e8f0',
+              flexWrap: 'wrap',
+              backgroundColor: '#f8fafc'
+            }}>
+              {attachments.map(att => (
+                <div key={att.id} style={{
+                  position: 'relative',
+                  padding: '6px 8px',
+                  backgroundColor: 'white',
+                  borderRadius: '8px',
+                  border: '1px solid #e2e8f0',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '6px',
+                  boxShadow: '0 1px 2px rgba(0,0,0,0.05)'
+                }}>
+                  {att.type === 'image' ? (
+                    <>
+                      <img
+                        src={att.preview}
+                        alt={att.name}
+                        style={{
+                          width: '32px',
+                          height: '32px',
+                          objectFit: 'cover',
+                          borderRadius: '4px'
+                        }}
+                      />
+                      <span style={{
+                        fontSize: '12px',
+                        color: '#64748b',
+                        maxWidth: '100px',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        whiteSpace: 'nowrap'
+                      }}>
+                        {att.name}
+                      </span>
+                    </>
+                  ) : (
+                    <>
+                      <Icons.Spreadsheet />
+                      <span style={{
+                        fontSize: '12px',
+                        color: '#64748b',
+                        maxWidth: '120px',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        whiteSpace: 'nowrap'
+                      }}>
+                        {att.name}
+                      </span>
+                    </>
+                  )}
+                  <button
+                    type="button"
+                    onClick={() => removeAttachment(att.id)}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      cursor: 'pointer',
+                      padding: '2px',
+                      color: '#94a3b8',
+                      display: 'flex',
+                      alignItems: 'center',
+                      borderRadius: '4px'
+                    }}
+                    onMouseOver={(e) => e.currentTarget.style.color = '#ef4444'}
+                    onMouseOut={(e) => e.currentTarget.style.color = '#94a3b8'}
+                  >
+                    <Icons.X />
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Token Warning for Attachments */}
+          {attachments.length > 0 && (
+            <div style={{
+              padding: '6px 16px',
+              backgroundColor: 'rgba(245, 158, 11, 0.08)',
+              borderBottom: '1px solid rgba(245, 158, 11, 0.15)',
+              fontSize: '11px',
+              color: '#b45309',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}>
+              <Icons.Warning />
+              <span>Images and files increase token consumption</span>
+            </div>
+          )}
+
+          {/* Hidden File Input */}
+          <input
+            type="file"
+            ref={fileInputRef}
+            onChange={handleFileSelect}
+            accept="image/png,image/jpeg,image/gif,image/webp,.csv,.xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            multiple
+            style={{ display: 'none' }}
+          />
+
+          <div style={{ padding: '16px', position: 'relative' }}>
+            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+              {/* Attachment Button */}
+              <button
+                type="button"
+                onClick={() => fileInputRef.current?.click()}
+                disabled={isLoading || agentic.isGenerating}
+                title="Attach image or spreadsheet (CSV, XLSX)"
+                style={{
+                  background: '#ffffff',
+                  border: '1px solid #e2e8f0',
+                  borderRadius: '12px',
+                  padding: '0 14px',
+                  cursor: (isLoading || agentic.isGenerating) ? 'not-allowed' : 'pointer',
+                  color: '#64748b',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  transition: 'all 0.2s ease',
+                  opacity: (isLoading || agentic.isGenerating) ? 0.5 : 1,
+                  flexShrink: 0,
+                  height: '48px',
+                  boxSizing: 'border-box',
+                  boxShadow: '0 1px 3px rgba(0, 0, 0, 0.08)'
+                }}
+                onMouseOver={(e) => {
+                  if (!(isLoading || agentic.isGenerating)) {
+                    e.currentTarget.style.borderColor = '#00D9FF';
+                    e.currentTarget.style.color = '#00D9FF';
+                  }
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.borderColor = '#e2e8f0';
+                  e.currentTarget.style.color = '#64748b';
+                }}
+              >
+                <Icons.Paperclip />
+              </button>
+
+              {/* Text Input */}
+              <div style={{ flex: 1, position: 'relative' }}>
+                <textarea
+                  ref={inputRef}
+                  data-testid="chat-input"
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyDown={handleKeyDown}
+                  placeholder="Describe what you want to build..."
+                  disabled={isLoading || agentic.isGenerating}
+                  rows={1}
+                  style={{
+                    width: '100%',
+                    backgroundColor: '#ffffff',
+                    border: '1px solid #e2e8f0',
+                    borderRadius: '12px',
+                    padding: '13px 54px 13px 16px',
+                    color: '#1e293b',
+                    fontSize: '14px',
+                    resize: 'none',
+                    fontFamily: 'inherit',
+                    lineHeight: '1.5',
+                    minHeight: '48px',
+                    maxHeight: '150px',
+                    boxSizing: 'border-box',
+                    boxShadow: '0 1px 3px rgba(0, 0, 0, 0.08)',
+                    outline: 'none',
+                    transition: 'border-color 0.2s ease, box-shadow 0.2s ease'
+                  }}
+                  onFocus={(e) => {
+                    e.target.style.borderColor = '#00D9FF';
+                    e.target.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 3px rgba(0, 217, 255, 0.15)';
+                  }}
+                  onBlur={(e) => {
+                    e.target.style.borderColor = '#e2e8f0';
+                    e.target.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.08)';
+                  }}
+                />
+                <button
+                  data-testid="chat-submit-button"
+                  type={(isLoading || agentic.isGenerating) ? 'button' : 'submit'}
+                  onClick={(isLoading || agentic.isGenerating) ? handleStop : undefined}
+                  disabled={(!input.trim() && attachments.length === 0) && !(isLoading || agentic.isGenerating)}
+                  style={{
+                    position: 'absolute',
+                    right: '10px',
+                    bottom: '10px',
+                    background: (isLoading || agentic.isGenerating)
+                      ? 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)'
+                      : 'linear-gradient(135deg, #00D9FF 0%, #00A8CC 100%)',
+                    border: 'none',
+                    borderRadius: '8px',
+                    padding: '10px',
+                    color: '#fff',
+                    cursor: ((!input.trim() && attachments.length === 0) && !(isLoading || agentic.isGenerating)) ? 'not-allowed' : 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxShadow: (isLoading || agentic.isGenerating)
+                      ? '0 2px 12px rgba(239, 68, 68, 0.4)'
+                      : '0 2px 12px rgba(0, 217, 255, 0.4)',
+                    transition: 'all 0.2s ease',
+                    opacity: ((!input.trim() && attachments.length === 0) && !(isLoading || agentic.isGenerating)) ? 0.5 : 1
+                  }}
+                >
+                  {(isLoading || agentic.isGenerating) ? <Icons.Stop /> : <Icons.Send />}
+                </button>
+              </div>
+            </div>
           </div>
         </form>
 
@@ -2730,6 +3140,7 @@ export default function ProductionAIChat({
         tokensUsed={depletionInfo?.tokensUsed}
         contextId={depletionInfo?.contextId}
         message={depletionInfo?.message}
+        available={depletionInfo?.available}
       />
 
       {/* Database Connection Modal - shown when AI pauses for database credentials */}
@@ -2929,6 +3340,125 @@ export default function ProductionAIChat({
             role: 'assistant',
             content: 'Database connection was cancelled. I can continue working on other aspects of your project, or you can provide database credentials later when needed.',
             contentParts: [{ type: 'text', content: 'Database connection was cancelled. I can continue working on other aspects of your project, or you can provide database credentials later when needed.' }]
+          }]);
+        }}
+      />
+
+      {/* API Access Choice Modal - shown when AI pauses for API key decision */}
+      <ApiAccessChoiceModal
+        isOpen={apiAccessPaused}
+        apiRequest={apiAccessRequest}
+        onChoice={async (choiceResult) => {
+          console.log('[ProductionAIChat] API access choice made:', choiceResult);
+          setApiAccessPaused(false);
+          setApiAccessRequest(null);
+
+          const resumeToken = apiResumeTokenRef.current;
+          apiResumeTokenRef.current = null;
+
+          // Add assistant message about the choice
+          const choiceMsg = choiceResult.choice === 'proxy'
+            ? `Using EzCoder proxy for ${choiceResult.apiName}. Continuing with the task...`
+            : `You chose to bring your own ${choiceResult.apiName} key. Please add it in Settings → API Keys, then I'll continue.`;
+
+          setMessages(prev => [...prev, {
+            id: `api-choice-${Date.now()}`,
+            role: 'assistant',
+            content: choiceMsg,
+            contentParts: [{ type: 'text', content: choiceMsg }]
+          }]);
+
+          if (resumeToken) {
+            // Resume AI workflow with the choice
+            try {
+              setIsLoading(true);
+              const response = await fetch('/api/ai/resume', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  resumeToken,
+                  userInput: choiceResult,
+                  projectId
+                })
+              });
+
+              if (!response.ok) {
+                throw new Error('Failed to resume AI workflow');
+              }
+
+              // Handle the streaming response (similar to database connection resume)
+              // ... stream handling code would go here ...
+            } catch (err) {
+              console.error('[ProductionAIChat] API access resume error:', err);
+              setError('Failed to resume: ' + err.message);
+            } finally {
+              setIsLoading(false);
+            }
+          }
+        }}
+        onClose={() => {
+          console.log('[ProductionAIChat] API access choice cancelled');
+          setApiAccessPaused(false);
+          setApiAccessRequest(null);
+          apiResumeTokenRef.current = null;
+
+          setMessages(prev => [...prev, {
+            id: `api-cancelled-${Date.now()}`,
+            role: 'assistant',
+            content: 'API access selection was cancelled. I can continue with other parts of your project, or you can choose an API option later.',
+            contentParts: [{ type: 'text', content: 'API access selection was cancelled. I can continue with other parts of your project, or you can choose an API option later.' }]
+          }]);
+        }}
+      />
+
+      {/* Stripe Connect Setup Modal - shown when AI pauses for payment setup */}
+      <StripeConnectSetupModal
+        isOpen={stripeSetupPaused}
+        request={stripeSetupRequest}
+        onSetup={async () => {
+          console.log('[ProductionAIChat] Stripe Connect setup requested');
+          setStripeSetupPaused(false);
+          setStripeSetupRequest(null);
+
+          // Redirect to Stripe onboarding
+          try {
+            const response = await fetch('/api/stripe/connect-onboarding', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                action: 'onboard',
+                returnUrl: window.location.href,
+                refreshUrl: window.location.href
+              })
+            });
+
+            const result = await response.json();
+            if (result.onboardingUrl) {
+              // Store resume token for when user returns
+              if (stripeResumeTokenRef.current) {
+                sessionStorage.setItem('stripe_resume_token', stripeResumeTokenRef.current);
+                sessionStorage.setItem('stripe_resume_project', projectId);
+              }
+              window.location.href = result.onboardingUrl;
+            } else {
+              throw new Error(result.error || 'Failed to start Stripe setup');
+            }
+          } catch (err) {
+            console.error('[ProductionAIChat] Stripe setup error:', err);
+            setError('Failed to start Stripe setup: ' + err.message);
+          }
+        }}
+        onClose={() => {
+          console.log('[ProductionAIChat] Stripe setup cancelled');
+          setStripeSetupPaused(false);
+          setStripeSetupRequest(null);
+          stripeResumeTokenRef.current = null;
+
+          setMessages(prev => [...prev, {
+            id: `stripe-cancelled-${Date.now()}`,
+            role: 'assistant',
+            content: 'Payment setup was cancelled. I can continue building other parts of your app. You can set up Stripe Connect later from the Stripe Integration panel.',
+            contentParts: [{ type: 'text', content: 'Payment setup was cancelled. I can continue building other parts of your app. You can set up Stripe Connect later from the Stripe Integration panel.' }]
           }]);
         }}
       />
