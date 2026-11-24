@@ -1,0 +1,642 @@
+{
+  "co_angular_silicate": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_angular_silicate.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_angular_silicate.glb",
+    "name": "Angular Silicate Boulder",
+    "category": "rock",
+    "triangles": 1046,
+    "textureSize": 1024,
+    "bytes": 747780,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.899,
+      "y": 0.801,
+      "z": 1.389
+    },
+    "suggestedSize": "1.4 m wide; 0.9 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Rock_1_LowPoly_1120210955_texture.glb",
+    "lowSourceSha256": "563e370b845a052f3345106f7ff307d8aa755a8ee58206470e1d02c2041832cc",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Shared\\High res\\Meshy_AI_Rock_1_1120211103_image-to-3d-texture.glb"
+  },
+  "co_basalt_block": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_basalt_block.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_basalt_block.glb",
+    "name": "Plain Basalt Block",
+    "category": "rock",
+    "triangles": 1042,
+    "textureSize": 1024,
+    "bytes": 747916,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.9,
+      "y": 0.604,
+      "z": 1.336
+    },
+    "suggestedSize": "1.3 m wide; 1.1 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Rock_2_LowPoly_1120210951_texture.glb",
+    "lowSourceSha256": "6b9e1bf63376358a6822c6d303f8e499166270113373ab8067c3b97150de85a7",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Shared\\High res\\Meshy_AI_Rock_2_1120211301_image-to-3d-texture.glb"
+  },
+  "co_broadleaf_cushion": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_broadleaf_cushion.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_broadleaf_cushion.glb",
+    "name": "Low Broadleaf Cushion",
+    "category": "plant",
+    "triangles": 1041,
+    "textureSize": 1024,
+    "bytes": 885056,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.888,
+      "y": 0.653,
+      "z": 1.35
+    },
+    "suggestedSize": "0.25 m tall; 0.65 m wide",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Plant_1_LowPoly_1120211013_texture.glb",
+    "lowSourceSha256": "fc0af2925adca59862b9649babc78bcbf986a397fadd54f2b737a8ce74b7dea0",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Shared\\High res\\Meshy_AI_Plant_1_1120211322_image-to-3d-texture.glb"
+  },
+  "co_broadleaf_shrub": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_broadleaf_shrub.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_broadleaf_shrub.glb",
+    "name": "Simple Broadleaf Shrub",
+    "category": "plant",
+    "triangles": 3600,
+    "textureSize": 1024,
+    "bytes": 735372,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.771,
+      "y": 1.405,
+      "z": 0.924
+    },
+    "suggestedSize": "0.9 m tall; 1 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "4611a9c9d9580ae6679cd711196a507c0cac9aa6453a019922652a24b8bbaced",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Meshy_AI_Tree_1_1120211330_image-to-3d-texture.glb"
+  },
+  "co_buttress_roots": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_buttress_roots.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_buttress_roots.glb",
+    "name": "Compact Buttress Root Mass",
+    "category": "wood",
+    "triangles": 1563,
+    "textureSize": 2048,
+    "bytes": 2925948,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.896,
+      "y": 0.526,
+      "z": 1.819
+    },
+    "suggestedSize": "1.8 m wide; 0.5 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Stump_Roots_LowPoly_1120211006_texture.glb",
+    "lowSourceSha256": "234c516db106dc18826fa541f267b4ca78d39edc4862564cd9dc1266b70155e0",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Shared\\High res\\Meshy_AI_Stump_Roots_1120211119_image-to-3d-texture.glb"
+  },
+  "co_compact_fern": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_compact_fern.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_compact_fern.glb",
+    "name": "Compact Fern Cluster",
+    "category": "plant",
+    "triangles": 915,
+    "textureSize": 1024,
+    "bytes": 921888,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.86,
+      "y": 1.084,
+      "z": 1.229
+    },
+    "suggestedSize": "0.45 m tall; 0.8 m wide",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Fern_Plant_LowPoly_1120211033_texture.glb",
+    "lowSourceSha256": "ae0b7ee5dbddaa11ff29c778c2f9c5f8ab7854760c20dc14b4238ac7c971f949",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Shared\\High res\\Meshy_AI_Fern_Plant_1120211305_image-to-3d-texture.glb"
+  },
+  "co_fallen_log": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_fallen_log.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_fallen_log.glb",
+    "name": "Weathered Fallen Log",
+    "category": "wood",
+    "triangles": 1251,
+    "textureSize": 2048,
+    "bytes": 3073692,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.899,
+      "y": 0.405,
+      "z": 0.362
+    },
+    "suggestedSize": "3 m long; 0.55 m diameter",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Fallen_Log_LowPoly_1120211017_texture.glb",
+    "lowSourceSha256": "d0436959243f6f10ff8981a8fef70350e195ee86e957900c8a9fe4eba6761439",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Shared\\High res\\Meshy_AI_Fallen_Log_1120211314_image-to-3d-texture.glb"
+  },
+  "co_hollow_stump": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_hollow_stump.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_hollow_stump.glb",
+    "name": "Hollow Broad Stump",
+    "category": "wood",
+    "triangles": 1555,
+    "textureSize": 2048,
+    "bytes": 3075972,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.897,
+      "y": 0.701,
+      "z": 1.724
+    },
+    "suggestedSize": "1.4 m wide; 0.85 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Hollow_Stump_LowPoly_1120211022_texture.glb",
+    "lowSourceSha256": "1e6afdae33726584654e956c37cafe6afb97d1051b9aa7dd077e785b43869c33",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Shared\\High res\\Meshy_AI_Hollow_Stump_1120211326_image-to-3d-texture.glb"
+  },
+  "co_rounded_limestone": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_rounded_limestone.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_rounded_limestone.glb",
+    "name": "Rounded Limestone Boulder",
+    "category": "rock",
+    "triangles": 1035,
+    "textureSize": 1024,
+    "bytes": 740780,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.898,
+      "y": 0.837,
+      "z": 1.469
+    },
+    "suggestedSize": "1.5 m wide; 0.85 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Boulder_Stone_LowPoly_1120211030_texture.glb",
+    "lowSourceSha256": "f7cd47ec802eac12709b2a3320399b85b62f7c47787af9d6451ab96e1a790f2b",
+    "highSource": null
+  },
+  "co_sedimentary_arch": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_sedimentary_arch.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_sedimentary_arch.glb",
+    "name": "Simple Sedimentary Arch",
+    "category": "rock",
+    "triangles": 1567,
+    "textureSize": 2048,
+    "bytes": 2678696,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.901,
+      "y": 0.826,
+      "z": 0.616
+    },
+    "suggestedSize": "3 m wide; 1.8 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Rock_Arch_LowPoly_1120211026_texture.glb",
+    "lowSourceSha256": "9000312528ce3ee8c99b220514edc97ae59d5888cf634f423fa6dbcc97c62037",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Shared\\High res\\Meshy_AI_Rock_Arch_1120211318_image-to-3d-texture.glb"
+  },
+  "co_slate_outcrop": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_slate_outcrop.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_slate_outcrop.glb",
+    "name": "Low Fractured Slate Outcrop",
+    "category": "rock",
+    "triangles": 1038,
+    "textureSize": 2048,
+    "bytes": 2497576,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.896,
+      "y": 0.564,
+      "z": 1.651
+    },
+    "suggestedSize": "2.4 m wide; 0.8 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Tiered_Rock_Slab_Lowp_1120211708_texture.glb",
+    "lowSourceSha256": "46f4740787f84a4eb5d54f9ec47c62b050599a5b9bad24ca8b9d6287a9ecafba",
+    "highSource": null
+  },
+  "co_stratified_slab": {
+    "group": "Shared_Reusable_Assets",
+    "file": "Shared_Reusable_Assets/co_stratified_slab.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Shared_Reusable_Assets/co_stratified_slab.glb",
+    "name": "Flat Stratified Slab",
+    "category": "rock",
+    "triangles": 1015,
+    "textureSize": 2048,
+    "bytes": 2853244,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.899,
+      "y": 0.213,
+      "z": 1.489
+    },
+    "suggestedSize": "2 m long; 0.35 m thick",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Shared\\Low res\\Meshy_AI_Flat_Rock_Slab_Lowpol_1120211705_texture.glb",
+    "lowSourceSha256": "50c55cef0f5f616e2f7bf7809fd9a690de588e22e08617ba5114bde7fc75e3d8",
+    "highSource": null
+  },
+  "de_dustysage_shrub": {
+    "group": "Desert_world",
+    "file": "Desert_world/de_dustysage_shrub.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Desert_world/de_dustysage_shrub.glb",
+    "name": "Dusty Sage Shrub",
+    "category": "plant",
+    "triangles": 3400,
+    "textureSize": 1024,
+    "bytes": 836752,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.874,
+      "y": 1.178,
+      "z": 0.918
+    },
+    "suggestedSize": "0.7 m tall × 1.1 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "024864807dbe74224cbb7c7c124f9a3c640253e37076f2d641544b9f1b52ad9e",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Desert_Bonsai_Shrub.glb"
+  },
+  "de_reservoir_tree": {
+    "group": "Desert_world",
+    "file": "Desert_world/de_reservoir_tree.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Desert_world/de_reservoir_tree.glb",
+    "name": "Desert Reservoir Tree",
+    "category": "tree",
+    "triangles": 5594,
+    "textureSize": 1024,
+    "bytes": 988692,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.803,
+      "y": 1.656,
+      "z": 1.263
+    },
+    "suggestedSize": "4 m tall × 4 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "c1d60b51b571118a2b8fd3570e9d1975dc72b1c4c56caed52aa1361840e634be",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Bottle_Tree.glb"
+  },
+  "de_ribbed_storageplant": {
+    "group": "Desert_world",
+    "file": "Desert_world/de_ribbed_storageplant.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Desert_world/de_ribbed_storageplant.glb",
+    "name": "Ribbed Storage Plant",
+    "category": "plant",
+    "triangles": 3200,
+    "textureSize": 1024,
+    "bytes": 667864,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.352,
+      "y": 1.902,
+      "z": 1.272
+    },
+    "suggestedSize": "1.2 m tall × 0.85 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "68039372a9e1fc69e333d98e4a9772d2d7054afc30b18215a81515a88800980b",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Ribbed_Succulent_Plan.glb"
+  },
+  "de_sandstone_stack": {
+    "group": "Desert_world",
+    "file": "Desert_world/de_sandstone_stack.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Desert_world/de_sandstone_stack.glb",
+    "name": "Layered Sandstone Stack",
+    "category": "rock",
+    "triangles": 2000,
+    "textureSize": 1024,
+    "bytes": 685332,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.871,
+      "y": 1.87,
+      "z": 1.792
+    },
+    "suggestedSize": "4 m tall × 1.6 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "5762897dda131f36bf71a88be57d163c119ae229924e56a7c21e194a2ef0868d",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Red_Sandstone_Pillar.glb"
+  },
+  "de_ventifact_boulder": {
+    "group": "Desert_world",
+    "file": "Desert_world/de_ventifact_boulder.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Desert_world/de_ventifact_boulder.glb",
+    "name": "Wind-Grooved Ventifact Boulder",
+    "category": "rock",
+    "triangles": 1800,
+    "textureSize": 1024,
+    "bytes": 531596,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.579,
+      "y": 1.051,
+      "z": 1.91
+    },
+    "suggestedSize": "3 m long × 1.2 m tall",
+    "lowSource": null,
+    "lowSourceSha256": "7a4acfbd3629c2865741c0457f0eac57891a079c4713c1faadb7b4ee7bdd412a",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Stripy_Sandstone_Slab.glb"
+  },
+  "ea_cupfern": {
+    "group": "Earth_like_world",
+    "file": "Earth_like_world/ea_cupfern.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Earth_like_world/ea_cupfern.glb",
+    "name": "Cupfern",
+    "category": "plant",
+    "triangles": 988,
+    "textureSize": 1024,
+    "bytes": 849356,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.898,
+      "y": 1.039,
+      "z": 1.811
+    },
+    "suggestedSize": "0.7 m tall; 1 m wide",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Broadleaf_Plant_Lowpo.glb",
+    "lowSourceSha256": "86eba8f39bb7f4c8a88c340330adf697137f742e703077b4167cb450786c4323",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Broadleaf_Plant.glb"
+  },
+  "ea_limestone_outcrop": {
+    "group": "Earth_like_world",
+    "file": "Earth_like_world/ea_limestone_outcrop.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Earth_like_world/ea_limestone_outcrop.glb",
+    "name": "Stratified Limestone Outcrop",
+    "category": "rock",
+    "triangles": 1559,
+    "textureSize": 2048,
+    "bytes": 3025436,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.227,
+      "y": 1.893,
+      "z": 0.951
+    },
+    "suggestedSize": "4.5 m tall; 2.6 m wide",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Tall_Rock_Pillar_Lowp.glb",
+    "lowSourceSha256": "b90e06e606530a21761836a5df1629a968b47a4a81ae1106f1bae33b23d41c7f",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Tall_Rock_Pillar.glb"
+  },
+  "ea_rainstone": {
+    "group": "Earth_like_world",
+    "file": "Earth_like_world/ea_rainstone.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Earth_like_world/ea_rainstone.glb",
+    "name": "Rainstone Limestone Boulder",
+    "category": "rock",
+    "triangles": 1042,
+    "textureSize": 2048,
+    "bytes": 3142932,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.899,
+      "y": 0.703,
+      "z": 1.007
+    },
+    "suggestedSize": "2.4 m wide; 1.2 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Mossy_Rectangular_Bou.glb",
+    "lowSourceSha256": "6309a8e22e834074403055721913130eaf44fa37ec9e35ac2a020e639b6dcde2",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Mossy_Rectangular_Bou.glb"
+  },
+  "ea_valley_shrub": {
+    "group": "Earth_like_world",
+    "file": "Earth_like_world/ea_valley_shrub.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Earth_like_world/ea_valley_shrub.glb",
+    "name": "Valley Broadleaf Shrub",
+    "category": "plant",
+    "triangles": 2471,
+    "textureSize": 1024,
+    "bytes": 1292976,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.888,
+      "y": 1.018,
+      "z": 0.606
+    },
+    "suggestedSize": "1.2 m tall; 1.6 m wide",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Spreading_Bonsai_Tree.glb",
+    "lowSourceSha256": "a71f02dfadb183181f8698d7d4b857d76ed61867ed2cd223131ca91ce7fc35da",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Spreading_Bonsai_Tree.glb"
+  },
+  "ea_vaultwood": {
+    "group": "Earth_like_world",
+    "file": "Earth_like_world/ea_vaultwood.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Earth_like_world/ea_vaultwood.glb",
+    "name": "Vaultwood",
+    "category": "tree",
+    "triangles": 1756,
+    "textureSize": 2048,
+    "bytes": 3263192,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.788,
+      "y": 1.23,
+      "z": 1.555
+    },
+    "suggestedSize": "8 m tall; 9 m crown",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Ancient_Banyan_Tree_L.glb",
+    "lowSourceSha256": "e63fe519b3dfa5a6d534309a29d679918620bc11c6feaf8711658d7f245198b3",
+    "highSource": null
+  },
+  "fc_dwarfshrub": {
+    "group": "Frozen_coast_world",
+    "file": "Frozen_coast_world/fc_dwarfshrub.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Frozen_coast_world/fc_dwarfshrub.glb",
+    "name": "Blueleaf Dwarf Shrub",
+    "category": "plant",
+    "triangles": 4800,
+    "textureSize": 1024,
+    "bytes": 1020372,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.882,
+      "y": 1.251,
+      "z": 0.553
+    },
+    "suggestedSize": "0.8 m tall × 1.2 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "33f08b806c4ed91cb716fa19618ef4d00fde58b79440b95a01cdb15f7adf0f7f",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Gnarled_Blue_Bonsai_T.glb"
+  },
+  "fc_frostfractured_coastal_rock": {
+    "group": "Frozen_coast_world",
+    "file": "Frozen_coast_world/fc_frostfractured_coastal_rock.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Frozen_coast_world/fc_frostfractured_coastal_rock.glb",
+    "name": "Frost-Fractured Coastal Rock",
+    "category": "rock",
+    "triangles": 1800,
+    "textureSize": 1024,
+    "bytes": 649688,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.902,
+      "y": 1.134,
+      "z": 1.63
+    },
+    "suggestedSize": "2 m tall × 1.8 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "0f20ea61da6cc7f4a45e34faa17ff409ba31a5574e430c4200961b6806f3ba1c",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Dark_Angular_Boulder.glb"
+  },
+  "fc_iceveined_slate_boulder": {
+    "group": "Frozen_coast_world",
+    "file": "Frozen_coast_world/fc_iceveined_slate_boulder.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Frozen_coast_world/fc_iceveined_slate_boulder.glb",
+    "name": "Ice-Veined Slate Boulder",
+    "category": "rock",
+    "triangles": 1800,
+    "textureSize": 1024,
+    "bytes": 747424,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.871,
+      "y": 0.916,
+      "z": 1.902
+    },
+    "suggestedSize": "2.8 m long × 1.5 m tall",
+    "lowSource": null,
+    "lowSourceSha256": "1d4ebd17e567ea48335c69a0751bfd9380e1d984b91d1c1f66c41c822aa6024d",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Turquoise_Veined_Boul.glb"
+  },
+  "fc_low_cushionplant": {
+    "group": "Frozen_coast_world",
+    "file": "Frozen_coast_world/fc_low_cushionplant.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Frozen_coast_world/fc_low_cushionplant.glb",
+    "name": "Coastal Frost Cushion",
+    "category": "plant",
+    "triangles": 3000,
+    "textureSize": 1024,
+    "bytes": 731488,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.912,
+      "y": 0.958,
+      "z": 1.518
+    },
+    "suggestedSize": "0.35 m tall × 0.7 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "cd012a9df42b3fd8af12aea25d161a38289cf3bc81159495bf5cd50fa3b355f6",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Blue_Succulent_Cluste.glb"
+  },
+  "fc_windpruned_paddleleaf_tree": {
+    "group": "Frozen_coast_world",
+    "file": "Frozen_coast_world/fc_windpruned_paddleleaf_tree.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Frozen_coast_world/fc_windpruned_paddleleaf_tree.glb",
+    "name": "Windpruned Paddleleaf Tree",
+    "category": "tree",
+    "triangles": 5800,
+    "textureSize": 1024,
+    "bytes": 1125632,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.885,
+      "y": 1.584,
+      "z": 1.129
+    },
+    "suggestedSize": "3 m tall × 3.5 m wide",
+    "lowSource": null,
+    "lowSourceSha256": "4e016f7f27425286ca8a0bd41dc31de4057d05ff3dee3dd5975f866ca647a5e8",
+    "highSource": "C:\\Projects\\3d\\Scenery\\dessert_ice world\\High res\\Silverleaf_Bonsai_Tre.glb"
+  },
+  "fo_buttress_tree": {
+    "group": "Forest_world",
+    "file": "Forest_world/fo_buttress_tree.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Forest_world/fo_buttress_tree.glb",
+    "name": "Ravine Buttress Tree",
+    "category": "tree",
+    "triangles": 2308,
+    "textureSize": 2048,
+    "bytes": 3884556,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.885,
+      "y": 1.369,
+      "z": 1.257
+    },
+    "suggestedSize": "13 m tall; 11 m crown",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Curving_Canopy_Tree_L.glb",
+    "lowSourceSha256": "bc50a41e56862db727f8ddfd31490b142c4b1bb98f7e0ae0bc5a4dd8fd8f6575",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Curving_Canopy_Tree.glb"
+  },
+  "fo_forkwood_tree": {
+    "group": "Forest_world",
+    "file": "Forest_world/fo_forkwood_tree.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Forest_world/fo_forkwood_tree.glb",
+    "name": "Forkwood Canopy Tree",
+    "category": "tree",
+    "triangles": 1531,
+    "textureSize": 2048,
+    "bytes": 3834604,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.686,
+      "y": 1.865,
+      "z": 1.102
+    },
+    "suggestedSize": "7 m tall; 5 m crown",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Lush_Woodland_Tree_Lo.glb",
+    "lowSourceSha256": "39d3c81411ca7ab94cec722b84658899c4842729d19edec1cff49e771effedc0",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Lush_Woodland_Tree.glb"
+  },
+  "fo_moss_boulder": {
+    "group": "Forest_world",
+    "file": "Forest_world/fo_moss_boulder.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Forest_world/fo_moss_boulder.glb",
+    "name": "Mossbank Layered Boulder",
+    "category": "rock",
+    "triangles": 1020,
+    "textureSize": 2048,
+    "bytes": 2944608,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.898,
+      "y": 0.79,
+      "z": 1.737
+    },
+    "suggestedSize": "2 m wide; 1.1 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Mossy_Angular_Rock_Lo.glb",
+    "lowSourceSha256": "f2d13d758436bb6faaf8242c9d2036b3793ac096dd58c9a03154ae92169ad14f",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Mossy_Angular_Rock.glb"
+  },
+  "fo_rootarch_stump": {
+    "group": "Forest_world",
+    "file": "Forest_world/fo_rootarch_stump.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Forest_world/fo_rootarch_stump.glb",
+    "name": "Buttress Root Arch",
+    "category": "wood",
+    "triangles": 1563,
+    "textureSize": 2048,
+    "bytes": 3167316,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.9,
+      "y": 0.758,
+      "z": 1.286
+    },
+    "suggestedSize": "3.4 m wide; 1.8 m tall",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Arched_Stump_Roots_Lo.glb",
+    "lowSourceSha256": "46fc058c3875c5c20930eb86057f06f7349e239bce6a6e27f3227d2996794343",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Arched_Stump_Roots.glb"
+  },
+  "fo_shade_fern": {
+    "group": "Forest_world",
+    "file": "Forest_world/fo_shade_fern.glb",
+    "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/Forest_world/fo_shade_fern.glb",
+    "name": "Ravine Shade Fern",
+    "category": "plant",
+    "triangles": 928,
+    "textureSize": 1024,
+    "bytes": 947784,
+    "hasNormalMap": true,
+    "measuredSizeMeters": {
+      "x": 1.901,
+      "y": 0.965,
+      "z": 1.589
+    },
+    "suggestedSize": "0.9 m tall; 1.5 m wide",
+    "lowSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\Low Res\\Lush_Fern_Plant_Lowpo.glb",
+    "lowSourceSha256": "3ca0e9462bee927a6a82321c5edbf4593d247feb972753eff0a069fbd53b831b",
+    "highSource": "C:\\Projects\\3d\\Scenery\\Earth_forest\\High res\\Lush_Fern_Plant.glb"
+  }
+}
