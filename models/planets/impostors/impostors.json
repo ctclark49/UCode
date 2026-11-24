@@ -1,0 +1,1683 @@
+{
+  "version": 1,
+  "format": "hemi-octahedral-impostor-atlas",
+  "mapping": "hemi-octahedron-y-up",
+  "grid": [
+    8,
+    8
+  ],
+  "uvOrigin": "bottom-left",
+  "normalSpace": "object",
+  "normalEncoding": "n*0.5+0.5",
+  "albedoColorSpace": "sRGB",
+  "spherePadding": 1.03,
+  "hostedUrlPrefix": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/impostors/",
+  "atlases": {
+    "Desert_world": {
+      "group": "Desert_world",
+      "width": 1024,
+      "height": 1024,
+      "albedoFile": "Desert_world_albedo.png",
+      "normalFile": "Desert_world_normal.png",
+      "albedoBytes": 1260704,
+      "normalBytes": 1858914,
+      "estimatedGpuVramMB": 10.67,
+      "speciesIds": [
+        "de_dustysage_shrub",
+        "de_reservoir_tree",
+        "de_ribbed_storageplant",
+        "de_sandstone_stack",
+        "de_ventifact_boulder"
+      ]
+    },
+    "Earth_like_world": {
+      "group": "Earth_like_world",
+      "width": 1024,
+      "height": 1024,
+      "albedoFile": "Earth_like_world_albedo.png",
+      "normalFile": "Earth_like_world_normal.png",
+      "albedoBytes": 1035000,
+      "normalBytes": 1665948,
+      "estimatedGpuVramMB": 10.67,
+      "speciesIds": [
+        "ea_cupfern",
+        "ea_limestone_outcrop",
+        "ea_rainstone",
+        "ea_valley_shrub",
+        "ea_vaultwood"
+      ]
+    },
+    "Forest_world": {
+      "group": "Forest_world",
+      "width": 1024,
+      "height": 1024,
+      "albedoFile": "Forest_world_albedo.png",
+      "normalFile": "Forest_world_normal.png",
+      "albedoBytes": 1098963,
+      "normalBytes": 1653769,
+      "estimatedGpuVramMB": 10.67,
+      "speciesIds": [
+        "fo_buttress_tree",
+        "fo_forkwood_tree",
+        "fo_moss_boulder",
+        "fo_rootarch_stump",
+        "fo_shade_fern"
+      ]
+    },
+    "Frozen_coast_world": {
+      "group": "Frozen_coast_world",
+      "width": 1024,
+      "height": 1024,
+      "albedoFile": "Frozen_coast_world_albedo.png",
+      "normalFile": "Frozen_coast_world_normal.png",
+      "albedoBytes": 1111313,
+      "normalBytes": 1712150,
+      "estimatedGpuVramMB": 10.67,
+      "speciesIds": [
+        "fc_dwarfshrub",
+        "fc_frostfractured_coastal_rock",
+        "fc_iceveined_slate_boulder",
+        "fc_low_cushionplant",
+        "fc_windpruned_paddleleaf_tree"
+      ]
+    },
+    "Shared_Reusable_Assets": {
+      "group": "Shared_Reusable_Assets",
+      "width": 1024,
+      "height": 1024,
+      "albedoFile": "Shared_Reusable_Assets_albedo.png",
+      "normalFile": "Shared_Reusable_Assets_normal.png",
+      "albedoBytes": 1022828,
+      "normalBytes": 1946068,
+      "estimatedGpuVramMB": 10.67,
+      "speciesIds": [
+        "co_angular_silicate",
+        "co_basalt_block",
+        "co_broadleaf_cushion",
+        "co_broadleaf_shrub",
+        "co_buttress_roots",
+        "co_compact_fern",
+        "co_fallen_log",
+        "co_hollow_stump",
+        "co_rounded_limestone",
+        "co_sedimentary_arch",
+        "co_slate_outcrop",
+        "co_stratified_slab"
+      ]
+    }
+  },
+  "species": {
+    "co_angular_silicate": {
+      "id": "co_angular_silicate",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 512,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.5,
+        "u1": 0.75,
+        "v1": 0.75
+      },
+      "boundsMin": [
+        -0.6999,
+        0,
+        -0.5119
+      ],
+      "boundsMax": [
+        0.6999,
+        0.5907,
+        0.5119
+      ],
+      "sizeM": [
+        1.3999,
+        0.5907,
+        1.0239
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.2954,
+        0
+      ],
+      "sphereRadius": 0.8487,
+      "fitScale": 0.73723
+    },
+    "co_basalt_block": {
+      "id": "co_basalt_block",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 768,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.75,
+        "v0": 0.75,
+        "u1": 1,
+        "v1": 1
+      },
+      "boundsMin": [
+        -0.8449,
+        0,
+        -0.5942
+      ],
+      "boundsMax": [
+        0.8449,
+        0.5377,
+        0.5942
+      ],
+      "sizeM": [
+        1.6898,
+        0.5377,
+        1.1883
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.2688,
+        0
+      ],
+      "sphereRadius": 0.9593,
+      "fitScale": 0.889474
+    },
+    "co_broadleaf_cushion": {
+      "id": "co_broadleaf_cushion",
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 512,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0,
+        "u1": 0.75,
+        "v1": 0.25
+      },
+      "boundsMin": [
+        -0.3614,
+        0,
+        -0.2585
+      ],
+      "boundsMax": [
+        0.3614,
+        0.2499,
+        0.2585
+      ],
+      "sizeM": [
+        0.7227,
+        0.2499,
+        0.5169
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.125,
+        0
+      ],
+      "sphereRadius": 0.3905,
+      "fitScale": 0.382848
+    },
+    "co_broadleaf_shrub": {
+      "id": "co_broadleaf_shrub",
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 0,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0,
+        "u1": 0.25,
+        "v1": 0.25
+      },
+      "boundsMin": [
+        -0.5673,
+        0,
+        -0.2959
+      ],
+      "boundsMax": [
+        0.5673,
+        0.9003,
+        0.2959
+      ],
+      "sizeM": [
+        1.1345,
+        0.9003,
+        0.5919
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.4502,
+        0
+      ],
+      "sphereRadius": 0.601,
+      "fitScale": 0.640569
+    },
+    "co_buttress_roots": {
+      "id": "co_buttress_roots",
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 768,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.75,
+        "v0": 0.25,
+        "u1": 1,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.8999,
+        0,
+        -0.8636
+      ],
+      "boundsMax": [
+        0.8999,
+        0.4989,
+        0.8636
+      ],
+      "sizeM": [
+        1.7998,
+        0.4989,
+        1.7273
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.2495,
+        0
+      ],
+      "sphereRadius": 1.1705,
+      "fitScale": 0.949367
+    },
+    "co_compact_fern": {
+      "id": "co_compact_fern",
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 256,
+        "y": 768,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.25,
+        "v0": 0,
+        "u1": 0.5,
+        "v1": 0.25
+      },
+      "boundsMin": [
+        -0.3862,
+        0,
+        -0.2551
+      ],
+      "boundsMax": [
+        0.3862,
+        0.4501,
+        0.2551
+      ],
+      "sizeM": [
+        0.7723,
+        0.4501,
+        0.5102
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.2251,
+        0
+      ],
+      "sphereRadius": 0.4885,
+      "fitScale": 0.415129
+    },
+    "co_fallen_log": {
+      "id": "co_fallen_log",
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 256,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.25,
+        "v0": 0.25,
+        "u1": 0.5,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -1.5003,
+        0,
+        -0.2856
+      ],
+      "boundsMax": [
+        1.5003,
+        0.6401,
+        0.2856
+      ],
+      "sizeM": [
+        3.0006,
+        0.6401,
+        0.5711
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.3201,
+        0
+      ],
+      "sphereRadius": 1.5678,
+      "fitScale": 1.579779
+    },
+    "co_hollow_stump": {
+      "id": "co_hollow_stump",
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.25,
+        "u1": 0.75,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.7001,
+        0,
+        -0.6363
+      ],
+      "boundsMax": [
+        0.7001,
+        0.5176,
+        0.6363
+      ],
+      "sizeM": [
+        1.4001,
+        0.5176,
+        1.2726
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.2588,
+        0
+      ],
+      "sphereRadius": 0.8418,
+      "fitScale": 0.738007
+    },
+    "co_rounded_limestone": {
+      "id": "co_rounded_limestone",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 768,
+        "y": 256,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.75,
+        "v0": 0.5,
+        "u1": 1,
+        "v1": 0.75
+      },
+      "boundsMin": [
+        -0.7498,
+        0,
+        -0.5803
+      ],
+      "boundsMax": [
+        0.7498,
+        0.6611,
+        0.5803
+      ],
+      "sizeM": [
+        1.4997,
+        0.6611,
+        1.1606
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.3306,
+        0
+      ],
+      "sphereRadius": 0.8364,
+      "fitScale": 0.790306
+    },
+    "co_sedimentary_arch": {
+      "id": "co_sedimentary_arch",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0.5,
+        "u1": 0.5,
+        "v1": 1
+      },
+      "boundsMin": [
+        -1.5,
+        0,
+        -0.4858
+      ],
+      "boundsMax": [
+        1.5,
+        1.3039,
+        0.4858
+      ],
+      "sizeM": [
+        2.9999,
+        1.3039,
+        0.9716
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.652,
+        0
+      ],
+      "sphereRadius": 1.6849,
+      "fitScale": 1.578117
+    },
+    "co_slate_outcrop": {
+      "id": "co_slate_outcrop",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 512,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.75,
+        "u1": 0.75,
+        "v1": 1
+      },
+      "boundsMin": [
+        -1.2,
+        0,
+        -1.0447
+      ],
+      "boundsMax": [
+        1.2,
+        0.7145,
+        1.0447
+      ],
+      "sizeM": [
+        2.4,
+        0.7145,
+        2.0894
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.3572,
+        0
+      ],
+      "sphereRadius": 1.3296,
+      "fitScale": 1.265823
+    },
+    "co_stratified_slab": {
+      "id": "co_stratified_slab",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 0,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0.25,
+        "u1": 0.25,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.9997,
+        0,
+        -0.7842
+      ],
+      "boundsMax": [
+        0.9997,
+        0.2239,
+        0.7842
+      ],
+      "sizeM": [
+        1.9995,
+        0.2239,
+        1.5683
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.112,
+        0
+      ],
+      "sphereRadius": 1.2213,
+      "fitScale": 1.053186
+    },
+    "de_dustysage_shrub": {
+      "id": "de_dustysage_shrub",
+      "group": "Desert_world",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 768,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.75,
+        "v0": 0.25,
+        "u1": 1,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.5569,
+        0,
+        -0.2728
+      ],
+      "boundsMax": [
+        0.5569,
+        0.7001,
+        0.2728
+      ],
+      "sizeM": [
+        1.1138,
+        0.7001,
+        0.5456
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.35,
+        0
+      ],
+      "sphereRadius": 0.5971,
+      "fitScale": 0.594228
+    },
+    "de_reservoir_tree": {
+      "id": "de_reservoir_tree",
+      "group": "Desert_world",
+      "category": "tree",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0.5,
+        "u1": 0.5,
+        "v1": 1
+      },
+      "boundsMin": [
+        -2.1772,
+        0,
+        -1.5248
+      ],
+      "boundsMax": [
+        2.1772,
+        4.001,
+        1.5248
+      ],
+      "sizeM": [
+        4.3543,
+        4.001,
+        3.0497
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        2.0005,
+        0
+      ],
+      "sphereRadius": 2.6375,
+      "fitScale": 2.415459
+    },
+    "de_ribbed_storageplant": {
+      "id": "de_ribbed_storageplant",
+      "group": "Desert_world",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.25,
+        "u1": 0.75,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.4264,
+        0,
+        -0.4013
+      ],
+      "boundsMax": [
+        0.4264,
+        1.2003,
+        0.4013
+      ],
+      "sizeM": [
+        0.8528,
+        1.2003,
+        0.8027
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.6001,
+        0
+      ],
+      "sphereRadius": 0.6547,
+      "fitScale": 0.630915
+    },
+    "de_sandstone_stack": {
+      "id": "de_sandstone_stack",
+      "group": "Desert_world",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.5,
+        "u1": 1,
+        "v1": 1
+      },
+      "boundsMin": [
+        -1.0401,
+        0,
+        -0.9962
+      ],
+      "boundsMax": [
+        1.0401,
+        2.0783,
+        0.9962
+      ],
+      "sizeM": [
+        2.0802,
+        2.0783,
+        1.9925
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        1.0392,
+        0
+      ],
+      "sphereRadius": 1.5462,
+      "fitScale": 1.111705
+    },
+    "de_ventifact_boulder": {
+      "id": "de_ventifact_boulder",
+      "group": "Desert_world",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0,
+        "u1": 0.5,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -1.1717,
+        0,
+        -1.4172
+      ],
+      "boundsMax": [
+        1.1717,
+        1.5603,
+        1.4172
+      ],
+      "sizeM": [
+        2.3435,
+        1.5603,
+        2.8344
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.7801,
+        0
+      ],
+      "sphereRadius": 1.623,
+      "fitScale": 1.484301
+    },
+    "ea_cupfern": {
+      "id": "ea_cupfern",
+      "group": "Earth_like_world",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 768,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.75,
+        "v0": 0.25,
+        "u1": 1,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.6394,
+        0,
+        -0.61
+      ],
+      "boundsMax": [
+        0.6394,
+        0.7001,
+        0.61
+      ],
+      "sizeM": [
+        1.2788,
+        0.7001,
+        1.22
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.35,
+        0
+      ],
+      "sphereRadius": 0.7089,
+      "fitScale": 0.673725
+    },
+    "ea_limestone_outcrop": {
+      "id": "ea_limestone_outcrop",
+      "group": "Earth_like_world",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.5,
+        "u1": 1,
+        "v1": 1
+      },
+      "boundsMin": [
+        -1.4588,
+        0,
+        -1.1298
+      ],
+      "boundsMax": [
+        1.4588,
+        4.5007,
+        1.1298
+      ],
+      "sizeM": [
+        2.9176,
+        4.5007,
+        2.2596
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        2.2503,
+        0
+      ],
+      "sphereRadius": 2.7802,
+      "fitScale": 2.377179
+    },
+    "ea_rainstone": {
+      "id": "ea_rainstone",
+      "group": "Earth_like_world",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0,
+        "u1": 0.5,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -1.1999,
+        0,
+        -0.6365
+      ],
+      "boundsMax": [
+        1.1999,
+        0.8888,
+        0.6365
+      ],
+      "sizeM": [
+        2.3999,
+        0.8888,
+        1.273
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.4444,
+        0
+      ],
+      "sphereRadius": 1.2856,
+      "fitScale": 1.263823
+    },
+    "ea_valley_shrub": {
+      "id": "ea_valley_shrub",
+      "group": "Earth_like_world",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.25,
+        "u1": 0.75,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -1.0399,
+        0,
+        -0.3341
+      ],
+      "boundsMax": [
+        1.0399,
+        1.1211,
+        0.3341
+      ],
+      "sizeM": [
+        2.0797,
+        1.1211,
+        0.6681
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.5606,
+        0
+      ],
+      "sphereRadius": 1.0742,
+      "fitScale": 1.101695
+    },
+    "ea_vaultwood": {
+      "id": "ea_vaultwood",
+      "group": "Earth_like_world",
+      "category": "tree",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0.5,
+        "u1": 0.5,
+        "v1": 1
+      },
+      "boundsMin": [
+        -5.8154,
+        0,
+        -5.0554
+      ],
+      "boundsMax": [
+        5.8154,
+        7.9975,
+        5.0554
+      ],
+      "sizeM": [
+        11.6308,
+        7.9975,
+        10.1107
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        3.9988,
+        0
+      ],
+      "sphereRadius": 6.9917,
+      "fitScale": 6.504065
+    },
+    "fc_dwarfshrub": {
+      "id": "fc_dwarfshrub",
+      "group": "Frozen_coast_world",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.25,
+        "u1": 0.75,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.6018,
+        0,
+        -0.1767
+      ],
+      "boundsMax": [
+        0.6018,
+        0.7997,
+        0.1767
+      ],
+      "sizeM": [
+        1.2036,
+        0.7997,
+        0.3533
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.3999,
+        0
+      ],
+      "sphereRadius": 0.6374,
+      "fitScale": 0.639488
+    },
+    "fc_frostfractured_coastal_rock": {
+      "id": "fc_frostfractured_coastal_rock",
+      "group": "Frozen_coast_world",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.5,
+        "u1": 1,
+        "v1": 1
+      },
+      "boundsMin": [
+        -1.1702,
+        0,
+        -1.0027
+      ],
+      "boundsMax": [
+        1.1702,
+        1.3957,
+        1.0027
+      ],
+      "sizeM": [
+        2.3405,
+        1.3957,
+        2.0055
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.6978,
+        0
+      ],
+      "sphereRadius": 1.4642,
+      "fitScale": 1.230284
+    },
+    "fc_iceveined_slate_boulder": {
+      "id": "fc_iceveined_slate_boulder",
+      "group": "Frozen_coast_world",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0,
+        "u1": 0.5,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -1.3775,
+        0,
+        -1.4001
+      ],
+      "boundsMax": [
+        1.3775,
+        1.3485,
+        1.4001
+      ],
+      "sizeM": [
+        2.7549,
+        1.3485,
+        2.8003
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.6742,
+        0
+      ],
+      "sphereRadius": 1.5591,
+      "fitScale": 1.472135
+    },
+    "fc_low_cushionplant": {
+      "id": "fc_low_cushionplant",
+      "group": "Frozen_coast_world",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 768,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.75,
+        "v0": 0.25,
+        "u1": 1,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.3492,
+        0,
+        -0.2773
+      ],
+      "boundsMax": [
+        0.3492,
+        0.3502,
+        0.2773
+      ],
+      "sizeM": [
+        0.6985,
+        0.3502,
+        0.5546
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.1751,
+        0
+      ],
+      "sphereRadius": 0.3898,
+      "fitScale": 0.365344
+    },
+    "fc_windpruned_paddleleaf_tree": {
+      "id": "fc_windpruned_paddleleaf_tree",
+      "group": "Frozen_coast_world",
+      "category": "tree",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0.5,
+        "u1": 0.5,
+        "v1": 1
+      },
+      "boundsMin": [
+        -1.7848,
+        0,
+        -1.0688
+      ],
+      "boundsMax": [
+        1.7848,
+        3.0009,
+        1.0688
+      ],
+      "sizeM": [
+        3.5695,
+        3.0009,
+        2.1376
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        1.5005,
+        0
+      ],
+      "sphereRadius": 2.1404,
+      "fitScale": 1.893939
+    },
+    "fo_buttress_tree": {
+      "id": "fo_buttress_tree",
+      "group": "Forest_world",
+      "category": "tree",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0.5,
+        "u1": 0.5,
+        "v1": 1
+      },
+      "boundsMin": [
+        -7.1517,
+        0,
+        -4.7672
+      ],
+      "boundsMax": [
+        7.1517,
+        10.3857,
+        4.7672
+      ],
+      "sizeM": [
+        14.3034,
+        10.3857,
+        9.5343
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        5.1928,
+        0
+      ],
+      "sphereRadius": 8.2929,
+      "fitScale": 7.586207
+    },
+    "fo_forkwood_tree": {
+      "id": "fo_forkwood_tree",
+      "group": "Forest_world",
+      "category": "tree",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.5,
+        "u1": 1,
+        "v1": 1
+      },
+      "boundsMin": [
+        -3.1634,
+        0,
+        -2.0687
+      ],
+      "boundsMax": [
+        3.1634,
+        7.0017,
+        2.0687
+      ],
+      "sizeM": [
+        6.3267,
+        7.0017,
+        4.1374
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        3.5009,
+        0
+      ],
+      "sphereRadius": 4.3737,
+      "fitScale": 3.753351
+    },
+    "fo_moss_boulder": {
+      "id": "fo_moss_boulder",
+      "group": "Forest_world",
+      "category": "rock",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 64,
+      "pixelRect": {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      "uvRect": {
+        "u0": 0,
+        "v0": 0,
+        "u1": 0.5,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -1.0003,
+        0,
+        -0.9154
+      ],
+      "boundsMax": [
+        1.0003,
+        0.8321,
+        0.9154
+      ],
+      "sizeM": [
+        2.0005,
+        0.8321,
+        1.8308
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.4161,
+        0
+      ],
+      "sphereRadius": 1.1686,
+      "fitScale": 1.053741
+    },
+    "fo_rootarch_stump": {
+      "id": "fo_rootarch_stump",
+      "group": "Forest_world",
+      "category": "wood",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.5,
+        "v0": 0.25,
+        "u1": 0.75,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -1.6997,
+        0,
+        -1.1507
+      ],
+      "boundsMax": [
+        1.6997,
+        1.3573,
+        1.1507
+      ],
+      "sizeM": [
+        3.3995,
+        1.3573,
+        2.3013
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.6787,
+        0
+      ],
+      "sphereRadius": 1.9968,
+      "fitScale": 1.789474
+    },
+    "fo_shade_fern": {
+      "id": "fo_shade_fern",
+      "group": "Forest_world",
+      "category": "plant",
+      "grid": [
+        8,
+        8
+      ],
+      "cellPx": 32,
+      "pixelRect": {
+        "x": 768,
+        "y": 512,
+        "w": 256,
+        "h": 256
+      },
+      "uvRect": {
+        "u0": 0.75,
+        "v0": 0.25,
+        "u1": 1,
+        "v1": 0.5
+      },
+      "boundsMin": [
+        -0.8867,
+        0,
+        -0.741
+      ],
+      "boundsMax": [
+        0.8867,
+        0.9001,
+        0.741
+      ],
+      "sizeM": [
+        1.7733,
+        0.9001,
+        1.482
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "sphereCenter": [
+        0,
+        0.45,
+        0
+      ],
+      "sphereRadius": 1.1583,
+      "fitScale": 0.932642
+    }
+  },
+  "updatedAt": "2026-11-23T18:45:49.550Z",
+  "bakedSpeciesCount": 32,
+  "totalManifestCount": 32,
+  "missingIds": []
+}

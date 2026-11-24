@@ -1,0 +1,1517 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-23T23:25:48.612Z",
+  "sourceManifestCount": 32,
+  "processedCount": 32,
+  "missingIds": [],
+  "lodRoot": "C:\\tmp\\er-assets\\planets\\lod",
+  "hostedUrlPrefix": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/",
+  "assets": {
+    "co_angular_silicate": {
+      "id": "co_angular_silicate",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_angular_silicate.glb",
+        "triangles": 1046,
+        "bytes": 747780,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_angular_silicate_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_angular_silicate_lod1.glb",
+        "triangles": 314,
+        "bytes": 706116,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_angular_silicate_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_angular_silicate_lod2.glb",
+        "triangles": 84,
+        "bytes": 199064,
+        "textureSize": 512
+      }
+    },
+    "co_basalt_block": {
+      "id": "co_basalt_block",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_basalt_block.glb",
+        "triangles": 1042,
+        "bytes": 747916,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_basalt_block_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_basalt_block_lod1.glb",
+        "triangles": 312,
+        "bytes": 700072,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_basalt_block_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_basalt_block_lod2.glb",
+        "triangles": 82,
+        "bytes": 200968,
+        "textureSize": 512
+      }
+    },
+    "co_broadleaf_cushion": {
+      "id": "co_broadleaf_cushion",
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_broadleaf_cushion.glb",
+        "triangles": 1041,
+        "bytes": 885056,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_broadleaf_cushion_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_broadleaf_cushion_lod1.glb",
+        "triangles": 311,
+        "bytes": 829264,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_broadleaf_cushion_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_broadleaf_cushion_lod2.glb",
+        "triangles": 83,
+        "bytes": 258276,
+        "textureSize": 512
+      }
+    },
+    "co_broadleaf_shrub": {
+      "id": "co_broadleaf_shrub",
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_broadleaf_shrub.glb",
+        "triangles": 3600,
+        "bytes": 735372,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_broadleaf_shrub_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_broadleaf_shrub_lod1.glb",
+        "triangles": 1080,
+        "bytes": 548788,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_broadleaf_shrub_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_broadleaf_shrub_lod2.glb",
+        "triangles": 287,
+        "bytes": 140532,
+        "textureSize": 512
+      }
+    },
+    "co_buttress_roots": {
+      "id": "co_buttress_roots",
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_buttress_roots.glb",
+        "triangles": 1563,
+        "bytes": 2925948,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_buttress_roots_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_buttress_roots_lod1.glb",
+        "triangles": 468,
+        "bytes": 869204,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_buttress_roots_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_buttress_roots_lod2.glb",
+        "triangles": 124,
+        "bytes": 253440,
+        "textureSize": 512
+      }
+    },
+    "co_compact_fern": {
+      "id": "co_compact_fern",
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_compact_fern.glb",
+        "triangles": 915,
+        "bytes": 921888,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_compact_fern_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_compact_fern_lod1.glb",
+        "triangles": 273,
+        "bytes": 853532,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_compact_fern_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_compact_fern_lod2.glb",
+        "triangles": 73,
+        "bytes": 272464,
+        "textureSize": 512
+      }
+    },
+    "co_fallen_log": {
+      "id": "co_fallen_log",
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_fallen_log.glb",
+        "triangles": 1251,
+        "bytes": 3073692,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_fallen_log_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_fallen_log_lod1.glb",
+        "triangles": 374,
+        "bytes": 945472,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_fallen_log_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_fallen_log_lod2.glb",
+        "triangles": 100,
+        "bytes": 278516,
+        "textureSize": 512
+      }
+    },
+    "co_hollow_stump": {
+      "id": "co_hollow_stump",
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_hollow_stump.glb",
+        "triangles": 1555,
+        "bytes": 3075972,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_hollow_stump_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_hollow_stump_lod1.glb",
+        "triangles": 467,
+        "bytes": 910824,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_hollow_stump_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_hollow_stump_lod2.glb",
+        "triangles": 123,
+        "bytes": 265428,
+        "textureSize": 512
+      }
+    },
+    "co_rounded_limestone": {
+      "id": "co_rounded_limestone",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_rounded_limestone.glb",
+        "triangles": 1035,
+        "bytes": 740780,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_rounded_limestone_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_rounded_limestone_lod1.glb",
+        "triangles": 310,
+        "bytes": 699180,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_rounded_limestone_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_rounded_limestone_lod2.glb",
+        "triangles": 108,
+        "bytes": 201060,
+        "textureSize": 512
+      }
+    },
+    "co_sedimentary_arch": {
+      "id": "co_sedimentary_arch",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_sedimentary_arch.glb",
+        "triangles": 1567,
+        "bytes": 2678696,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_sedimentary_arch_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_sedimentary_arch_lod1.glb",
+        "triangles": 470,
+        "bytes": 807600,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_sedimentary_arch_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_sedimentary_arch_lod2.glb",
+        "triangles": 124,
+        "bytes": 243792,
+        "textureSize": 512
+      }
+    },
+    "co_slate_outcrop": {
+      "id": "co_slate_outcrop",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_slate_outcrop.glb",
+        "triangles": 1038,
+        "bytes": 2497576,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_slate_outcrop_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_slate_outcrop_lod1.glb",
+        "triangles": 310,
+        "bytes": 720620,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_slate_outcrop_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_slate_outcrop_lod2.glb",
+        "triangles": 82,
+        "bytes": 213492,
+        "textureSize": 512
+      }
+    },
+    "co_stratified_slab": {
+      "id": "co_stratified_slab",
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "lod0": {
+        "file": "Shared_Reusable_Assets/co_stratified_slab.glb",
+        "triangles": 1015,
+        "bytes": 2853244,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Shared_Reusable_Assets/co_stratified_slab_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_stratified_slab_lod1.glb",
+        "triangles": 304,
+        "bytes": 807060,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Shared_Reusable_Assets/co_stratified_slab_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_stratified_slab_lod2.glb",
+        "triangles": 80,
+        "bytes": 223088,
+        "textureSize": 512
+      }
+    },
+    "de_dustysage_shrub": {
+      "id": "de_dustysage_shrub",
+      "group": "Desert_world",
+      "category": "plant",
+      "lod0": {
+        "file": "Desert_world/de_dustysage_shrub.glb",
+        "triangles": 3400,
+        "bytes": 836752,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Desert_world/de_dustysage_shrub_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_dustysage_shrub_lod1.glb",
+        "triangles": 1020,
+        "bytes": 643608,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Desert_world/de_dustysage_shrub_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_dustysage_shrub_lod2.glb",
+        "triangles": 271,
+        "bytes": 149504,
+        "textureSize": 512
+      }
+    },
+    "de_reservoir_tree": {
+      "id": "de_reservoir_tree",
+      "group": "Desert_world",
+      "category": "tree",
+      "lod0": {
+        "file": "Desert_world/de_reservoir_tree.glb",
+        "triangles": 5594,
+        "bytes": 988692,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Desert_world/de_reservoir_tree_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_reservoir_tree_lod1.glb",
+        "triangles": 1674,
+        "bytes": 615204,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Desert_world/de_reservoir_tree_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_reservoir_tree_lod2.glb",
+        "triangles": 776,
+        "bytes": 166724,
+        "textureSize": 512
+      }
+    },
+    "de_ribbed_storageplant": {
+      "id": "de_ribbed_storageplant",
+      "group": "Desert_world",
+      "category": "plant",
+      "lod0": {
+        "file": "Desert_world/de_ribbed_storageplant.glb",
+        "triangles": 3200,
+        "bytes": 667864,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Desert_world/de_ribbed_storageplant_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_ribbed_storageplant_lod1.glb",
+        "triangles": 959,
+        "bytes": 545384,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Desert_world/de_ribbed_storageplant_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_ribbed_storageplant_lod2.glb",
+        "triangles": 255,
+        "bytes": 121612,
+        "textureSize": 512
+      }
+    },
+    "de_sandstone_stack": {
+      "id": "de_sandstone_stack",
+      "group": "Desert_world",
+      "category": "rock",
+      "lod0": {
+        "file": "Desert_world/de_sandstone_stack.glb",
+        "triangles": 2000,
+        "bytes": 685332,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Desert_world/de_sandstone_stack_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_sandstone_stack_lod1.glb",
+        "triangles": 600,
+        "bytes": 601144,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Desert_world/de_sandstone_stack_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_sandstone_stack_lod2.glb",
+        "triangles": 160,
+        "bytes": 131980,
+        "textureSize": 512
+      }
+    },
+    "de_ventifact_boulder": {
+      "id": "de_ventifact_boulder",
+      "group": "Desert_world",
+      "category": "rock",
+      "lod0": {
+        "file": "Desert_world/de_ventifact_boulder.glb",
+        "triangles": 1800,
+        "bytes": 531596,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Desert_world/de_ventifact_boulder_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_ventifact_boulder_lod1.glb",
+        "triangles": 540,
+        "bytes": 469388,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Desert_world/de_ventifact_boulder_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_ventifact_boulder_lod2.glb",
+        "triangles": 144,
+        "bytes": 98344,
+        "textureSize": 512
+      }
+    },
+    "ea_cupfern": {
+      "id": "ea_cupfern",
+      "group": "Earth_like_world",
+      "category": "plant",
+      "lod0": {
+        "file": "Earth_like_world/ea_cupfern.glb",
+        "triangles": 988,
+        "bytes": 849356,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Earth_like_world/ea_cupfern_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_cupfern_lod1.glb",
+        "triangles": 294,
+        "bytes": 791888,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Earth_like_world/ea_cupfern_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_cupfern_lod2.glb",
+        "triangles": 78,
+        "bytes": 244024,
+        "textureSize": 512
+      }
+    },
+    "ea_limestone_outcrop": {
+      "id": "ea_limestone_outcrop",
+      "group": "Earth_like_world",
+      "category": "rock",
+      "lod0": {
+        "file": "Earth_like_world/ea_limestone_outcrop.glb",
+        "triangles": 1559,
+        "bytes": 3025436,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Earth_like_world/ea_limestone_outcrop_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_limestone_outcrop_lod1.glb",
+        "triangles": 467,
+        "bytes": 883328,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Earth_like_world/ea_limestone_outcrop_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_limestone_outcrop_lod2.glb",
+        "triangles": 124,
+        "bytes": 262620,
+        "textureSize": 512
+      }
+    },
+    "ea_rainstone": {
+      "id": "ea_rainstone",
+      "group": "Earth_like_world",
+      "category": "rock",
+      "lod0": {
+        "file": "Earth_like_world/ea_rainstone.glb",
+        "triangles": 1042,
+        "bytes": 3142932,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Earth_like_world/ea_rainstone_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_rainstone_lod1.glb",
+        "triangles": 312,
+        "bytes": 887012,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Earth_like_world/ea_rainstone_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_rainstone_lod2.glb",
+        "triangles": 82,
+        "bytes": 256700,
+        "textureSize": 512
+      }
+    },
+    "ea_valley_shrub": {
+      "id": "ea_valley_shrub",
+      "group": "Earth_like_world",
+      "category": "plant",
+      "lod0": {
+        "file": "Earth_like_world/ea_valley_shrub.glb",
+        "triangles": 2471,
+        "bytes": 1292976,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Earth_like_world/ea_valley_shrub_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_valley_shrub_lod1.glb",
+        "triangles": 740,
+        "bytes": 1114260,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Earth_like_world/ea_valley_shrub_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_valley_shrub_lod2.glb",
+        "triangles": 197,
+        "bytes": 317028,
+        "textureSize": 512
+      }
+    },
+    "ea_vaultwood": {
+      "id": "ea_vaultwood",
+      "group": "Earth_like_world",
+      "category": "tree",
+      "lod0": {
+        "file": "Earth_like_world/ea_vaultwood.glb",
+        "triangles": 1756,
+        "bytes": 3263192,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Earth_like_world/ea_vaultwood_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_vaultwood_lod1.glb",
+        "triangles": 527,
+        "bytes": 996416,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Earth_like_world/ea_vaultwood_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_vaultwood_lod2.glb",
+        "triangles": 245,
+        "bytes": 293332,
+        "textureSize": 512
+      }
+    },
+    "fc_dwarfshrub": {
+      "id": "fc_dwarfshrub",
+      "group": "Frozen_coast_world",
+      "category": "plant",
+      "lod0": {
+        "file": "Frozen_coast_world/fc_dwarfshrub.glb",
+        "triangles": 4800,
+        "bytes": 1020372,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Frozen_coast_world/fc_dwarfshrub_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_dwarfshrub_lod1.glb",
+        "triangles": 1440,
+        "bytes": 727504,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Frozen_coast_world/fc_dwarfshrub_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_dwarfshrub_lod2.glb",
+        "triangles": 382,
+        "bytes": 169148,
+        "textureSize": 512
+      }
+    },
+    "fc_frostfractured_coastal_rock": {
+      "id": "fc_frostfractured_coastal_rock",
+      "group": "Frozen_coast_world",
+      "category": "rock",
+      "lod0": {
+        "file": "Frozen_coast_world/fc_frostfractured_coastal_rock.glb",
+        "triangles": 1800,
+        "bytes": 649688,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Frozen_coast_world/fc_frostfractured_coastal_rock_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_frostfractured_coastal_rock_lod1.glb",
+        "triangles": 540,
+        "bytes": 563616,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Frozen_coast_world/fc_frostfractured_coastal_rock_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_frostfractured_coastal_rock_lod2.glb",
+        "triangles": 143,
+        "bytes": 122692,
+        "textureSize": 512
+      }
+    },
+    "fc_iceveined_slate_boulder": {
+      "id": "fc_iceveined_slate_boulder",
+      "group": "Frozen_coast_world",
+      "category": "rock",
+      "lod0": {
+        "file": "Frozen_coast_world/fc_iceveined_slate_boulder.glb",
+        "triangles": 1800,
+        "bytes": 747424,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Frozen_coast_world/fc_iceveined_slate_boulder_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_iceveined_slate_boulder_lod1.glb",
+        "triangles": 540,
+        "bytes": 681460,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Frozen_coast_world/fc_iceveined_slate_boulder_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_iceveined_slate_boulder_lod2.glb",
+        "triangles": 144,
+        "bytes": 142628,
+        "textureSize": 512
+      }
+    },
+    "fc_low_cushionplant": {
+      "id": "fc_low_cushionplant",
+      "group": "Frozen_coast_world",
+      "category": "plant",
+      "lod0": {
+        "file": "Frozen_coast_world/fc_low_cushionplant.glb",
+        "triangles": 3000,
+        "bytes": 731488,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Frozen_coast_world/fc_low_cushionplant_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_low_cushionplant_lod1.glb",
+        "triangles": 900,
+        "bytes": 599424,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Frozen_coast_world/fc_low_cushionplant_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_low_cushionplant_lod2.glb",
+        "triangles": 240,
+        "bytes": 142168,
+        "textureSize": 512
+      }
+    },
+    "fc_windpruned_paddleleaf_tree": {
+      "id": "fc_windpruned_paddleleaf_tree",
+      "group": "Frozen_coast_world",
+      "category": "tree",
+      "lod0": {
+        "file": "Frozen_coast_world/fc_windpruned_paddleleaf_tree.glb",
+        "triangles": 5800,
+        "bytes": 1125632,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Frozen_coast_world/fc_windpruned_paddleleaf_tree_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_windpruned_paddleleaf_tree_lod1.glb",
+        "triangles": 1739,
+        "bytes": 765864,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Frozen_coast_world/fc_windpruned_paddleleaf_tree_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_windpruned_paddleleaf_tree_lod2.glb",
+        "triangles": 811,
+        "bytes": 224160,
+        "textureSize": 512
+      }
+    },
+    "fo_buttress_tree": {
+      "id": "fo_buttress_tree",
+      "group": "Forest_world",
+      "category": "tree",
+      "lod0": {
+        "file": "Forest_world/fo_buttress_tree.glb",
+        "triangles": 2308,
+        "bytes": 3884556,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Forest_world/fo_buttress_tree_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_buttress_tree_lod1.glb",
+        "triangles": 690,
+        "bytes": 1176424,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Forest_world/fo_buttress_tree_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_buttress_tree_lod2.glb",
+        "triangles": 322,
+        "bytes": 337664,
+        "textureSize": 512
+      }
+    },
+    "fo_forkwood_tree": {
+      "id": "fo_forkwood_tree",
+      "group": "Forest_world",
+      "category": "tree",
+      "lod0": {
+        "file": "Forest_world/fo_forkwood_tree.glb",
+        "triangles": 1531,
+        "bytes": 3834604,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Forest_world/fo_forkwood_tree_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_forkwood_tree_lod1.glb",
+        "triangles": 459,
+        "bytes": 1167276,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Forest_world/fo_forkwood_tree_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_forkwood_tree_lod2.glb",
+        "triangles": 211,
+        "bytes": 334628,
+        "textureSize": 512
+      }
+    },
+    "fo_moss_boulder": {
+      "id": "fo_moss_boulder",
+      "group": "Forest_world",
+      "category": "rock",
+      "lod0": {
+        "file": "Forest_world/fo_moss_boulder.glb",
+        "triangles": 1020,
+        "bytes": 2944608,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Forest_world/fo_moss_boulder_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_moss_boulder_lod1.glb",
+        "triangles": 306,
+        "bytes": 848984,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Forest_world/fo_moss_boulder_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_moss_boulder_lod2.glb",
+        "triangles": 108,
+        "bytes": 247604,
+        "textureSize": 512
+      }
+    },
+    "fo_rootarch_stump": {
+      "id": "fo_rootarch_stump",
+      "group": "Forest_world",
+      "category": "wood",
+      "lod0": {
+        "file": "Forest_world/fo_rootarch_stump.glb",
+        "triangles": 1563,
+        "bytes": 3167316,
+        "textureSize": 2048
+      },
+      "lod1": {
+        "file": "lod/Forest_world/fo_rootarch_stump_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_rootarch_stump_lod1.glb",
+        "triangles": 468,
+        "bytes": 949760,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Forest_world/fo_rootarch_stump_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_rootarch_stump_lod2.glb",
+        "triangles": 124,
+        "bytes": 276888,
+        "textureSize": 512
+      }
+    },
+    "fo_shade_fern": {
+      "id": "fo_shade_fern",
+      "group": "Forest_world",
+      "category": "plant",
+      "lod0": {
+        "file": "Forest_world/fo_shade_fern.glb",
+        "triangles": 928,
+        "bytes": 947784,
+        "textureSize": 1024
+      },
+      "lod1": {
+        "file": "lod/Forest_world/fo_shade_fern_lod1.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_shade_fern_lod1.glb",
+        "triangles": 278,
+        "bytes": 882296,
+        "textureSize": 1024
+      },
+      "lod2": {
+        "file": "lod/Forest_world/fo_shade_fern_lod2.glb",
+        "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_shade_fern_lod2.glb",
+        "triangles": 73,
+        "bytes": 273776,
+        "textureSize": 512
+      }
+    }
+  },
+  "entries": [
+    {
+      "id": "co_angular_silicate",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_angular_silicate_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_angular_silicate_lod1.glb",
+      "triangles": 314,
+      "bytes": 706116,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_angular_silicate",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_angular_silicate_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_angular_silicate_lod2.glb",
+      "triangles": 84,
+      "bytes": 199064,
+      "textureSize": 512
+    },
+    {
+      "id": "co_basalt_block",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_basalt_block_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_basalt_block_lod1.glb",
+      "triangles": 312,
+      "bytes": 700072,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_basalt_block",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_basalt_block_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_basalt_block_lod2.glb",
+      "triangles": 82,
+      "bytes": 200968,
+      "textureSize": 512
+    },
+    {
+      "id": "co_broadleaf_cushion",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "file": "lod/Shared_Reusable_Assets/co_broadleaf_cushion_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_broadleaf_cushion_lod1.glb",
+      "triangles": 311,
+      "bytes": 829264,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_broadleaf_cushion",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "file": "lod/Shared_Reusable_Assets/co_broadleaf_cushion_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_broadleaf_cushion_lod2.glb",
+      "triangles": 83,
+      "bytes": 258276,
+      "textureSize": 512
+    },
+    {
+      "id": "co_broadleaf_shrub",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "file": "lod/Shared_Reusable_Assets/co_broadleaf_shrub_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_broadleaf_shrub_lod1.glb",
+      "triangles": 1080,
+      "bytes": 548788,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_broadleaf_shrub",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "file": "lod/Shared_Reusable_Assets/co_broadleaf_shrub_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_broadleaf_shrub_lod2.glb",
+      "triangles": 287,
+      "bytes": 140532,
+      "textureSize": 512
+    },
+    {
+      "id": "co_buttress_roots",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "file": "lod/Shared_Reusable_Assets/co_buttress_roots_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_buttress_roots_lod1.glb",
+      "triangles": 468,
+      "bytes": 869204,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_buttress_roots",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "file": "lod/Shared_Reusable_Assets/co_buttress_roots_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_buttress_roots_lod2.glb",
+      "triangles": 124,
+      "bytes": 253440,
+      "textureSize": 512
+    },
+    {
+      "id": "co_compact_fern",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "file": "lod/Shared_Reusable_Assets/co_compact_fern_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_compact_fern_lod1.glb",
+      "triangles": 273,
+      "bytes": 853532,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_compact_fern",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "plant",
+      "file": "lod/Shared_Reusable_Assets/co_compact_fern_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_compact_fern_lod2.glb",
+      "triangles": 73,
+      "bytes": 272464,
+      "textureSize": 512
+    },
+    {
+      "id": "co_fallen_log",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "file": "lod/Shared_Reusable_Assets/co_fallen_log_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_fallen_log_lod1.glb",
+      "triangles": 374,
+      "bytes": 945472,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_fallen_log",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "file": "lod/Shared_Reusable_Assets/co_fallen_log_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_fallen_log_lod2.glb",
+      "triangles": 100,
+      "bytes": 278516,
+      "textureSize": 512
+    },
+    {
+      "id": "co_hollow_stump",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "file": "lod/Shared_Reusable_Assets/co_hollow_stump_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_hollow_stump_lod1.glb",
+      "triangles": 467,
+      "bytes": 910824,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_hollow_stump",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "wood",
+      "file": "lod/Shared_Reusable_Assets/co_hollow_stump_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_hollow_stump_lod2.glb",
+      "triangles": 123,
+      "bytes": 265428,
+      "textureSize": 512
+    },
+    {
+      "id": "co_rounded_limestone",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_rounded_limestone_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_rounded_limestone_lod1.glb",
+      "triangles": 310,
+      "bytes": 699180,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_rounded_limestone",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_rounded_limestone_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_rounded_limestone_lod2.glb",
+      "triangles": 108,
+      "bytes": 201060,
+      "textureSize": 512
+    },
+    {
+      "id": "co_sedimentary_arch",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_sedimentary_arch_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_sedimentary_arch_lod1.glb",
+      "triangles": 470,
+      "bytes": 807600,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_sedimentary_arch",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_sedimentary_arch_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_sedimentary_arch_lod2.glb",
+      "triangles": 124,
+      "bytes": 243792,
+      "textureSize": 512
+    },
+    {
+      "id": "co_slate_outcrop",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_slate_outcrop_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_slate_outcrop_lod1.glb",
+      "triangles": 310,
+      "bytes": 720620,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_slate_outcrop",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_slate_outcrop_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_slate_outcrop_lod2.glb",
+      "triangles": 82,
+      "bytes": 213492,
+      "textureSize": 512
+    },
+    {
+      "id": "co_stratified_slab",
+      "lod": 1,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_stratified_slab_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_stratified_slab_lod1.glb",
+      "triangles": 304,
+      "bytes": 807060,
+      "textureSize": 1024
+    },
+    {
+      "id": "co_stratified_slab",
+      "lod": 2,
+      "group": "Shared_Reusable_Assets",
+      "category": "rock",
+      "file": "lod/Shared_Reusable_Assets/co_stratified_slab_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Shared_Reusable_Assets/co_stratified_slab_lod2.glb",
+      "triangles": 80,
+      "bytes": 223088,
+      "textureSize": 512
+    },
+    {
+      "id": "de_dustysage_shrub",
+      "lod": 1,
+      "group": "Desert_world",
+      "category": "plant",
+      "file": "lod/Desert_world/de_dustysage_shrub_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_dustysage_shrub_lod1.glb",
+      "triangles": 1020,
+      "bytes": 643608,
+      "textureSize": 1024
+    },
+    {
+      "id": "de_dustysage_shrub",
+      "lod": 2,
+      "group": "Desert_world",
+      "category": "plant",
+      "file": "lod/Desert_world/de_dustysage_shrub_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_dustysage_shrub_lod2.glb",
+      "triangles": 271,
+      "bytes": 149504,
+      "textureSize": 512
+    },
+    {
+      "id": "de_reservoir_tree",
+      "lod": 1,
+      "group": "Desert_world",
+      "category": "tree",
+      "file": "lod/Desert_world/de_reservoir_tree_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_reservoir_tree_lod1.glb",
+      "triangles": 1674,
+      "bytes": 615204,
+      "textureSize": 1024
+    },
+    {
+      "id": "de_reservoir_tree",
+      "lod": 2,
+      "group": "Desert_world",
+      "category": "tree",
+      "file": "lod/Desert_world/de_reservoir_tree_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_reservoir_tree_lod2.glb",
+      "triangles": 776,
+      "bytes": 166724,
+      "textureSize": 512
+    },
+    {
+      "id": "de_ribbed_storageplant",
+      "lod": 1,
+      "group": "Desert_world",
+      "category": "plant",
+      "file": "lod/Desert_world/de_ribbed_storageplant_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_ribbed_storageplant_lod1.glb",
+      "triangles": 959,
+      "bytes": 545384,
+      "textureSize": 1024
+    },
+    {
+      "id": "de_ribbed_storageplant",
+      "lod": 2,
+      "group": "Desert_world",
+      "category": "plant",
+      "file": "lod/Desert_world/de_ribbed_storageplant_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_ribbed_storageplant_lod2.glb",
+      "triangles": 255,
+      "bytes": 121612,
+      "textureSize": 512
+    },
+    {
+      "id": "de_sandstone_stack",
+      "lod": 1,
+      "group": "Desert_world",
+      "category": "rock",
+      "file": "lod/Desert_world/de_sandstone_stack_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_sandstone_stack_lod1.glb",
+      "triangles": 600,
+      "bytes": 601144,
+      "textureSize": 1024
+    },
+    {
+      "id": "de_sandstone_stack",
+      "lod": 2,
+      "group": "Desert_world",
+      "category": "rock",
+      "file": "lod/Desert_world/de_sandstone_stack_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_sandstone_stack_lod2.glb",
+      "triangles": 160,
+      "bytes": 131980,
+      "textureSize": 512
+    },
+    {
+      "id": "de_ventifact_boulder",
+      "lod": 1,
+      "group": "Desert_world",
+      "category": "rock",
+      "file": "lod/Desert_world/de_ventifact_boulder_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_ventifact_boulder_lod1.glb",
+      "triangles": 540,
+      "bytes": 469388,
+      "textureSize": 1024
+    },
+    {
+      "id": "de_ventifact_boulder",
+      "lod": 2,
+      "group": "Desert_world",
+      "category": "rock",
+      "file": "lod/Desert_world/de_ventifact_boulder_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Desert_world/de_ventifact_boulder_lod2.glb",
+      "triangles": 144,
+      "bytes": 98344,
+      "textureSize": 512
+    },
+    {
+      "id": "ea_cupfern",
+      "lod": 1,
+      "group": "Earth_like_world",
+      "category": "plant",
+      "file": "lod/Earth_like_world/ea_cupfern_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_cupfern_lod1.glb",
+      "triangles": 294,
+      "bytes": 791888,
+      "textureSize": 1024
+    },
+    {
+      "id": "ea_cupfern",
+      "lod": 2,
+      "group": "Earth_like_world",
+      "category": "plant",
+      "file": "lod/Earth_like_world/ea_cupfern_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_cupfern_lod2.glb",
+      "triangles": 78,
+      "bytes": 244024,
+      "textureSize": 512
+    },
+    {
+      "id": "ea_limestone_outcrop",
+      "lod": 1,
+      "group": "Earth_like_world",
+      "category": "rock",
+      "file": "lod/Earth_like_world/ea_limestone_outcrop_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_limestone_outcrop_lod1.glb",
+      "triangles": 467,
+      "bytes": 883328,
+      "textureSize": 1024
+    },
+    {
+      "id": "ea_limestone_outcrop",
+      "lod": 2,
+      "group": "Earth_like_world",
+      "category": "rock",
+      "file": "lod/Earth_like_world/ea_limestone_outcrop_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_limestone_outcrop_lod2.glb",
+      "triangles": 124,
+      "bytes": 262620,
+      "textureSize": 512
+    },
+    {
+      "id": "ea_rainstone",
+      "lod": 1,
+      "group": "Earth_like_world",
+      "category": "rock",
+      "file": "lod/Earth_like_world/ea_rainstone_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_rainstone_lod1.glb",
+      "triangles": 312,
+      "bytes": 887012,
+      "textureSize": 1024
+    },
+    {
+      "id": "ea_rainstone",
+      "lod": 2,
+      "group": "Earth_like_world",
+      "category": "rock",
+      "file": "lod/Earth_like_world/ea_rainstone_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_rainstone_lod2.glb",
+      "triangles": 82,
+      "bytes": 256700,
+      "textureSize": 512
+    },
+    {
+      "id": "ea_valley_shrub",
+      "lod": 1,
+      "group": "Earth_like_world",
+      "category": "plant",
+      "file": "lod/Earth_like_world/ea_valley_shrub_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_valley_shrub_lod1.glb",
+      "triangles": 740,
+      "bytes": 1114260,
+      "textureSize": 1024
+    },
+    {
+      "id": "ea_valley_shrub",
+      "lod": 2,
+      "group": "Earth_like_world",
+      "category": "plant",
+      "file": "lod/Earth_like_world/ea_valley_shrub_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_valley_shrub_lod2.glb",
+      "triangles": 197,
+      "bytes": 317028,
+      "textureSize": 512
+    },
+    {
+      "id": "ea_vaultwood",
+      "lod": 1,
+      "group": "Earth_like_world",
+      "category": "tree",
+      "file": "lod/Earth_like_world/ea_vaultwood_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_vaultwood_lod1.glb",
+      "triangles": 527,
+      "bytes": 996416,
+      "textureSize": 1024
+    },
+    {
+      "id": "ea_vaultwood",
+      "lod": 2,
+      "group": "Earth_like_world",
+      "category": "tree",
+      "file": "lod/Earth_like_world/ea_vaultwood_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Earth_like_world/ea_vaultwood_lod2.glb",
+      "triangles": 245,
+      "bytes": 293332,
+      "textureSize": 512
+    },
+    {
+      "id": "fc_dwarfshrub",
+      "lod": 1,
+      "group": "Frozen_coast_world",
+      "category": "plant",
+      "file": "lod/Frozen_coast_world/fc_dwarfshrub_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_dwarfshrub_lod1.glb",
+      "triangles": 1440,
+      "bytes": 727504,
+      "textureSize": 1024
+    },
+    {
+      "id": "fc_dwarfshrub",
+      "lod": 2,
+      "group": "Frozen_coast_world",
+      "category": "plant",
+      "file": "lod/Frozen_coast_world/fc_dwarfshrub_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_dwarfshrub_lod2.glb",
+      "triangles": 382,
+      "bytes": 169148,
+      "textureSize": 512
+    },
+    {
+      "id": "fc_frostfractured_coastal_rock",
+      "lod": 1,
+      "group": "Frozen_coast_world",
+      "category": "rock",
+      "file": "lod/Frozen_coast_world/fc_frostfractured_coastal_rock_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_frostfractured_coastal_rock_lod1.glb",
+      "triangles": 540,
+      "bytes": 563616,
+      "textureSize": 1024
+    },
+    {
+      "id": "fc_frostfractured_coastal_rock",
+      "lod": 2,
+      "group": "Frozen_coast_world",
+      "category": "rock",
+      "file": "lod/Frozen_coast_world/fc_frostfractured_coastal_rock_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_frostfractured_coastal_rock_lod2.glb",
+      "triangles": 143,
+      "bytes": 122692,
+      "textureSize": 512
+    },
+    {
+      "id": "fc_iceveined_slate_boulder",
+      "lod": 1,
+      "group": "Frozen_coast_world",
+      "category": "rock",
+      "file": "lod/Frozen_coast_world/fc_iceveined_slate_boulder_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_iceveined_slate_boulder_lod1.glb",
+      "triangles": 540,
+      "bytes": 681460,
+      "textureSize": 1024
+    },
+    {
+      "id": "fc_iceveined_slate_boulder",
+      "lod": 2,
+      "group": "Frozen_coast_world",
+      "category": "rock",
+      "file": "lod/Frozen_coast_world/fc_iceveined_slate_boulder_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_iceveined_slate_boulder_lod2.glb",
+      "triangles": 144,
+      "bytes": 142628,
+      "textureSize": 512
+    },
+    {
+      "id": "fc_low_cushionplant",
+      "lod": 1,
+      "group": "Frozen_coast_world",
+      "category": "plant",
+      "file": "lod/Frozen_coast_world/fc_low_cushionplant_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_low_cushionplant_lod1.glb",
+      "triangles": 900,
+      "bytes": 599424,
+      "textureSize": 1024
+    },
+    {
+      "id": "fc_low_cushionplant",
+      "lod": 2,
+      "group": "Frozen_coast_world",
+      "category": "plant",
+      "file": "lod/Frozen_coast_world/fc_low_cushionplant_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_low_cushionplant_lod2.glb",
+      "triangles": 240,
+      "bytes": 142168,
+      "textureSize": 512
+    },
+    {
+      "id": "fc_windpruned_paddleleaf_tree",
+      "lod": 1,
+      "group": "Frozen_coast_world",
+      "category": "tree",
+      "file": "lod/Frozen_coast_world/fc_windpruned_paddleleaf_tree_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_windpruned_paddleleaf_tree_lod1.glb",
+      "triangles": 1739,
+      "bytes": 765864,
+      "textureSize": 1024
+    },
+    {
+      "id": "fc_windpruned_paddleleaf_tree",
+      "lod": 2,
+      "group": "Frozen_coast_world",
+      "category": "tree",
+      "file": "lod/Frozen_coast_world/fc_windpruned_paddleleaf_tree_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Frozen_coast_world/fc_windpruned_paddleleaf_tree_lod2.glb",
+      "triangles": 811,
+      "bytes": 224160,
+      "textureSize": 512
+    },
+    {
+      "id": "fo_buttress_tree",
+      "lod": 1,
+      "group": "Forest_world",
+      "category": "tree",
+      "file": "lod/Forest_world/fo_buttress_tree_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_buttress_tree_lod1.glb",
+      "triangles": 690,
+      "bytes": 1176424,
+      "textureSize": 1024
+    },
+    {
+      "id": "fo_buttress_tree",
+      "lod": 2,
+      "group": "Forest_world",
+      "category": "tree",
+      "file": "lod/Forest_world/fo_buttress_tree_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_buttress_tree_lod2.glb",
+      "triangles": 322,
+      "bytes": 337664,
+      "textureSize": 512
+    },
+    {
+      "id": "fo_forkwood_tree",
+      "lod": 1,
+      "group": "Forest_world",
+      "category": "tree",
+      "file": "lod/Forest_world/fo_forkwood_tree_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_forkwood_tree_lod1.glb",
+      "triangles": 459,
+      "bytes": 1167276,
+      "textureSize": 1024
+    },
+    {
+      "id": "fo_forkwood_tree",
+      "lod": 2,
+      "group": "Forest_world",
+      "category": "tree",
+      "file": "lod/Forest_world/fo_forkwood_tree_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_forkwood_tree_lod2.glb",
+      "triangles": 211,
+      "bytes": 334628,
+      "textureSize": 512
+    },
+    {
+      "id": "fo_moss_boulder",
+      "lod": 1,
+      "group": "Forest_world",
+      "category": "rock",
+      "file": "lod/Forest_world/fo_moss_boulder_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_moss_boulder_lod1.glb",
+      "triangles": 306,
+      "bytes": 848984,
+      "textureSize": 1024
+    },
+    {
+      "id": "fo_moss_boulder",
+      "lod": 2,
+      "group": "Forest_world",
+      "category": "rock",
+      "file": "lod/Forest_world/fo_moss_boulder_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_moss_boulder_lod2.glb",
+      "triangles": 108,
+      "bytes": 247604,
+      "textureSize": 512
+    },
+    {
+      "id": "fo_rootarch_stump",
+      "lod": 1,
+      "group": "Forest_world",
+      "category": "wood",
+      "file": "lod/Forest_world/fo_rootarch_stump_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_rootarch_stump_lod1.glb",
+      "triangles": 468,
+      "bytes": 949760,
+      "textureSize": 1024
+    },
+    {
+      "id": "fo_rootarch_stump",
+      "lod": 2,
+      "group": "Forest_world",
+      "category": "wood",
+      "file": "lod/Forest_world/fo_rootarch_stump_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_rootarch_stump_lod2.glb",
+      "triangles": 124,
+      "bytes": 276888,
+      "textureSize": 512
+    },
+    {
+      "id": "fo_shade_fern",
+      "lod": 1,
+      "group": "Forest_world",
+      "category": "plant",
+      "file": "lod/Forest_world/fo_shade_fern_lod1.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_shade_fern_lod1.glb",
+      "triangles": 278,
+      "bytes": 882296,
+      "textureSize": 1024
+    },
+    {
+      "id": "fo_shade_fern",
+      "lod": 2,
+      "group": "Forest_world",
+      "category": "plant",
+      "file": "lod/Forest_world/fo_shade_fern_lod2.glb",
+      "url": "https://raw.githubusercontent.com/ctclark49/UCode/models/models/planets/lod/Forest_world/fo_shade_fern_lod2.glb",
+      "triangles": 73,
+      "bytes": 273776,
+      "textureSize": 512
+    }
+  ]
+}
