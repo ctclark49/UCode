@@ -291,21 +291,21 @@
         68,
         98
       ],
-      "bytes": 5189028,
+      "bytes": 5189072,
       "tris": 52000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -18.288,
+        -16.298,
         0,
-        -14.935
+        -16.759
       ],
       "bboxMaxM": [
-        18.288,
-        20.726,
-        14.935
+        16.298,
+        20.871,
+        16.759
       ]
     },
     "imperial_alloy_foundry__entrance_door_leaf": {
@@ -351,21 +351,21 @@
         18,
         40
       ],
-      "bytes": 3546684,
+      "bytes": 3546732,
       "tris": 45000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -6.096,
+        -6.058,
         0,
-        -6.096
+        -6.134
       ],
       "bboxMaxM": [
-        6.096,
-        5.486,
-        6.096
+        6.058,
+        4.25,
+        6.134
       ]
     },
     "imperial_armoured_bunker__entrance_door_leaf": {
@@ -441,21 +441,21 @@
         32,
         78
       ],
-      "bytes": 5892384,
+      "bytes": 5892416,
       "tris": 54000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -14.935,
+        -14.395,
         0,
-        -11.887
+        -12.333
       ],
       "bboxMaxM": [
-        14.935,
-        9.754,
-        11.887
+        14.395,
+        11.18,
+        12.333
       ]
     },
     "imperial_barracks__entrance_door_leaf": {
@@ -711,21 +711,21 @@
         78,
         115
       ],
-      "bytes": 4897784,
+      "bytes": 4897840,
       "tris": 56000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -19.812,
+        -18.466,
         0,
-        -17.526
+        -18.804
       ],
       "bboxMaxM": [
-        19.812,
-        23.774,
-        17.526
+        18.466,
+        18.898,
+        18.804
       ]
     },
     "imperial_governor_palace__entrance_door_leaf": {
@@ -771,21 +771,21 @@
         32,
         130
       ],
-      "bytes": 4907308,
+      "bytes": 4907332,
       "tris": 54000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -19.812,
+        -17.036,
         0,
-        -19.812
+        -23.04
       ],
       "bboxMaxM": [
-        19.812,
-        9.754,
-        19.812
+        17.036,
+        8.9,
+        23.04
       ]
     },
     "imperial_power_plant__entrance_door_leaf": {
@@ -838,14 +838,14 @@
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -14.935,
+        -15.235,
         0,
-        -14.935
+        -14.642
       ],
       "bboxMaxM": [
-        14.935,
-        21.946,
-        14.935
+        15.235,
+        16.772,
+        14.642
       ]
     },
     "shared_construction_scaffold_kit": {
@@ -1281,21 +1281,21 @@
         22.5,
         26
       ],
-      "bytes": 2982568,
+      "bytes": 2982592,
       "tris": 25000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -3.962,
+        -4.018,
         0,
-        -3.962
+        -3.907
       ],
       "bboxMaxM": [
-        3.962,
-        6.858,
-        3.962
+        4.018,
+        5.355,
+        3.907
       ]
     },
     "shared_flak_tower_large_option__turret_head": {
@@ -1491,21 +1491,21 @@
         52,
         32
       ],
-      "bytes": 3054772,
+      "bytes": 3054792,
       "tris": 25000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -4.877,
+        -5.175,
         0,
-        -4.877
+        -4.596
       ],
       "bboxMaxM": [
-        4.877,
-        15.85,
-        4.877
+        5.175,
+        13.072,
+        4.596
       ]
     },
     "shared_planetary_shield_compound": {
@@ -1528,14 +1528,14 @@
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -16.002,
+        -15.358,
         0,
-        -16.002
+        -16.673
       ],
       "bboxMaxM": [
-        16.002,
-        26.822,
-        16.002
+        15.358,
+        21.986,
+        16.673
       ]
     },
     "imperial_atmospheric_harvester": {
@@ -1551,21 +1551,21 @@
         60,
         85
       ],
-      "bytes": 5151064,
+      "bytes": 5151088,
       "tris": 56000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -15.24,
+        -18.877,
         0,
-        -12.954
+        -10.458
       ],
       "bboxMaxM": [
-        15.24,
-        18.288,
-        12.954
+        18.877,
+        19.246,
+        10.458
       ]
     },
     "imperial_capital_landing_pad_set": {
@@ -1641,21 +1641,21 @@
         34,
         72
       ],
-      "bytes": 4160544,
+      "bytes": 4160576,
       "tris": 45000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -12.954,
+        -11.862,
         0,
-        -10.973
+        -11.983
       ],
       "bboxMaxM": [
-        12.954,
-        10.363,
-        10.973
+        11.862,
+        8.32,
+        11.983
       ]
     },
     "imperial_goods_manufactory": {
@@ -1671,21 +1671,21 @@
         50,
         110
       ],
-      "bytes": 5748784,
+      "bytes": 5748808,
       "tris": 52000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -13.716,
+        -14.582,
         0,
-        -16.764
+        -15.769
       ],
       "bboxMaxM": [
-        13.716,
-        15.24,
-        16.764
+        14.582,
+        12.865,
+        15.769
       ]
     },
     "imperial_hydroponic_bay": {
@@ -1701,21 +1701,21 @@
         28,
         92
       ],
-      "bytes": 4117928,
+      "bytes": 4117952,
       "tris": 48000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -10.058,
+        -11.438,
         0,
-        -14.021
+        -12.33
       ],
       "bboxMaxM": [
-        10.058,
-        8.534,
-        14.021
+        11.438,
+        5.093,
+        12.33
       ]
     },
     "imperial_munitions_plant": {
@@ -1731,21 +1731,21 @@
         44,
         85
       ],
-      "bytes": 4508964,
+      "bytes": 4509008,
       "tris": 50000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -16.764,
+        -15.869,
         0,
-        -12.954
+        -13.684
       ],
       "bboxMaxM": [
-        16.764,
-        13.411,
-        12.954
+        15.869,
+        11.814,
+        13.684
       ]
     },
     "imperial_propaganda_bureau": {
@@ -1821,21 +1821,21 @@
         42,
         115
       ],
-      "bytes": 4883220,
+      "bytes": 4883248,
       "tris": 52000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -14.935,
+        -14.229,
         0,
-        -17.526
+        -18.396
       ],
       "bboxMaxM": [
-        14.935,
-        12.802,
-        17.526
+        14.229,
+        9.44,
+        18.396
       ]
     },
     "imperial_temple_hall_of_heroes": {
@@ -1851,21 +1851,21 @@
         95,
         115
       ],
-      "bytes": 3997300,
+      "bytes": 3997340,
       "tris": 48000,
       "untextured": false,
       "rigged": false,
       "joints": 0,
       "animations": 0,
       "bboxMinM": [
-        -12.954,
+        -9.575,
         0,
-        -17.526
+        -23.712
       ],
       "bboxMaxM": [
-        12.954,
-        28.956,
-        17.526
+        9.575,
+        18.037,
+        23.712
       ]
     },
     "shared_system_claim_beacon": {
@@ -2271,7 +2271,7 @@
       ]
     },
     "imperial_alloy_foundry": {
-      "label": "Imperial Alloy Foundry (120x98x68 ft)",
+      "label": "Imperial Alloy Foundry (106.9x68.5x110 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "imperial",
       "base": "imperial_alloy_foundry",
@@ -2281,69 +2281,69 @@
           "file": "imperial_alloy_foundry__entrance_door_leaf",
           "parent": "imperial_alloy_foundry",
           "positionM": [
-            -16.75,
+            -13.84,
             0.85,
-            10.75
+            12.45
           ],
           "rotationDeg": [
             0,
-            -90,
+            -56,
             0
           ],
-          "pivot": "Left leaf of -X side personnel double doorway; outer hinge edge at -Z jamb, swings to center z=11.55."
+          "pivot": "Left leaf of (-X,+Z) chamfered corner doorway; measured by raycast (normal -56 deg Y, threshold y=0.91)."
         },
         {
           "node": "door_left_wall_right_leaf",
           "file": "imperial_alloy_foundry__entrance_door_leaf",
           "parent": "imperial_alloy_foundry",
           "positionM": [
-            -16.75,
+            -12.94,
             0.85,
-            12.35
+            13.79
           ],
           "rotationDeg": [
             0,
-            -90,
+            -56,
             0
           ],
-          "pivot": "Mirrored right leaf of -X side personnel double doorway; outer hinge edge at +Z jamb."
+          "pivot": "Mirrored right leaf of (-X,+Z) chamfered corner doorway; meets left leaf at (-13.39, 13.12)."
         },
         {
           "node": "door_right_wall_left_leaf",
           "file": "imperial_alloy_foundry__entrance_door_leaf",
           "parent": "imperial_alloy_foundry",
           "positionM": [
-            16.75,
+            12.87,
             0.85,
-            12.35
+            13.87
           ],
           "rotationDeg": [
             0,
-            90,
+            49,
             0
           ],
-          "pivot": "Left leaf of symmetric +X side personnel doorway; outer hinge edge at +Z jamb."
+          "pivot": "Left leaf of (+X,+Z) chamfered corner doorway; measured by raycast (normal +49 deg Y, threshold y=1.00)."
         },
         {
           "node": "door_right_wall_right_leaf",
           "file": "imperial_alloy_foundry__entrance_door_leaf",
           "parent": "imperial_alloy_foundry",
           "positionM": [
-            16.75,
+            13.93,
             0.85,
-            10.75
+            12.65
           ],
           "rotationDeg": [
             0,
-            90,
+            49,
             0
           ],
-          "pivot": "Mirrored right leaf of symmetric +X side personnel doorway; outer hinge edge at -Z jamb."
+          "pivot": "Mirrored right leaf of (+X,+Z) chamfered corner doorway; meets left leaf at (13.40, 13.26)."
         }
       ]
     },
     "imperial_armoured_bunker": {
-      "label": "Imperial Armoured Bunker (40x40x18 ft)",
+      "label": "Imperial Armoured Bunker (39.8x13.9x40.2 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "imperial",
       "base": "imperial_armoured_bunker",
@@ -2353,8 +2353,8 @@
           "file": "imperial_armoured_bunker__entrance_door_leaf",
           "parent": "imperial_armoured_bunker",
           "positionM": [
-            -1.36,
-            0.62,
+            -1.32,
+            0.24,
             4.38
           ],
           "rotationDeg": [
@@ -2362,15 +2362,15 @@
             0,
             0
           ],
-          "pivot": "Left blast door leaf; outer vertical hinge at -X edge."
+          "pivot": "Left blast door leaf; seated on y=0.24 interior floor behind z=4.58 doorway frame."
         },
         {
           "node": "door_right",
           "file": "imperial_armoured_bunker__entrance_door_leaf",
           "parent": "imperial_armoured_bunker",
           "positionM": [
-            1.36,
-            0.62,
+            1.32,
+            0.24,
             4.38
           ],
           "rotationDeg": [
@@ -2378,44 +2378,44 @@
             0,
             0
           ],
-          "pivot": "Mirrored right blast door leaf; outer vertical hinge at +X edge."
+          "pivot": "Mirrored right blast door leaf; seated on y=0.24 interior floor behind z=4.58 doorway frame."
         },
         {
           "node": "roof_hatch_front",
           "file": "imperial_armoured_bunker__roof_hatch",
           "parent": "imperial_armoured_bunker",
           "positionM": [
-            0,
-            5.26,
-            1.05
+            -0.04,
+            4.21,
+            1.25
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Front roof access hatch; hinge along local X at rear (-Z) edge."
+          "pivot": "Front roof access hatch; seated flush on y=4.21 roof deck centered over cutout z=[1.34,3.12]."
         },
         {
           "node": "roof_hatch_rear",
           "file": "imperial_armoured_bunker__roof_hatch",
           "parent": "imperial_armoured_bunker",
           "positionM": [
-            0,
-            5.26,
-            -3.25
+            0.11,
+            4.21,
+            -3.46
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Rear roof access hatch; hinge along local X at rear (-Z) edge."
+          "pivot": "Rear roof access hatch; seated flush on y=4.21 roof deck centered over cutout z=[-3.36,-1.60]."
         }
       ]
     },
     "imperial_barracks": {
-      "label": "Imperial Barracks (98x78x32 ft, untextured door leaf)",
+      "label": "Imperial Barracks (untextured door leaf) (94.5x36.7x80.9 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "imperial",
       "base": "imperial_barracks",
@@ -2425,64 +2425,64 @@
           "file": "imperial_barracks__entrance_door_leaf",
           "parent": "imperial_barracks",
           "positionM": [
-            -2.5,
-            0.85,
-            7.25
+            -2.32,
+            0.8,
+            6.32
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Left leaf of left entrance bay."
+          "pivot": "Left leaf of west entrance bay; seated behind z=6.50 jamb at sill y=0.83."
         },
         {
           "node": "door_west_right",
           "file": "imperial_barracks__entrance_door_leaf",
           "parent": "imperial_barracks",
           "positionM": [
-            -0.36,
-            0.85,
-            7.25
+            -0.1,
+            0.8,
+            6.32
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Right leaf of left entrance bay."
+          "pivot": "Right leaf of west entrance bay; meets left leaf on bay centerline x=-1.21."
         },
         {
           "node": "door_east_left",
           "file": "imperial_barracks__entrance_door_leaf",
           "parent": "imperial_barracks",
           "positionM": [
-            0.36,
-            0.85,
-            7.25
+            0.1,
+            0.8,
+            6.32
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Left leaf of right entrance bay."
+          "pivot": "Left leaf of east entrance bay; meets right leaf on bay centerline x=+1.21."
         },
         {
           "node": "door_east_right",
           "file": "imperial_barracks__entrance_door_leaf",
           "parent": "imperial_barracks",
           "positionM": [
-            2.5,
-            0.85,
-            7.25
+            2.32,
+            0.8,
+            6.32
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Right leaf of right entrance bay."
+          "pivot": "Right leaf of east entrance bay; seated behind z=6.50 jamb at sill y=0.83."
         }
       ]
     },
@@ -2695,7 +2695,7 @@
       ]
     },
     "imperial_governor_palace": {
-      "label": "Imperial Governor Palace (130x115x78 ft)",
+      "label": "Imperial Governor Palace (121.2x62x123.4 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "imperial",
       "base": "imperial_governor_palace",
@@ -2705,44 +2705,44 @@
           "file": "imperial_governor_palace__entrance_door_leaf",
           "parent": "imperial_governor_palace",
           "positionM": [
-            -1.9,
-            3.12,
-            9.65
+            -2.05,
+            1.95,
+            8.42
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Left grand entrance blast door leaf."
+          "pivot": "Left grand entrance blast door leaf; seated on y=1.95 top landing behind z=9.35 archway and z=8.73 window plane."
         },
         {
           "node": "door_right",
           "file": "imperial_governor_palace__entrance_door_leaf",
           "parent": "imperial_governor_palace",
           "positionM": [
-            1.9,
-            3.12,
-            9.65
+            2.11,
+            1.95,
+            8.42
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Right grand entrance blast door leaf."
+          "pivot": "Right grand entrance blast door leaf; meets left leaf at doorway center x=+0.03."
         }
       ]
     },
     "imperial_market_district": {
-      "label": "Imperial Market District (130x130x32 ft; shopfront door GLB pending)",
+      "label": "Imperial Market District (shopfront door GLB pending) (111.8x29.2x151.2 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "imperial",
       "base": "imperial_market_district",
       "parts": []
     },
     "imperial_power_plant": {
-      "label": "Imperial Power Plant (98x98x72 ft)",
+      "label": "Imperial Power Plant (100x55x96.1 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "imperial",
       "base": "imperial_power_plant",
@@ -2752,32 +2752,32 @@
           "file": "imperial_power_plant__entrance_door_leaf",
           "parent": "imperial_power_plant",
           "positionM": [
-            -1.54,
-            1.05,
-            11.45
+            -0.62,
+            0.62,
+            12.72
           ],
           "rotationDeg": [
             0,
-            0,
+            7.1,
             0
           ],
-          "pivot": "Left cut-corner door leaf (sourced from misplaced textured GLB in market folder)."
+          "pivot": "Left cut-corner door leaf; aligned to +7.1 deg front porch doorway centered at x=+1.03, y=0.62."
         },
         {
           "node": "door_right",
           "file": "imperial_power_plant__entrance_door_leaf",
           "parent": "imperial_power_plant",
           "positionM": [
-            1.54,
-            1.05,
-            11.45
+            2.55,
+            0.62,
+            12.32
           ],
           "rotationDeg": [
             0,
-            0,
+            7.1,
             0
           ],
-          "pivot": "Right cut-corner door leaf (sourced from misplaced textured GLB in market folder)."
+          "pivot": "Right cut-corner door leaf; meets left leaf at porch doorway center (0.96, 0.62, 12.52)."
         }
       ]
     },
@@ -3029,7 +3029,7 @@
       ]
     },
     "shared_flak_tower_large_option": {
-      "label": "Flak Tower Large Option (26x26x38 ft, 7-part assembly)",
+      "label": "Flak Tower Large Option (7-part assembly) (26.4x17.6x25.6 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "shared",
       "base": "shared_flak_tower_large_option",
@@ -3039,16 +3039,16 @@
           "file": "shared_flak_tower_large_option__entrance_door_leaf",
           "parent": "shared_flak_tower_large_option",
           "positionM": [
-            0.74,
-            0.42,
-            2.66
+            0.75,
+            0.19,
+            2.48
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Tall cut-corner entrance door leaf; outer vertical hinge on right (+X) edge."
+          "pivot": "Tall cut-corner entrance door leaf; seated on y=0.19 floor inside front archway (ctr x=-0.02, recessed behind sloped wall)."
         },
         {
           "node": "turret_head",
@@ -3056,15 +3056,15 @@
           "parent": "shared_flak_tower_large_option",
           "positionM": [
             0,
-            6.8,
-            0
+            5.32,
+            0.04
           ],
           "rotationDeg": [
             0,
             0,
             0
           ],
-          "pivot": "Heavy flak turret traverse bearing (+Y yaw)."
+          "pivot": "Heavy flak turret traverse bearing (+Y yaw); seated concentrically on base top bearing ring (maxY=5.355, ctrZ=+0.24)."
         },
         {
           "node": "elevation_cradle",
@@ -3120,7 +3120,7 @@
           "parent": "turret_head",
           "positionM": [
             0,
-            3.24,
+            3.19,
             -0.3
           ],
           "rotationDeg": [
@@ -3128,7 +3128,7 @@
             0,
             0
           ],
-          "pivot": "Heavy radar azimuth yoke (+Y rotation)."
+          "pivot": "Heavy radar azimuth yoke (+Y rotation); seated flush on turret roof surface y=3.200."
         },
         {
           "node": "radar_aperture",
@@ -3149,21 +3149,21 @@
       ]
     },
     "shared_planetary_shield_pylon": {
-      "label": "Planetary Shield Pylon (32x32x52 ft)",
+      "label": "Planetary Shield Pylon (34x42.9x30.2 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "shared",
       "base": "shared_planetary_shield_pylon",
       "parts": []
     },
     "shared_planetary_shield_compound": {
-      "label": "Planetary Shield Compound (105x105x88 ft)",
+      "label": "Planetary Shield Compound (100.8x72.1x109.4 ft WxHxD, uniform_footprint)",
       "stage": 2,
       "faction": "shared",
       "base": "shared_planetary_shield_compound",
       "parts": []
     },
     "imperial_atmospheric_harvester": {
-      "label": "Imperial Atmospheric Harvester (100x85x60 ft)",
+      "label": "Imperial Atmospheric Harvester (123.9x63.1x68.6 ft WxHxD, uniform_footprint)",
       "stage": 3,
       "faction": "imperial",
       "base": "imperial_atmospheric_harvester",
@@ -3184,28 +3184,28 @@
       "parts": []
     },
     "imperial_gene_clinic": {
-      "label": "Imperial Gene Clinic (85x72x34 ft)",
+      "label": "Imperial Gene Clinic (77.8x27.3x78.6 ft WxHxD, uniform_footprint)",
       "stage": 3,
       "faction": "imperial",
       "base": "imperial_gene_clinic",
       "parts": []
     },
     "imperial_goods_manufactory": {
-      "label": "Imperial Goods Manufactory (110x90x50 ft)",
+      "label": "Imperial Goods Manufactory (95.7x42.2x103.5 ft WxHxD, uniform_footprint)",
       "stage": 3,
       "faction": "imperial",
       "base": "imperial_goods_manufactory",
       "parts": []
     },
     "imperial_hydroponic_bay": {
-      "label": "Imperial Hydroponic Bay (92x66x28 ft)",
+      "label": "Imperial Hydroponic Bay (75x16.7x80.9 ft WxHxD, uniform_footprint)",
       "stage": 3,
       "faction": "imperial",
       "base": "imperial_hydroponic_bay",
       "parts": []
     },
     "imperial_munitions_plant": {
-      "label": "Imperial Munitions Plant (110x85x44 ft)",
+      "label": "Imperial Munitions Plant (104.1x38.8x89.8 ft WxHxD, uniform_footprint)",
       "stage": 3,
       "faction": "imperial",
       "base": "imperial_munitions_plant",
@@ -3226,14 +3226,14 @@
       "parts": []
     },
     "imperial_stock_exchange": {
-      "label": "Imperial Stock Exchange (115x98x42 ft)",
+      "label": "Imperial Stock Exchange (93.4x31x120.7 ft WxHxD, uniform_footprint)",
       "stage": 3,
       "faction": "imperial",
       "base": "imperial_stock_exchange",
       "parts": []
     },
     "imperial_temple_hall_of_heroes": {
-      "label": "Imperial Temple Hall of Heroes (115x85x95 ft)",
+      "label": "Imperial Temple Hall of Heroes (62.8x59.2x155.6 ft WxHxD, uniform_footprint)",
       "stage": 3,
       "faction": "imperial",
       "base": "imperial_temple_hall_of_heroes",
