@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "name": "Emperor's Reign big batch: game copies of the owner's models (stages 01-02)",
+  "name": "Emperor's Reign big batch: game copies of the owner's models (stages 01-0' + MAX_STAGE + ')",
   "coordinateContract": {
     "up": "+Y",
     "front": "+Z",
@@ -24,6 +24,9 @@
       "bytes": 757668,
       "tris": 12000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1,
         -0.662,
@@ -51,6 +54,9 @@
       "bytes": 302188,
       "tris": 12000,
       "untextured": true,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1,
         -0.533,
@@ -78,6 +84,9 @@
       "bytes": 315680,
       "tris": 12000,
       "untextured": true,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1,
         -0.217,
@@ -105,6 +114,9 @@
       "bytes": 859304,
       "tris": 12000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1,
         -0.744,
@@ -132,6 +144,9 @@
       "bytes": 796584,
       "tris": 12000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1,
         -0.591,
@@ -159,6 +174,9 @@
       "bytes": 6701480,
       "tris": 72000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -46.779,
         -71.171,
@@ -186,6 +204,9 @@
       "bytes": 2547172,
       "tris": 22000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.862,
         0,
@@ -213,6 +234,9 @@
       "bytes": 882072,
       "tris": 5500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.135,
         -0.465,
@@ -240,6 +264,9 @@
       "bytes": 495020,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.221,
         -0.22,
@@ -267,6 +294,9 @@
       "bytes": 5189028,
       "tris": 52000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -18.288,
         0,
@@ -294,6 +324,9 @@
       "bytes": 526024,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         0,
         0,
@@ -321,6 +354,9 @@
       "bytes": 3546684,
       "tris": 45000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -6.096,
         0,
@@ -348,6 +384,9 @@
       "bytes": 504108,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         0,
         0,
@@ -375,6 +414,9 @@
       "bytes": 512484,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.975,
         0,
@@ -402,6 +444,9 @@
       "bytes": 5892384,
       "tris": 54000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -14.935,
         0,
@@ -429,6 +474,9 @@
       "bytes": 119952,
       "tris": 3500,
       "untextured": true,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.114,
         0,
@@ -456,6 +504,9 @@
       "bytes": 5351856,
       "tris": 54000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -19.812,
         0,
@@ -483,6 +534,9 @@
       "bytes": 503192,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.082,
         0,
@@ -510,6 +564,9 @@
       "bytes": 3864808,
       "tris": 48000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -10.973,
         0,
@@ -537,6 +594,9 @@
       "bytes": 609024,
       "tris": 4000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         0,
         0,
@@ -564,6 +624,9 @@
       "bytes": 2791196,
       "tris": 24000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -7.01,
         0,
@@ -591,6 +654,9 @@
       "bytes": 698688,
       "tris": 6000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.849,
         -1.768,
@@ -618,6 +684,9 @@
       "bytes": 589308,
       "tris": 5500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.691,
         -0.693,
@@ -645,6 +714,9 @@
       "bytes": 4897784,
       "tris": 56000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -19.812,
         0,
@@ -672,6 +744,9 @@
       "bytes": 668936,
       "tris": 4000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -2.077,
         0,
@@ -699,6 +774,9 @@
       "bytes": 4907308,
       "tris": 54000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -19.812,
         0,
@@ -726,6 +804,9 @@
       "bytes": 506832,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.596,
         0,
@@ -753,6 +834,9 @@
       "bytes": 5898748,
       "tris": 56000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -14.935,
         0,
@@ -780,6 +864,9 @@
       "bytes": 1945684,
       "tris": 20000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -4.737,
         0,
@@ -807,6 +894,9 @@
       "bytes": 948352,
       "tris": 6500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.914,
         0,
@@ -834,6 +924,9 @@
       "bytes": 1219972,
       "tris": 8500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -3.658,
         0,
@@ -861,6 +954,9 @@
       "bytes": 1239040,
       "tris": 8500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.635,
         0,
@@ -888,6 +984,9 @@
       "bytes": 1195664,
       "tris": 8500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -2.185,
         0,
@@ -915,6 +1014,9 @@
       "bytes": 824832,
       "tris": 6000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.524,
         0,
@@ -942,6 +1044,9 @@
       "bytes": 822304,
       "tris": 6500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -3.048,
         0,
@@ -969,6 +1074,9 @@
       "bytes": 2494936,
       "tris": 24000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -2.438,
         0,
@@ -996,6 +1104,9 @@
       "bytes": 1272236,
       "tris": 18000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.731,
         0,
@@ -1023,6 +1134,9 @@
       "bytes": 418244,
       "tris": 4500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.322,
         -0.382,
@@ -1050,6 +1164,9 @@
       "bytes": 1081484,
       "tris": 11548,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.301,
         -0.291,
@@ -1077,6 +1194,9 @@
       "bytes": 426860,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.401,
         0,
@@ -1104,6 +1224,9 @@
       "bytes": 469760,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.296,
         0,
@@ -1131,6 +1254,9 @@
       "bytes": 605548,
       "tris": 4500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.701,
         -0.059,
@@ -1158,6 +1284,9 @@
       "bytes": 2982568,
       "tris": 25000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -3.962,
         0,
@@ -1185,6 +1314,9 @@
       "bytes": 2694868,
       "tris": 20000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -2.588,
         0,
@@ -1212,6 +1344,9 @@
       "bytes": 1331540,
       "tris": 16000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.707,
         -1.038,
@@ -1239,6 +1374,9 @@
       "bytes": 638900,
       "tris": 5000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.5,
         -0.516,
@@ -1266,6 +1404,9 @@
       "bytes": 535488,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.534,
         0,
@@ -1293,6 +1434,9 @@
       "bytes": 595928,
       "tris": 3500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -0.488,
         0,
@@ -1320,6 +1464,9 @@
       "bytes": 570740,
       "tris": 4500,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -1.158,
         -0.114,
@@ -1347,6 +1494,9 @@
       "bytes": 3054772,
       "tris": 25000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -4.877,
         0,
@@ -1374,6 +1524,9 @@
       "bytes": 6382444,
       "tris": 58000,
       "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
       "bboxMinM": [
         -16.002,
         0,
@@ -1383,6 +1536,606 @@
         16.002,
         26.822,
         16.002
+      ]
+    },
+    "imperial_atmospheric_harvester": {
+      "file": "imperial_atmospheric_harvester.glb",
+      "item": "imperial_atmospheric_harvester",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        100,
+        60,
+        85
+      ],
+      "bytes": 5151064,
+      "tris": 56000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -15.24,
+        0,
+        -12.954
+      ],
+      "bboxMaxM": [
+        15.24,
+        18.288,
+        12.954
+      ]
+    },
+    "imperial_capital_landing_pad_set": {
+      "file": "imperial_capital_landing_pad_set.glb",
+      "item": "imperial_capital_landing_pad_set",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        234,
+        21,
+        157
+      ],
+      "bytes": 3712424,
+      "tris": 45000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -35.698,
+        0,
+        -23.927
+      ],
+      "bboxMaxM": [
+        35.698,
+        6.255,
+        23.927
+      ]
+    },
+    "imperial_fuel_refinery": {
+      "file": "imperial_fuel_refinery.glb",
+      "item": "imperial_fuel_refinery",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        105,
+        64,
+        85
+      ],
+      "bytes": 5287284,
+      "tris": 56000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -16.002,
+        0,
+        -12.954
+      ],
+      "bboxMaxM": [
+        16.002,
+        19.507,
+        12.954
+      ]
+    },
+    "imperial_gene_clinic": {
+      "file": "imperial_gene_clinic.glb",
+      "item": "imperial_gene_clinic",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        85,
+        34,
+        72
+      ],
+      "bytes": 4160544,
+      "tris": 45000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -12.954,
+        0,
+        -10.973
+      ],
+      "bboxMaxM": [
+        12.954,
+        10.363,
+        10.973
+      ]
+    },
+    "imperial_goods_manufactory": {
+      "file": "imperial_goods_manufactory.glb",
+      "item": "imperial_goods_manufactory",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        90,
+        50,
+        110
+      ],
+      "bytes": 5748784,
+      "tris": 52000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -13.716,
+        0,
+        -16.764
+      ],
+      "bboxMaxM": [
+        13.716,
+        15.24,
+        16.764
+      ]
+    },
+    "imperial_hydroponic_bay": {
+      "file": "imperial_hydroponic_bay.glb",
+      "item": "imperial_hydroponic_bay",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        66,
+        28,
+        92
+      ],
+      "bytes": 4117928,
+      "tris": 48000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -10.058,
+        0,
+        -14.021
+      ],
+      "bboxMaxM": [
+        10.058,
+        8.534,
+        14.021
+      ]
+    },
+    "imperial_munitions_plant": {
+      "file": "imperial_munitions_plant.glb",
+      "item": "imperial_munitions_plant",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        110,
+        44,
+        85
+      ],
+      "bytes": 4508964,
+      "tris": 50000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -16.764,
+        0,
+        -12.954
+      ],
+      "bboxMaxM": [
+        16.764,
+        13.411,
+        12.954
+      ]
+    },
+    "imperial_propaganda_bureau": {
+      "file": "imperial_propaganda_bureau.glb",
+      "item": "imperial_propaganda_bureau",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        85,
+        50,
+        72
+      ],
+      "bytes": 5080304,
+      "tris": 50000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -12.954,
+        0,
+        -10.973
+      ],
+      "bboxMaxM": [
+        12.954,
+        15.24,
+        10.973
+      ]
+    },
+    "imperial_psionic_spire": {
+      "file": "imperial_psionic_spire.glb",
+      "item": "imperial_psionic_spire",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        98,
+        210,
+        98
+      ],
+      "bytes": 4445380,
+      "tris": 48000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -14.935,
+        0,
+        -14.935
+      ],
+      "bboxMaxM": [
+        14.935,
+        64.008,
+        14.935
+      ]
+    },
+    "imperial_stock_exchange": {
+      "file": "imperial_stock_exchange.glb",
+      "item": "imperial_stock_exchange",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        98,
+        42,
+        115
+      ],
+      "bytes": 4883220,
+      "tris": 52000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -14.935,
+        0,
+        -17.526
+      ],
+      "bboxMaxM": [
+        14.935,
+        12.802,
+        17.526
+      ]
+    },
+    "imperial_temple_hall_of_heroes": {
+      "file": "imperial_temple_hall_of_heroes.glb",
+      "item": "imperial_temple_hall_of_heroes",
+      "faction": "imperial",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        85,
+        95,
+        115
+      ],
+      "bytes": 3997300,
+      "tris": 48000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -12.954,
+        0,
+        -17.526
+      ],
+      "bboxMaxM": [
+        12.954,
+        28.956,
+        17.526
+      ]
+    },
+    "shared_system_claim_beacon": {
+      "file": "shared_system_claim_beacon.glb",
+      "item": "shared_system_claim_beacon",
+      "faction": "shared",
+      "stage": 3,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "center",
+      "targetSizeFt": [
+        30,
+        60,
+        30
+      ],
+      "bytes": 4470616,
+      "tris": 45000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -4.501,
+        -9.144,
+        -5.235
+      ],
+      "bboxMaxM": [
+        4.501,
+        9.144,
+        5.235
+      ]
+    },
+    "shared_civilian_colonist": {
+      "file": "shared_civilian_colonist.glb",
+      "item": "shared_civilian_colonist",
+      "faction": "shared",
+      "stage": 3,
+      "role": "main_body",
+      "category": "character",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        3.5,
+        6,
+        1.2
+      ],
+      "bytes": 4162456,
+      "tris": 33893,
+      "untextured": false,
+      "rigged": true,
+      "joints": 36,
+      "animations": 0,
+      "bboxMinM": [
+        -0.562,
+        0,
+        -0.175
+      ],
+      "bboxMaxM": [
+        0.562,
+        1.829,
+        0.175
+      ]
+    },
+    "imperial_point_defence_turret": {
+      "file": "imperial_point_defence_turret.glb",
+      "item": "imperial_point_defence_turret",
+      "faction": "imperial",
+      "stage": 5,
+      "role": "imperial_point_defence_turret__base_ring",
+      "category": "large_part",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        25,
+        3.8,
+        25
+      ],
+      "bytes": 1313672,
+      "tris": 18000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -3.81,
+        0,
+        -3.81
+      ],
+      "bboxMaxM": [
+        3.81,
+        1.175,
+        3.81
+      ]
+    },
+    "imperial_point_defence_turret__turning_house": {
+      "file": "imperial_point_defence_turret__turning_house.glb",
+      "item": "imperial_point_defence_turret",
+      "faction": "imperial",
+      "stage": 5,
+      "role": "imperial_point_defence_turret__turning_house",
+      "category": "large_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        18.5,
+        10.5,
+        21
+      ],
+      "bytes": 2795860,
+      "tris": 20000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -2.816,
+        0,
+        -3.2
+      ],
+      "bboxMaxM": [
+        2.816,
+        3.185,
+        3.2
+      ]
+    },
+    "imperial_point_defence_turret__cradle": {
+      "file": "imperial_point_defence_turret__cradle.glb",
+      "item": "imperial_point_defence_turret",
+      "faction": "imperial",
+      "stage": 5,
+      "role": "imperial_point_defence_turret__cradle",
+      "category": "large_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        11.6,
+        5.2,
+        8.4
+      ],
+      "bytes": 1542660,
+      "tris": 18000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -1.768,
+        -0.782,
+        -1.265
+      ],
+      "bboxMaxM": [
+        1.768,
+        0.782,
+        1.265
+      ]
+    },
+    "imperial_point_defence_turret__barrel": {
+      "file": "imperial_point_defence_turret__barrel.glb",
+      "item": "imperial_point_defence_turret",
+      "faction": "imperial",
+      "stage": 5,
+      "role": "imperial_point_defence_turret__barrel",
+      "category": "small_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        2.4,
+        2.4,
+        8.2
+      ],
+      "bytes": 489328,
+      "tris": 4500,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -0.41,
+        -0.411,
+        0
+      ],
+      "bboxMaxM": [
+        0.41,
+        0.411,
+        2.499
+      ]
+    },
+    "imperial_point_defence_turret__sensor_head": {
+      "file": "imperial_point_defence_turret__sensor_head.glb",
+      "item": "imperial_point_defence_turret",
+      "faction": "imperial",
+      "stage": 5,
+      "role": "imperial_point_defence_turret__sensor_head",
+      "category": "small_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        3.8,
+        2.6,
+        5.2
+      ],
+      "bytes": 648044,
+      "tris": 4500,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -0.584,
+        0,
+        -0.792
+      ],
+      "bboxMaxM": [
+        0.584,
+        0.799,
+        0.792
+      ]
+    },
+    "shared_escape_pod": {
+      "file": "shared_escape_pod.glb",
+      "item": "shared_escape_pod",
+      "faction": "shared",
+      "stage": 5,
+      "role": "main_body",
+      "category": "large_part",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        6.5,
+        7.8,
+        16
+      ],
+      "bytes": 3403432,
+      "tris": 22000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -0.957,
+        0,
+        -2.438
+      ],
+      "bboxMaxM": [
+        0.957,
+        2.414,
+        2.438
+      ]
+    },
+    "shared_escape_pod__hatch": {
+      "file": "shared_escape_pod__hatch.glb",
+      "item": "shared_escape_pod",
+      "faction": "shared",
+      "stage": 5,
+      "role": "shared_escape_pod__hatch",
+      "category": "small_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        0.9,
+        5.1,
+        5.5
+      ],
+      "bytes": 620432,
+      "tris": 4500,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -0.139,
+        -0.777,
+        0
+      ],
+      "bboxMaxM": [
+        0.139,
+        0.777,
+        1.676
       ]
     }
   },
@@ -2408,6 +3161,209 @@
       "faction": "shared",
       "base": "shared_planetary_shield_compound",
       "parts": []
+    },
+    "imperial_atmospheric_harvester": {
+      "label": "Imperial Atmospheric Harvester (100x85x60 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_atmospheric_harvester",
+      "parts": []
+    },
+    "imperial_capital_landing_pad_set": {
+      "label": "Imperial Capital Landing Pad Set (157-ft pad diameter)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_capital_landing_pad_set",
+      "parts": []
+    },
+    "imperial_fuel_refinery": {
+      "label": "Imperial Fuel Refinery (105x85x64 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_fuel_refinery",
+      "parts": []
+    },
+    "imperial_gene_clinic": {
+      "label": "Imperial Gene Clinic (85x72x34 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_gene_clinic",
+      "parts": []
+    },
+    "imperial_goods_manufactory": {
+      "label": "Imperial Goods Manufactory (110x90x50 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_goods_manufactory",
+      "parts": []
+    },
+    "imperial_hydroponic_bay": {
+      "label": "Imperial Hydroponic Bay (92x66x28 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_hydroponic_bay",
+      "parts": []
+    },
+    "imperial_munitions_plant": {
+      "label": "Imperial Munitions Plant (110x85x44 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_munitions_plant",
+      "parts": []
+    },
+    "imperial_propaganda_bureau": {
+      "label": "Imperial Propaganda Bureau (85x72x50 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_propaganda_bureau",
+      "parts": []
+    },
+    "imperial_psionic_spire": {
+      "label": "Imperial Psionic Spire (98x98x210 ft, rings integrated)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_psionic_spire",
+      "parts": []
+    },
+    "imperial_stock_exchange": {
+      "label": "Imperial Stock Exchange (115x98x42 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_stock_exchange",
+      "parts": []
+    },
+    "imperial_temple_hall_of_heroes": {
+      "label": "Imperial Temple Hall of Heroes (115x85x95 ft)",
+      "stage": 3,
+      "faction": "imperial",
+      "base": "imperial_temple_hall_of_heroes",
+      "parts": []
+    },
+    "shared_system_claim_beacon": {
+      "label": "System Claim Beacon (30x30x60 ft orbital buoy)",
+      "stage": 3,
+      "faction": "shared",
+      "base": "shared_system_claim_beacon",
+      "parts": []
+    },
+    "shared_civilian_colonist": {
+      "label": "Civilian Colonist (6 ft rigged SmartRigArmature)",
+      "stage": 3,
+      "faction": "shared",
+      "base": "shared_civilian_colonist",
+      "parts": []
+    },
+    "imperial_point_defence_turret": {
+      "label": "Imperial Point-Defence Turret (25-ft base ring, 5-part chain)",
+      "stage": 5,
+      "faction": "imperial",
+      "base": "imperial_point_defence_turret",
+      "parts": [
+        {
+          "node": "turning_house",
+          "file": "imperial_point_defence_turret__turning_house",
+          "parent": "imperial_point_defence_turret",
+          "positionM": [
+            0,
+            0.85,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Turret yaw bearing inside base ring (+Y rotation)."
+        },
+        {
+          "node": "cradle",
+          "file": "imperial_point_defence_turret__cradle",
+          "parent": "turning_house",
+          "positionM": [
+            0,
+            2.38,
+            1.3
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Dual-gun elevation cradle on lateral trunnions (local X pitch)."
+        },
+        {
+          "node": "barrel_left",
+          "file": "imperial_point_defence_turret__barrel",
+          "parent": "cradle",
+          "positionM": [
+            -0.72,
+            -0.02,
+            1.05
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Left autocannon barrel seated in cradle socket (recoils along local +Z)."
+        },
+        {
+          "node": "barrel_right",
+          "file": "imperial_point_defence_turret__barrel",
+          "parent": "cradle",
+          "positionM": [
+            0.72,
+            -0.02,
+            1.05
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Right autocannon barrel seated in cradle socket (recoils along local +Z)."
+        },
+        {
+          "node": "sensor_head",
+          "file": "imperial_point_defence_turret__sensor_head",
+          "parent": "turning_house",
+          "positionM": [
+            0,
+            3.04,
+            -0.55
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Roof tracking optical pod (+Y yaw on pedestal)."
+        }
+      ]
+    },
+    "shared_escape_pod": {
+      "label": "Shared Escape Pod (16 ft + hinged side hatch)",
+      "stage": 5,
+      "faction": "shared",
+      "base": "shared_escape_pod",
+      "parts": [
+        {
+          "node": "side_hatch",
+          "file": "shared_escape_pod__hatch",
+          "parent": "shared_escape_pod",
+          "positionM": [
+            0.88,
+            1.31,
+            -0.99
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Port-side (+X) boarding hatch; rear vertical hinge axis at z=0, opens outward around local +Y."
+        }
+      ]
     }
   }
 }
