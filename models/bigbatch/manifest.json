@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "name": "Emperor's Reign big batch: game copies of the owner's models (stages 01-0' + MAX_STAGE + ')",
+  "name": "Emperor's Reign big batch: game copies of the owner's models (stages 01-05)",
   "coordinateContract": {
     "up": "+Y",
     "front": "+Z",
@@ -36,6 +36,20 @@
         1,
         0.662,
         0.483
+      ],
+      "lods": [
+        {
+          "file": "carbonaceous_asteroid_01_rounded_lod1.glb",
+          "tris": 3000,
+          "bytes": 208232,
+          "minDistM": 190
+        },
+        {
+          "file": "carbonaceous_asteroid_01_rounded_lod2.glb",
+          "tris": 720,
+          "bytes": 66044,
+          "minDistM": 420
+        }
       ]
     },
     "carbonaceous_asteroid_02_elongated": {
@@ -66,6 +80,20 @@
         1,
         0.533,
         0.353
+      ],
+      "lods": [
+        {
+          "file": "carbonaceous_asteroid_02_elongated_lod1.glb",
+          "tris": 3000,
+          "bytes": 90424,
+          "minDistM": 190
+        },
+        {
+          "file": "carbonaceous_asteroid_02_elongated_lod2.glb",
+          "tris": 720,
+          "bytes": 28372,
+          "minDistM": 420
+        }
       ]
     },
     "carbonaceous_asteroid_03_flattened": {
@@ -96,6 +124,20 @@
         1,
         0.217,
         0.972
+      ],
+      "lods": [
+        {
+          "file": "carbonaceous_asteroid_03_flattened_lod1.glb",
+          "tris": 3000,
+          "bytes": 100040,
+          "minDistM": 190
+        },
+        {
+          "file": "carbonaceous_asteroid_03_flattened_lod2.glb",
+          "tris": 720,
+          "bytes": 27364,
+          "minDistM": 420
+        }
       ]
     },
     "carbonaceous_asteroid_04_angular": {
@@ -126,6 +168,20 @@
         1,
         0.744,
         0.594
+      ],
+      "lods": [
+        {
+          "file": "carbonaceous_asteroid_04_angular_lod1.glb",
+          "tris": 3000,
+          "bytes": 257104,
+          "minDistM": 190
+        },
+        {
+          "file": "carbonaceous_asteroid_04_angular_lod2.glb",
+          "tris": 902,
+          "bytes": 79072,
+          "minDistM": 420
+        }
       ]
     },
     "carbonaceous_asteroid_05_bilobed": {
@@ -156,6 +212,20 @@
         1,
         0.591,
         0.538
+      ],
+      "lods": [
+        {
+          "file": "carbonaceous_asteroid_05_bilobed_lod1.glb",
+          "tris": 3000,
+          "bytes": 234368,
+          "minDistM": 190
+        },
+        {
+          "file": "carbonaceous_asteroid_05_bilobed_lod2.glb",
+          "tris": 720,
+          "bytes": 72840,
+          "minDistM": 420
+        }
       ]
     },
     "shared_derelict_hulk": {
@@ -186,6 +256,20 @@
         46.779,
         71.171,
         357.53
+      ],
+      "lods": [
+        {
+          "file": "shared_derelict_hulk_lod1.glb",
+          "tris": 18000,
+          "bytes": 1813600,
+          "minDistM": 750
+        },
+        {
+          "file": "shared_derelict_hulk_lod2.glb",
+          "tris": 4320,
+          "bytes": 510204,
+          "minDistM": 1500
+        }
       ]
     },
     "shared_flight_deck_ordnance_tractor": {
@@ -216,6 +300,20 @@
         0.862,
         1.002,
         1.981
+      ],
+      "lods": [
+        {
+          "file": "shared_flight_deck_ordnance_tractor_lod1.glb",
+          "tris": 5500,
+          "bytes": 739728,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flight_deck_ordnance_tractor_lod2.glb",
+          "tris": 1320,
+          "bytes": 212784,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flight_deck_ordnance_tractor__wheel": {
@@ -246,6 +344,20 @@
         0.135,
         0.465,
         0.465
+      ],
+      "lods": [
+        {
+          "file": "shared_flight_deck_ordnance_tractor__wheel_lod1.glb",
+          "tris": 1369,
+          "bytes": 266280,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flight_deck_ordnance_tractor__wheel_lod2.glb",
+          "tris": 334,
+          "bytes": 80528,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flight_deck_ordnance_tractor__steering_wheel": {
@@ -276,6 +388,20 @@
         0.221,
         0.22,
         0.038
+      ],
+      "lods": [
+        {
+          "file": "shared_flight_deck_ordnance_tractor__steering_wheel_lod1.glb",
+          "tris": 874,
+          "bytes": 160832,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flight_deck_ordnance_tractor__steering_wheel_lod2.glb",
+          "tris": 210,
+          "bytes": 50448,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_alloy_foundry": {
@@ -306,6 +432,20 @@
         16.298,
         20.871,
         16.759
+      ],
+      "lods": [
+        {
+          "file": "imperial_alloy_foundry_lod1.glb",
+          "tris": 13000,
+          "bytes": 1371316,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_alloy_foundry_lod2.glb",
+          "tris": 3120,
+          "bytes": 385328,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_alloy_foundry__entrance_door_leaf": {
@@ -336,6 +476,20 @@
         0.804,
         2.804,
         0.168
+      ],
+      "lods": [
+        {
+          "file": "imperial_alloy_foundry__entrance_door_leaf_lod1.glb",
+          "tris": 874,
+          "bytes": 155248,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_alloy_foundry__entrance_door_leaf_lod2.glb",
+          "tris": 210,
+          "bytes": 47904,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_armoured_bunker": {
@@ -366,6 +520,20 @@
         6.058,
         4.25,
         6.134
+      ],
+      "lods": [
+        {
+          "file": "imperial_armoured_bunker_lod1.glb",
+          "tris": 11250,
+          "bytes": 1014572,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_armoured_bunker_lod2.glb",
+          "tris": 2700,
+          "bytes": 317576,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_armoured_bunker__entrance_door_leaf": {
@@ -396,6 +564,20 @@
         1.32,
         2.469,
         0.15
+      ],
+      "lods": [
+        {
+          "file": "imperial_armoured_bunker__entrance_door_leaf_lod1.glb",
+          "tris": 874,
+          "bytes": 144760,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_armoured_bunker__entrance_door_leaf_lod2.glb",
+          "tris": 210,
+          "bytes": 43524,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_armoured_bunker__roof_hatch": {
@@ -426,6 +608,20 @@
         0.975,
         0.231,
         1.962
+      ],
+      "lods": [
+        {
+          "file": "imperial_armoured_bunker__roof_hatch_lod1.glb",
+          "tris": 874,
+          "bytes": 141480,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_armoured_bunker__roof_hatch_lod2.glb",
+          "tris": 210,
+          "bytes": 39904,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_barracks": {
@@ -456,6 +652,20 @@
         14.395,
         11.18,
         12.333
+      ],
+      "lods": [
+        {
+          "file": "imperial_barracks_lod1.glb",
+          "tris": 13500,
+          "bytes": 1691432,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_barracks_lod2.glb",
+          "tris": 3260,
+          "bytes": 444364,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_barracks__entrance_door_leaf": {
@@ -486,6 +696,20 @@
         0,
         2.073,
         0.127
+      ],
+      "lods": [
+        {
+          "file": "imperial_barracks__entrance_door_leaf_lod1.glb",
+          "tris": 874,
+          "bytes": 34752,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_barracks__entrance_door_leaf_lod2.glb",
+          "tris": 210,
+          "bytes": 11224,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_cultural_district": {
@@ -516,6 +740,20 @@
         19.812,
         18.898,
         19.812
+      ],
+      "lods": [
+        {
+          "file": "imperial_cultural_district_lod1.glb",
+          "tris": 13500,
+          "bytes": 1380180,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_cultural_district_lod2.glb",
+          "tris": 3240,
+          "bytes": 386448,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_cultural_district__entrance_door_leaf": {
@@ -546,6 +784,20 @@
         0,
         2.438,
         0.087
+      ],
+      "lods": [
+        {
+          "file": "imperial_cultural_district__entrance_door_leaf_lod1.glb",
+          "tris": 874,
+          "bytes": 152544,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_cultural_district__entrance_door_leaf_lod2.glb",
+          "tris": 218,
+          "bytes": 48316,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_defence_battery": {
@@ -576,6 +828,20 @@
         10.973,
         10.973,
         10.973
+      ],
+      "lods": [
+        {
+          "file": "imperial_defence_battery_lod1.glb",
+          "tris": 12000,
+          "bytes": 1074316,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_defence_battery_lod2.glb",
+          "tris": 2880,
+          "bytes": 319400,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_defence_battery__entrance_door_leaf": {
@@ -606,6 +872,20 @@
         2.032,
         3.2,
         0.377
+      ],
+      "lods": [
+        {
+          "file": "imperial_defence_battery__entrance_door_leaf_lod1.glb",
+          "tris": 1000,
+          "bytes": 171760,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_defence_battery__entrance_door_leaf_lod2.glb",
+          "tris": 240,
+          "bytes": 49120,
+          "minDistM": 56
+        }
       ]
     },
     "shared_defence_battery__turret_head": {
@@ -636,6 +916,20 @@
         7.01,
         9.559,
         9.469
+      ],
+      "lods": [
+        {
+          "file": "shared_defence_battery__turret_head_lod1.glb",
+          "tris": 6000,
+          "bytes": 812128,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_defence_battery__turret_head_lod2.glb",
+          "tris": 1764,
+          "bytes": 255740,
+          "minDistM": 56
+        }
       ]
     },
     "shared_defence_battery__elevation_module": {
@@ -666,6 +960,20 @@
         1.849,
         1.768,
         3.353
+      ],
+      "lods": [
+        {
+          "file": "shared_defence_battery__elevation_module_lod1.glb",
+          "tris": 1500,
+          "bytes": 202688,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_defence_battery__elevation_module_lod2.glb",
+          "tris": 359,
+          "bytes": 62884,
+          "minDistM": 56
+        }
       ]
     },
     "shared_defence_battery__barrel": {
@@ -696,6 +1004,20 @@
         0.691,
         0.693,
         12.192
+      ],
+      "lods": [
+        {
+          "file": "shared_defence_battery__barrel_lod1.glb",
+          "tris": 1374,
+          "bytes": 190872,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_defence_battery__barrel_lod2.glb",
+          "tris": 330,
+          "bytes": 59768,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_governor_palace": {
@@ -726,6 +1048,20 @@
         18.466,
         18.898,
         18.804
+      ],
+      "lods": [
+        {
+          "file": "imperial_governor_palace_lod1.glb",
+          "tris": 14000,
+          "bytes": 1279624,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_governor_palace_lod2.glb",
+          "tris": 3360,
+          "bytes": 389540,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_governor_palace__entrance_door_leaf": {
@@ -756,6 +1092,20 @@
         0,
         3.719,
         0.283
+      ],
+      "lods": [
+        {
+          "file": "imperial_governor_palace__entrance_door_leaf_lod1.glb",
+          "tris": 1000,
+          "bytes": 204208,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_governor_palace__entrance_door_leaf_lod2.glb",
+          "tris": 240,
+          "bytes": 59976,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_market_district": {
@@ -786,6 +1136,20 @@
         17.036,
         8.9,
         23.04
+      ],
+      "lods": [
+        {
+          "file": "imperial_market_district_lod1.glb",
+          "tris": 13500,
+          "bytes": 1244328,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_market_district_lod2.glb",
+          "tris": 3240,
+          "bytes": 378824,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_power_plant__entrance_door_leaf": {
@@ -816,6 +1180,20 @@
         0,
         3.109,
         0.241
+      ],
+      "lods": [
+        {
+          "file": "imperial_power_plant__entrance_door_leaf_lod1.glb",
+          "tris": 874,
+          "bytes": 147460,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_power_plant__entrance_door_leaf_lod2.glb",
+          "tris": 210,
+          "bytes": 45604,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_power_plant": {
@@ -846,6 +1224,20 @@
         15.235,
         16.772,
         14.642
+      ],
+      "lods": [
+        {
+          "file": "imperial_power_plant_lod1.glb",
+          "tris": 14000,
+          "bytes": 1696248,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_power_plant_lod2.glb",
+          "tris": 3348,
+          "bytes": 489060,
+          "minDistM": 56
+        }
       ]
     },
     "shared_construction_scaffold_kit": {
@@ -876,6 +1268,20 @@
         4.737,
         6.706,
         1.597
+      ],
+      "lods": [
+        {
+          "file": "shared_construction_scaffold_kit_lod1.glb",
+          "tris": 5000,
+          "bytes": 540428,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_construction_scaffold_kit_lod2.glb",
+          "tris": 1200,
+          "bytes": 152940,
+          "minDistM": 56
+        }
       ]
     },
     "shared_rubble_kit__girder_small_folded": {
@@ -906,6 +1312,20 @@
         0.914,
         0.571,
         0.363
+      ],
+      "lods": [
+        {
+          "file": "shared_rubble_kit__girder_small_folded_lod1.glb",
+          "tris": 1624,
+          "bytes": 253268,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_rubble_kit__girder_small_folded_lod2.glb",
+          "tris": 390,
+          "bytes": 67100,
+          "minDistM": 56
+        }
       ]
     },
     "shared_rubble_kit__wall_stub_low": {
@@ -936,6 +1356,20 @@
         3.658,
         2.408,
         1.352
+      ],
+      "lods": [
+        {
+          "file": "shared_rubble_kit__wall_stub_low_lod1.glb",
+          "tris": 2124,
+          "bytes": 326652,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_rubble_kit__wall_stub_low_lod2.glb",
+          "tris": 510,
+          "bytes": 82520,
+          "minDistM": 56
+        }
       ]
     },
     "shared_rubble_kit__wall_stub_medium": {
@@ -966,6 +1400,20 @@
         1.635,
         4.267,
         1.079
+      ],
+      "lods": [
+        {
+          "file": "shared_rubble_kit__wall_stub_medium_lod1.glb",
+          "tris": 2127,
+          "bytes": 316648,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_rubble_kit__wall_stub_medium_lod2.glb",
+          "tris": 506,
+          "bytes": 83108,
+          "minDistM": 56
+        }
       ]
     },
     "shared_rubble_kit__wall_stub_tall": {
@@ -996,6 +1444,20 @@
         2.185,
         5.791,
         1.623
+      ],
+      "lods": [
+        {
+          "file": "shared_rubble_kit__wall_stub_tall_lod1.glb",
+          "tris": 2124,
+          "bytes": 312100,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_rubble_kit__wall_stub_tall_lod2.glb",
+          "tris": 510,
+          "bytes": 82168,
+          "minDistM": 56
+        }
       ]
     },
     "shared_rubble_kit__girder_short_broken": {
@@ -1026,6 +1488,20 @@
         1.524,
         0.916,
         0.336
+      ],
+      "lods": [
+        {
+          "file": "shared_rubble_kit__girder_short_broken_lod1.glb",
+          "tris": 1500,
+          "bytes": 222032,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_rubble_kit__girder_short_broken_lod2.glb",
+          "tris": 360,
+          "bytes": 59796,
+          "minDistM": 56
+        }
       ]
     },
     "shared_rubble_kit__girder_long_bent": {
@@ -1056,6 +1532,20 @@
         3.048,
         0.917,
         0.385
+      ],
+      "lods": [
+        {
+          "file": "shared_rubble_kit__girder_long_bent_lod1.glb",
+          "tris": 1624,
+          "bytes": 238532,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_rubble_kit__girder_long_bent_lod2.glb",
+          "tris": 390,
+          "bytes": 69048,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_compact_option": {
@@ -1086,6 +1576,20 @@
         2.438,
         5.334,
         2.438
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_compact_option_lod1.glb",
+          "tris": 6000,
+          "bytes": 766032,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_compact_option_lod2.glb",
+          "tris": 1419,
+          "bytes": 227596,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_compact_option__turret_head": {
@@ -1116,6 +1620,20 @@
         1.731,
         1.87,
         2.316
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_compact_option__turret_head_lod1.glb",
+          "tris": 4500,
+          "bytes": 403756,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_compact_option__turret_head_lod2.glb",
+          "tris": 1110,
+          "bytes": 121976,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_compact_option__elevation_cradle": {
@@ -1146,6 +1664,20 @@
         0.322,
         0.382,
         1.158
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_compact_option__elevation_cradle_lod1.glb",
+          "tris": 1124,
+          "bytes": 137732,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_compact_option__elevation_cradle_lod2.glb",
+          "tris": 270,
+          "bytes": 44768,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_compact_option__barrel": {
@@ -1176,6 +1708,20 @@
         0.301,
         0.291,
         1.768
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_compact_option__barrel_lod1.glb",
+          "tris": 2875,
+          "bytes": 361576,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_compact_option__barrel_lod2.glb",
+          "tris": 697,
+          "bytes": 106276,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_compact_option__entrance_door_leaf": {
@@ -1206,6 +1752,20 @@
         0,
         2.195,
         0.091
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_compact_option__entrance_door_leaf_lod1.glb",
+          "tris": 874,
+          "bytes": 130024,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_compact_option__entrance_door_leaf_lod2.glb",
+          "tris": 210,
+          "bytes": 38000,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_compact_option__radar_azimuth_yoke": {
@@ -1236,6 +1796,20 @@
         0.296,
         0.518,
         0.161
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_compact_option__radar_azimuth_yoke_lod1.glb",
+          "tris": 874,
+          "bytes": 145872,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_compact_option__radar_azimuth_yoke_lod2.glb",
+          "tris": 210,
+          "bytes": 45556,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_compact_option__radar_aperture": {
@@ -1266,6 +1840,20 @@
         0.701,
         0.674,
         0.174
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_compact_option__radar_aperture_lod1.glb",
+          "tris": 1124,
+          "bytes": 183136,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_compact_option__radar_aperture_lod2.glb",
+          "tris": 266,
+          "bytes": 57300,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_large_option": {
@@ -1296,6 +1884,20 @@
         4.018,
         5.355,
         3.907
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_large_option_lod1.glb",
+          "tris": 6250,
+          "bytes": 916244,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_large_option_lod2.glb",
+          "tris": 1490,
+          "bytes": 254000,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_large_option__turret_head": {
@@ -1326,6 +1928,20 @@
         2.588,
         3.382,
         2.774
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_large_option__turret_head_lod1.glb",
+          "tris": 5014,
+          "bytes": 778188,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_large_option__turret_head_lod2.glb",
+          "tris": 1205,
+          "bytes": 216624,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_large_option__elevation_cradle": {
@@ -1356,6 +1972,20 @@
         1.707,
         1.038,
         1.339
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_large_option__elevation_cradle_lod1.glb",
+          "tris": 4000,
+          "bytes": 398932,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_large_option__elevation_cradle_lod2.glb",
+          "tris": 964,
+          "bytes": 110680,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_large_option__barrel": {
@@ -1386,6 +2016,20 @@
         0.5,
         0.516,
         2.499
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_large_option__barrel_lod1.glb",
+          "tris": 1250,
+          "bytes": 203264,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_large_option__barrel_lod2.glb",
+          "tris": 300,
+          "bytes": 63548,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_large_option__entrance_door_leaf": {
@@ -1416,6 +2060,20 @@
         0,
         2.987,
         0.188
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_large_option__entrance_door_leaf_lod1.glb",
+          "tris": 874,
+          "bytes": 158800,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_large_option__entrance_door_leaf_lod2.glb",
+          "tris": 210,
+          "bytes": 46020,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_large_option__radar_azimuth_yoke": {
@@ -1446,6 +2104,20 @@
         0.488,
         0.647,
         0.429
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_large_option__radar_azimuth_yoke_lod1.glb",
+          "tris": 874,
+          "bytes": 168116,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_large_option__radar_azimuth_yoke_lod2.glb",
+          "tris": 210,
+          "bytes": 48116,
+          "minDistM": 56
+        }
       ]
     },
     "shared_flak_tower_large_option__radar_aperture": {
@@ -1476,6 +2148,20 @@
         1.158,
         1.309,
         0.254
+      ],
+      "lods": [
+        {
+          "file": "shared_flak_tower_large_option__radar_aperture_lod1.glb",
+          "tris": 1124,
+          "bytes": 166852,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_flak_tower_large_option__radar_aperture_lod2.glb",
+          "tris": 270,
+          "bytes": 49732,
+          "minDistM": 56
+        }
       ]
     },
     "shared_planetary_shield_pylon": {
@@ -1506,6 +2192,20 @@
         5.175,
         13.072,
         4.596
+      ],
+      "lods": [
+        {
+          "file": "shared_planetary_shield_pylon_lod1.glb",
+          "tris": 6250,
+          "bytes": 934412,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_planetary_shield_pylon_lod2.glb",
+          "tris": 1500,
+          "bytes": 271340,
+          "minDistM": 56
+        }
       ]
     },
     "shared_planetary_shield_compound": {
@@ -1536,6 +2236,20 @@
         15.358,
         21.986,
         16.673
+      ],
+      "lods": [
+        {
+          "file": "shared_planetary_shield_compound_lod1.glb",
+          "tris": 15556,
+          "bytes": 1850692,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_planetary_shield_compound_lod2.glb",
+          "tris": 3558,
+          "bytes": 479092,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_atmospheric_harvester": {
@@ -1566,6 +2280,20 @@
         18.877,
         19.246,
         10.458
+      ],
+      "lods": [
+        {
+          "file": "imperial_atmospheric_harvester_lod1.glb",
+          "tris": 14000,
+          "bytes": 1473424,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_atmospheric_harvester_lod2.glb",
+          "tris": 3360,
+          "bytes": 441304,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_capital_landing_pad_set": {
@@ -1596,6 +2324,20 @@
         35.698,
         6.255,
         23.927
+      ],
+      "lods": [
+        {
+          "file": "imperial_capital_landing_pad_set_lod1.glb",
+          "tris": 11250,
+          "bytes": 1059672,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_capital_landing_pad_set_lod2.glb",
+          "tris": 2700,
+          "bytes": 309312,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_fuel_refinery": {
@@ -1626,6 +2368,20 @@
         16.002,
         19.507,
         12.954
+      ],
+      "lods": [
+        {
+          "file": "imperial_fuel_refinery_lod1.glb",
+          "tris": 14000,
+          "bytes": 1462228,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_fuel_refinery_lod2.glb",
+          "tris": 4068,
+          "bytes": 484032,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_gene_clinic": {
@@ -1656,6 +2412,20 @@
         11.862,
         8.32,
         11.983
+      ],
+      "lods": [
+        {
+          "file": "imperial_gene_clinic_lod1.glb",
+          "tris": 11250,
+          "bytes": 1154716,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_gene_clinic_lod2.glb",
+          "tris": 2700,
+          "bytes": 341096,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_goods_manufactory": {
@@ -1686,6 +2456,20 @@
         14.582,
         12.865,
         15.769
+      ],
+      "lods": [
+        {
+          "file": "imperial_goods_manufactory_lod1.glb",
+          "tris": 13000,
+          "bytes": 1584572,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_goods_manufactory_lod2.glb",
+          "tris": 3122,
+          "bytes": 428020,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_hydroponic_bay": {
@@ -1716,6 +2500,20 @@
         11.438,
         5.093,
         12.33
+      ],
+      "lods": [
+        {
+          "file": "imperial_hydroponic_bay_lod1.glb",
+          "tris": 12000,
+          "bytes": 1208996,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_hydroponic_bay_lod2.glb",
+          "tris": 2880,
+          "bytes": 358816,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_munitions_plant": {
@@ -1746,6 +2544,20 @@
         15.869,
         11.814,
         13.684
+      ],
+      "lods": [
+        {
+          "file": "imperial_munitions_plant_lod1.glb",
+          "tris": 12500,
+          "bytes": 1224212,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_munitions_plant_lod2.glb",
+          "tris": 3986,
+          "bytes": 415644,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_propaganda_bureau": {
@@ -1776,6 +2588,20 @@
         12.954,
         15.24,
         10.973
+      ],
+      "lods": [
+        {
+          "file": "imperial_propaganda_bureau_lod1.glb",
+          "tris": 12500,
+          "bytes": 1352052,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_propaganda_bureau_lod2.glb",
+          "tris": 3000,
+          "bytes": 385760,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_psionic_spire": {
@@ -1806,6 +2632,20 @@
         14.935,
         64.008,
         14.935
+      ],
+      "lods": [
+        {
+          "file": "imperial_psionic_spire_lod1.glb",
+          "tris": 12000,
+          "bytes": 1235948,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_psionic_spire_lod2.glb",
+          "tris": 2880,
+          "bytes": 362648,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_stock_exchange": {
@@ -1836,6 +2676,20 @@
         14.229,
         9.44,
         18.396
+      ],
+      "lods": [
+        {
+          "file": "imperial_stock_exchange_lod1.glb",
+          "tris": 13000,
+          "bytes": 1303212,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_stock_exchange_lod2.glb",
+          "tris": 3120,
+          "bytes": 373676,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_temple_hall_of_heroes": {
@@ -1866,6 +2720,20 @@
         9.575,
         18.037,
         23.712
+      ],
+      "lods": [
+        {
+          "file": "imperial_temple_hall_of_heroes_lod1.glb",
+          "tris": 12000,
+          "bytes": 1105116,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_temple_hall_of_heroes_lod2.glb",
+          "tris": 2880,
+          "bytes": 314068,
+          "minDistM": 56
+        }
       ]
     },
     "shared_system_claim_beacon": {
@@ -1896,6 +2764,20 @@
         4.501,
         9.144,
         5.235
+      ],
+      "lods": [
+        {
+          "file": "shared_system_claim_beacon_lod1.glb",
+          "tris": 11250,
+          "bytes": 1295404,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_system_claim_beacon_lod2.glb",
+          "tris": 2700,
+          "bytes": 378872,
+          "minDistM": 56
+        }
       ]
     },
     "shared_civilian_colonist": {
@@ -1926,6 +2808,20 @@
         0.562,
         1.829,
         0.175
+      ],
+      "lods": [
+        {
+          "file": "shared_civilian_colonist_lod1.glb",
+          "tris": 8471,
+          "bytes": 1311640,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_civilian_colonist_lod2.glb",
+          "tris": 2042,
+          "bytes": 418908,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_point_defence_turret": {
@@ -1956,6 +2852,20 @@
         3.81,
         1.175,
         3.81
+      ],
+      "lods": [
+        {
+          "file": "imperial_point_defence_turret_lod1.glb",
+          "tris": 4491,
+          "bytes": 408264,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_point_defence_turret_lod2.glb",
+          "tris": 1090,
+          "bytes": 121108,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_point_defence_turret__turning_house": {
@@ -1986,6 +2896,20 @@
         2.816,
         3.185,
         3.2
+      ],
+      "lods": [
+        {
+          "file": "imperial_point_defence_turret__turning_house_lod1.glb",
+          "tris": 5000,
+          "bytes": 793728,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_point_defence_turret__turning_house_lod2.glb",
+          "tris": 1197,
+          "bytes": 224772,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_point_defence_turret__cradle": {
@@ -2016,6 +2940,20 @@
         1.768,
         0.782,
         1.265
+      ],
+      "lods": [
+        {
+          "file": "imperial_point_defence_turret__cradle_lod1.glb",
+          "tris": 4505,
+          "bytes": 450088,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_point_defence_turret__cradle_lod2.glb",
+          "tris": 1092,
+          "bytes": 132452,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_point_defence_turret__barrel": {
@@ -2046,6 +2984,20 @@
         0.41,
         0.411,
         2.499
+      ],
+      "lods": [
+        {
+          "file": "imperial_point_defence_turret__barrel_lod1.glb",
+          "tris": 1124,
+          "bytes": 155016,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_point_defence_turret__barrel_lod2.glb",
+          "tris": 270,
+          "bytes": 53580,
+          "minDistM": 56
+        }
       ]
     },
     "imperial_point_defence_turret__sensor_head": {
@@ -2076,6 +3028,20 @@
         0.584,
         0.799,
         0.792
+      ],
+      "lods": [
+        {
+          "file": "imperial_point_defence_turret__sensor_head_lod1.glb",
+          "tris": 1124,
+          "bytes": 191004,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_point_defence_turret__sensor_head_lod2.glb",
+          "tris": 270,
+          "bytes": 57776,
+          "minDistM": 56
+        }
       ]
     },
     "shared_escape_pod": {
@@ -2106,6 +3072,20 @@
         0.957,
         2.414,
         2.438
+      ],
+      "lods": [
+        {
+          "file": "shared_escape_pod_lod1.glb",
+          "tris": 5500,
+          "bytes": 985668,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_escape_pod_lod2.glb",
+          "tris": 1321,
+          "bytes": 276876,
+          "minDistM": 56
+        }
       ]
     },
     "shared_escape_pod__hatch": {
@@ -2136,6 +3116,20 @@
         0.139,
         0.777,
         1.676
+      ],
+      "lods": [
+        {
+          "file": "shared_escape_pod__hatch_lod1.glb",
+          "tris": 1124,
+          "bytes": 189104,
+          "minDistM": 27
+        },
+        {
+          "file": "shared_escape_pod__hatch_lod2.glb",
+          "tris": 270,
+          "bytes": 58004,
+          "minDistM": 56
+        }
       ]
     }
   },
