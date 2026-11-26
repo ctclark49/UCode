@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Emperor's Reign big batch: game copies of the owner's models (stages 01-05)",
+  "manualAssets": false,
   "coordinateContract": {
     "up": "+Y",
     "front": "+Z",
@@ -178,8 +179,8 @@
         },
         {
           "file": "carbonaceous_asteroid_04_angular_lod2.glb",
-          "tris": 902,
-          "bytes": 79072,
+          "tris": 908,
+          "bytes": 79136,
           "minDistM": 420
         }
       ]
@@ -267,7 +268,7 @@
         {
           "file": "shared_derelict_hulk_lod2.glb",
           "tris": 4320,
-          "bytes": 510204,
+          "bytes": 514016,
           "minDistM": 1500
         }
       ]
@@ -311,7 +312,7 @@
         {
           "file": "shared_flight_deck_ordnance_tractor_lod2.glb",
           "tris": 1320,
-          "bytes": 212784,
+          "bytes": 214512,
           "minDistM": 56
         }
       ]
@@ -354,8 +355,8 @@
         },
         {
           "file": "shared_flight_deck_ordnance_tractor__wheel_lod2.glb",
-          "tris": 334,
-          "bytes": 80528,
+          "tris": 331,
+          "bytes": 80192,
           "minDistM": 56
         }
       ]
@@ -882,8 +883,8 @@
         },
         {
           "file": "imperial_defence_battery__entrance_door_leaf_lod2.glb",
-          "tris": 240,
-          "bytes": 49120,
+          "tris": 241,
+          "bytes": 47716,
           "minDistM": 56
         }
       ]
@@ -926,8 +927,8 @@
         },
         {
           "file": "shared_defence_battery__turret_head_lod2.glb",
-          "tris": 1764,
-          "bytes": 255740,
+          "tris": 1822,
+          "bytes": 261188,
           "minDistM": 56
         }
       ]
@@ -1015,7 +1016,7 @@
         {
           "file": "shared_defence_battery__barrel_lod2.glb",
           "tris": 330,
-          "bytes": 59768,
+          "bytes": 60004,
           "minDistM": 56
         }
       ]
@@ -1102,8 +1103,8 @@
         },
         {
           "file": "imperial_governor_palace__entrance_door_leaf_lod2.glb",
-          "tris": 240,
-          "bytes": 59976,
+          "tris": 246,
+          "bytes": 60164,
           "minDistM": 56
         }
       ]
@@ -1455,7 +1456,7 @@
         {
           "file": "shared_rubble_kit__wall_stub_tall_lod2.glb",
           "tris": 510,
-          "bytes": 82168,
+          "bytes": 82484,
           "minDistM": 56
         }
       ]
@@ -1630,8 +1631,8 @@
         },
         {
           "file": "shared_flak_tower_compact_option__turret_head_lod2.glb",
-          "tris": 1110,
-          "bytes": 121976,
+          "tris": 1097,
+          "bytes": 122940,
           "minDistM": 56
         }
       ]
@@ -1806,8 +1807,8 @@
         },
         {
           "file": "shared_flak_tower_compact_option__radar_azimuth_yoke_lod2.glb",
-          "tris": 210,
-          "bytes": 45556,
+          "tris": 228,
+          "bytes": 46956,
           "minDistM": 56
         }
       ]
@@ -1850,8 +1851,8 @@
         },
         {
           "file": "shared_flak_tower_compact_option__radar_aperture_lod2.glb",
-          "tris": 266,
-          "bytes": 57300,
+          "tris": 270,
+          "bytes": 57256,
           "minDistM": 56
         }
       ]
@@ -2021,13 +2022,13 @@
         {
           "file": "shared_flak_tower_large_option__barrel_lod1.glb",
           "tris": 1250,
-          "bytes": 203264,
+          "bytes": 204492,
           "minDistM": 27
         },
         {
           "file": "shared_flak_tower_large_option__barrel_lod2.glb",
           "tris": 300,
-          "bytes": 63548,
+          "bytes": 64164,
           "minDistM": 56
         }
       ]
@@ -2240,8 +2241,8 @@
       "lods": [
         {
           "file": "shared_planetary_shield_compound_lod1.glb",
-          "tris": 15556,
-          "bytes": 1850692,
+          "tris": 14530,
+          "bytes": 1806560,
           "minDistM": 27
         },
         {
@@ -2335,7 +2336,7 @@
         {
           "file": "imperial_capital_landing_pad_set_lod2.glb",
           "tris": 2700,
-          "bytes": 309312,
+          "bytes": 311008,
           "minDistM": 56
         }
       ]
@@ -2378,8 +2379,8 @@
         },
         {
           "file": "imperial_fuel_refinery_lod2.glb",
-          "tris": 4068,
-          "bytes": 484032,
+          "tris": 3335,
+          "bytes": 430360,
           "minDistM": 56
         }
       ]
@@ -2599,7 +2600,7 @@
         {
           "file": "imperial_propaganda_bureau_lod2.glb",
           "tris": 3000,
-          "bytes": 385760,
+          "bytes": 386308,
           "minDistM": 56
         }
       ]
@@ -2906,8 +2907,8 @@
         },
         {
           "file": "imperial_point_defence_turret__turning_house_lod2.glb",
-          "tris": 1197,
-          "bytes": 224772,
+          "tris": 1203,
+          "bytes": 228024,
           "minDistM": 56
         }
       ]
@@ -2995,7 +2996,7 @@
         {
           "file": "imperial_point_defence_turret__barrel_lod2.glb",
           "tris": 270,
-          "bytes": 53580,
+          "bytes": 53724,
           "minDistM": 56
         }
       ]
@@ -3038,8 +3039,8 @@
         },
         {
           "file": "imperial_point_defence_turret__sensor_head_lod2.glb",
-          "tris": 270,
-          "bytes": 57776,
+          "tris": 294,
+          "bytes": 59276,
           "minDistM": 56
         }
       ]
