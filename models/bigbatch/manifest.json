@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "name": "Emperor's Reign big batch: game copies of the owner's models (stages 01-05)",
+  "name": "Emperor's Reign big batch: game copies of the owner's models (stages 01-08)",
   "manualAssets": false,
   "coordinateContract": {
     "up": "+Y",
@@ -3132,6 +3132,534 @@
           "minDistM": 56
         }
       ]
+    },
+    "imperial_city_wall_straight": {
+      "file": "imperial_city_wall_straight.glb",
+      "item": "imperial_city_wall_straight",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        30,
+        20,
+        6
+      ],
+      "bytes": 1278828,
+      "tris": 14000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -5.948,
+        0,
+        -1.887
+      ],
+      "bboxMaxM": [
+        5.948,
+        6.096,
+        1.887
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_straight_lod1.glb",
+          "tris": 3500,
+          "bytes": 371352,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_straight_lod2.glb",
+          "tris": 840,
+          "bytes": 106772,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_wall_straight_damaged": {
+      "file": "imperial_city_wall_straight_damaged.glb",
+      "item": "imperial_city_wall_straight_damaged",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        30,
+        20,
+        6
+      ],
+      "bytes": 1386564,
+      "tris": 14000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -5.948,
+        0,
+        -1.855
+      ],
+      "bboxMaxM": [
+        5.948,
+        6.158,
+        1.855
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_straight_damaged_lod1.glb",
+          "tris": 3500,
+          "bytes": 407772,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_straight_damaged_lod2.glb",
+          "tris": 840,
+          "bytes": 115428,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_wall_straight_breached": {
+      "file": "imperial_city_wall_straight_breached.glb",
+      "item": "imperial_city_wall_straight_breached",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        30,
+        20,
+        6
+      ],
+      "bytes": 1318884,
+      "tris": 14000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -5.946,
+        0,
+        -1.893
+      ],
+      "bboxMaxM": [
+        5.946,
+        6.048,
+        1.893
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_straight_breached_lod1.glb",
+          "tris": 3500,
+          "bytes": 382396,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_straight_breached_lod2.glb",
+          "tris": 840,
+          "bytes": 108960,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_wall_straight_ruined": {
+      "file": "imperial_city_wall_straight_ruined.glb",
+      "item": "imperial_city_wall_straight_ruined",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        30,
+        20,
+        6
+      ],
+      "bytes": 1469464,
+      "tris": 14000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -5.945,
+        0,
+        -1.786
+      ],
+      "bboxMaxM": [
+        5.945,
+        3.664,
+        1.786
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_straight_ruined_lod1.glb",
+          "tris": 3500,
+          "bytes": 417924,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_straight_ruined_lod2.glb",
+          "tris": 838,
+          "bytes": 114128,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_wall_corner_post": {
+      "file": "imperial_city_wall_corner_post.glb",
+      "item": "imperial_city_wall_corner_post",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        8.5,
+        20,
+        8.5
+      ],
+      "bytes": 1017256,
+      "tris": 10000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -1.295,
+        0,
+        -1.295
+      ],
+      "bboxMaxM": [
+        1.295,
+        6.096,
+        1.295
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_corner_post_lod1.glb",
+          "tris": 2500,
+          "bytes": 301204,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_corner_post_lod2.glb",
+          "tris": 600,
+          "bytes": 89328,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_wall_stair": {
+      "file": "imperial_city_wall_stair.glb",
+      "item": "imperial_city_wall_stair",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        11,
+        20,
+        42
+      ],
+      "bytes": 1306028,
+      "tris": 14000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -1.676,
+        0,
+        -6.401
+      ],
+      "bboxMaxM": [
+        1.676,
+        6.096,
+        6.401
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_stair_lod1.glb",
+          "tris": 3500,
+          "bytes": 388836,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_stair_lod2.glb",
+          "tris": 840,
+          "bytes": 109456,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_wall_tower": {
+      "file": "imperial_city_wall_tower.glb",
+      "item": "imperial_city_wall_tower",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        20,
+        40,
+        20
+      ],
+      "bytes": 1800064,
+      "tris": 22000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -3.231,
+        0,
+        -3.583
+      ],
+      "bboxMaxM": [
+        3.231,
+        12.192,
+        3.583
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_tower_lod1.glb",
+          "tris": 5500,
+          "bytes": 554136,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_tower_lod2.glb",
+          "tris": 1320,
+          "bytes": 153448,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_wall_tower__entrance_door_left": {
+      "file": "imperial_city_wall_tower__entrance_door_left.glb",
+      "item": "imperial_city_wall_tower",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "imperial_city_wall_tower__entrance_door_left",
+      "category": "small_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        2.2,
+        7.28,
+        0.79
+      ],
+      "bytes": 250524,
+      "tris": 2500,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        0,
+        0,
+        -0.12
+      ],
+      "bboxMaxM": [
+        0.671,
+        2.219,
+        0.12
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_tower__entrance_door_left_lod1.glb",
+          "tris": 624,
+          "bytes": 78868,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_tower__entrance_door_left_lod2.glb",
+          "tris": 150,
+          "bytes": 24324,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_wall_tower__entrance_door_right": {
+      "file": "imperial_city_wall_tower__entrance_door_right.glb",
+      "item": "imperial_city_wall_tower",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "imperial_city_wall_tower__entrance_door_right",
+      "category": "small_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        2.2,
+        7.28,
+        0.79
+      ],
+      "bytes": 290280,
+      "tris": 2500,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -0.671,
+        0,
+        -0.12
+      ],
+      "bboxMaxM": [
+        0,
+        2.219,
+        0.12
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_wall_tower__entrance_door_right_lod1.glb",
+          "tris": 624,
+          "bytes": 83244,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_wall_tower__entrance_door_right_lod2.glb",
+          "tris": 150,
+          "bytes": 25612,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_gate": {
+      "file": "imperial_city_gate.glb",
+      "item": "imperial_city_gate",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "main_body",
+      "category": "capital_building",
+      "originRule": "bottom_center",
+      "targetSizeFt": [
+        30,
+        26,
+        8
+      ],
+      "bytes": 3399284,
+      "tris": 22000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -6.272,
+        0,
+        -2.004
+      ],
+      "bboxMaxM": [
+        6.272,
+        7.925,
+        2.004
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_gate_lod1.glb",
+          "tris": 5500,
+          "bytes": 953372,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_gate_lod2.glb",
+          "tris": 1320,
+          "bytes": 289224,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_gate__gate_left": {
+      "file": "imperial_city_gate__gate_left.glb",
+      "item": "imperial_city_gate",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "imperial_city_gate__gate_left",
+      "category": "small_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        11.65,
+        14.93,
+        1.8
+      ],
+      "bytes": 728088,
+      "tris": 4000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        0,
+        0,
+        -0.274
+      ],
+      "bboxMaxM": [
+        3.551,
+        4.551,
+        0.274
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_gate__gate_left_lod1.glb",
+          "tris": 1000,
+          "bytes": 210616,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_gate__gate_left_lod2.glb",
+          "tris": 241,
+          "bytes": 61060,
+          "minDistM": 56
+        }
+      ]
+    },
+    "imperial_city_gate__gate_right": {
+      "file": "imperial_city_gate__gate_right.glb",
+      "item": "imperial_city_gate",
+      "faction": "imperial",
+      "stage": 8,
+      "role": "imperial_city_gate__gate_right",
+      "category": "small_part",
+      "originRule": "pivot",
+      "targetSizeFt": [
+        11.65,
+        14.93,
+        1.8
+      ],
+      "bytes": 829240,
+      "tris": 4000,
+      "untextured": false,
+      "rigged": false,
+      "joints": 0,
+      "animations": 0,
+      "bboxMinM": [
+        -3.551,
+        0,
+        -0.274
+      ],
+      "bboxMaxM": [
+        0,
+        4.551,
+        0.274
+      ],
+      "lods": [
+        {
+          "file": "imperial_city_gate__gate_right_lod1.glb",
+          "tris": 1007,
+          "bytes": 243820,
+          "minDistM": 27
+        },
+        {
+          "file": "imperial_city_gate__gate_right_lod2.glb",
+          "tris": 250,
+          "bytes": 68576,
+          "minDistM": 56
+        }
+      ]
     }
   },
   "items": {
@@ -4357,6 +4885,128 @@
             0
           ],
           "pivot": "Port-side (+X) boarding hatch; rear vertical hinge axis at z=0, opens outward around local +Y."
+        }
+      ]
+    },
+    "imperial_city_wall_straight": {
+      "label": "Imperial City Wall Straight (30x6x20 ft, intact)",
+      "stage": 8,
+      "faction": "imperial",
+      "base": "imperial_city_wall_straight",
+      "parts": []
+    },
+    "imperial_city_wall_straight_damaged": {
+      "label": "Imperial City Wall Straight (damaged)",
+      "stage": 8,
+      "faction": "imperial",
+      "base": "imperial_city_wall_straight_damaged",
+      "parts": []
+    },
+    "imperial_city_wall_straight_breached": {
+      "label": "Imperial City Wall Straight (breached)",
+      "stage": 8,
+      "faction": "imperial",
+      "base": "imperial_city_wall_straight_breached",
+      "parts": []
+    },
+    "imperial_city_wall_straight_ruined": {
+      "label": "Imperial City Wall Straight (ruined)",
+      "stage": 8,
+      "faction": "imperial",
+      "base": "imperial_city_wall_straight_ruined",
+      "parts": []
+    },
+    "imperial_city_wall_corner_post": {
+      "label": "Imperial City Wall Corner Post (6x6x20 ft)",
+      "stage": 8,
+      "faction": "imperial",
+      "base": "imperial_city_wall_corner_post",
+      "parts": []
+    },
+    "imperial_city_wall_stair": {
+      "label": "Imperial City Wall Stair (10x40x20 ft)",
+      "stage": 8,
+      "faction": "imperial",
+      "base": "imperial_city_wall_stair",
+      "parts": []
+    },
+    "imperial_city_wall_tower": {
+      "label": "Imperial City Wall Tower (21.2x40x23.5 ft + double entrance blast doors)",
+      "stage": 8,
+      "faction": "imperial",
+      "base": "imperial_city_wall_tower",
+      "parts": [
+        {
+          "node": "entrance_door_left",
+          "file": "imperial_city_wall_tower__entrance_door_left",
+          "parent": "imperial_city_wall_tower",
+          "positionM": [
+            -0.67,
+            0.78,
+            2.78
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Left entrance blast door leaf; vertical hinge on outside left (-X) jamb at threshold y=0.78, z=2.78."
+        },
+        {
+          "node": "entrance_door_right",
+          "file": "imperial_city_wall_tower__entrance_door_right",
+          "parent": "imperial_city_wall_tower",
+          "positionM": [
+            0.67,
+            0.78,
+            2.78
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Right entrance blast door leaf; vertical hinge on outside right (+X) jamb at threshold y=0.78, z=2.78."
+        }
+      ]
+    },
+    "imperial_city_gate": {
+      "label": "Imperial City Gate (41.2x26x13.2 ft + twin hinged gate leaves)",
+      "stage": 8,
+      "faction": "imperial",
+      "base": "imperial_city_gate",
+      "parts": [
+        {
+          "node": "gate_left",
+          "file": "imperial_city_gate__gate_left",
+          "parent": "imperial_city_gate",
+          "positionM": [
+            -3.55,
+            0.12,
+            0.25
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Left armoured gate leaf; vertical hinge on outside left (-X) pier at x=-3.55, y=0.12, z=0.25 (+Y axis, swings inward -Z)."
+        },
+        {
+          "node": "gate_right",
+          "file": "imperial_city_gate__gate_right",
+          "parent": "imperial_city_gate",
+          "positionM": [
+            3.55,
+            0.12,
+            0.25
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ],
+          "pivot": "Right armoured gate leaf; vertical hinge on outside right (+X) pier at x=+3.55, y=0.12, z=0.25 (+Y axis, swings inward -Z)."
         }
       ]
     }
